@@ -1,0 +1,201 @@
+1722213499: mosquitto version 2.0.18 starting
+1722213499: Config loaded from /mosquitto/config/mosquitto.conf.
+1722213499: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722213499: Create a configuration file which defines a listener to allow remote access.
+1722213499: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722213499: Opening ipv4 listen socket on port 1883.
+1722213499: Opening ipv6 listen socket on port 1883.
+1722213499: mosquitto version 2.0.18 running
+1722213594: mosquitto version 2.0.18 terminating
+1722213594: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722213624: mosquitto version 2.0.18 starting
+1722213624: Config loaded from /mosquitto/config/mosquitto.conf.
+1722213624: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722213624: Create a configuration file which defines a listener to allow remote access.
+1722213624: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722213624: Opening ipv4 listen socket on port 1883.
+1722213624: Opening ipv6 listen socket on port 1883.
+1722213624: mosquitto version 2.0.18 running
+1722213976: mosquitto version 2.0.18 terminating
+1722213976: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722213982: mosquitto version 2.0.18 starting
+1722213982: Config loaded from /mosquitto/config/mosquitto.conf.
+1722213982: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722213982: Create a configuration file which defines a listener to allow remote access.
+1722213982: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722213982: Opening ipv4 listen socket on port 1883.
+1722213982: Opening ipv6 listen socket on port 1883.
+1722213982: mosquitto version 2.0.18 running
+1722214042: mosquitto version 2.0.18 terminating
+1722214042: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722214053: mosquitto version 2.0.18 starting
+1722214053: Config loaded from /mosquitto/config/mosquitto.conf.
+1722214053: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722214053: Create a configuration file which defines a listener to allow remote access.
+1722214053: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722214053: Opening ipv4 listen socket on port 1883.
+1722214053: Opening ipv6 listen socket on port 1883.
+1722214053: mosquitto version 2.0.18 running
+1722214161: mosquitto version 2.0.18 terminating
+1722214161: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722214225: mosquitto version 2.0.18 starting
+1722214225: Config loaded from /mosquitto/config/mosquitto.conf.
+1722214225: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722214225: Create a configuration file which defines a listener to allow remote access.
+1722214225: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722214225: Opening ipv4 listen socket on port 1883.
+1722214225: Opening ipv6 listen socket on port 1883.
+1722214225: mosquitto version 2.0.18 running
+1722214306: mosquitto version 2.0.18 starting
+1722214306: Config loaded from /mosquitto/config/mosquitto.conf.
+1722214306: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722214306: Create a configuration file which defines a listener to allow remote access.
+1722214306: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722214306: Opening ipv4 listen socket on port 1883.
+1722214306: Opening ipv6 listen socket on port 1883.
+1722214306: mosquitto version 2.0.18 running
+1722214636: mosquitto version 2.0.18 terminating
+1722214636: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722214639: mosquitto version 2.0.18 starting
+1722214639: Config loaded from /mosquitto/config/mosquitto.conf.
+1722214639: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722214639: Create a configuration file which defines a listener to allow remote access.
+1722214639: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722214639: Opening ipv4 listen socket on port 1883.
+1722214639: Opening ipv6 listen socket on port 1883.
+1722214639: mosquitto version 2.0.18 running
+1722215057: mosquitto version 2.0.18 terminating
+1722215057: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722215325: mosquitto version 2.0.18 starting
+1722215325: Config loaded from /mosquitto/config/mosquitto.conf.
+1722215325: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722215325: Create a configuration file which defines a listener to allow remote access.
+1722215325: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722215325: Opening ipv4 listen socket on port 1883.
+1722215325: Opening ipv6 listen socket on port 1883.
+1722215325: mosquitto version 2.0.18 running
+1722215461: mosquitto version 2.0.18 terminating
+1722215461: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722215559: mosquitto version 2.0.18 starting
+1722215559: Config loaded from /mosquitto/config/mosquitto.conf.
+1722215559: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722215559: Create a configuration file which defines a listener to allow remote access.
+1722215559: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722215559: Opening ipv4 listen socket on port 1883.
+1722215559: Opening ipv6 listen socket on port 1883.
+1722215559: mosquitto version 2.0.18 running
+1722215695: mosquitto version 2.0.18 starting
+1722215695: Config loaded from /mosquitto/config/mosquitto.conf.
+1722215695: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722215695: Create a configuration file which defines a listener to allow remote access.
+1722215695: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722215695: Opening ipv4 listen socket on port 1883.
+1722215695: Opening ipv6 listen socket on port 1883.
+1722215695: mosquitto version 2.0.18 running
+1722216195: mosquitto version 2.0.18 terminating
+1722216195: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722216225: mosquitto version 2.0.18 starting
+1722216225: Config loaded from /mosquitto/config/mosquitto.conf.
+1722216225: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722216225: Create a configuration file which defines a listener to allow remote access.
+1722216225: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722216225: Opening ipv4 listen socket on port 1883.
+1722216225: Opening ipv6 listen socket on port 1883.
+1722216225: mosquitto version 2.0.18 running
+1722216271: mosquitto version 2.0.18 terminating
+1722216271: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722216285: mosquitto version 2.0.18 starting
+1722216285: Config loaded from /mosquitto/config/mosquitto.conf.
+1722216285: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722216285: Create a configuration file which defines a listener to allow remote access.
+1722216285: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722216285: Opening ipv4 listen socket on port 1883.
+1722216285: Opening ipv6 listen socket on port 1883.
+1722216285: mosquitto version 2.0.18 running
+1722216956: mosquitto version 2.0.18 terminating
+1722216956: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722217046: mosquitto version 2.0.18 starting
+1722217046: Config loaded from /mosquitto/config/mosquitto.conf.
+1722217046: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722217046: Create a configuration file which defines a listener to allow remote access.
+1722217046: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722217046: Opening ipv4 listen socket on port 1883.
+1722217046: Opening ipv6 listen socket on port 1883.
+1722217046: mosquitto version 2.0.18 running
+1722217049: mosquitto version 2.0.18 terminating
+1722217049: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722217077: mosquitto version 2.0.18 starting
+1722217077: Config loaded from /mosquitto/config/mosquitto.conf.
+1722217077: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722217077: Create a configuration file which defines a listener to allow remote access.
+1722217077: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722217077: Opening ipv4 listen socket on port 1883.
+1722217077: Opening ipv6 listen socket on port 1883.
+1722217077: mosquitto version 2.0.18 running
+1722217209: mosquitto version 2.0.18 terminating
+1722217209: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722217304: mosquitto version 2.0.18 starting
+1722217304: Config loaded from /mosquitto/config/mosquitto.conf.
+1722217304: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722217304: Create a configuration file which defines a listener to allow remote access.
+1722217304: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722217304: Opening ipv4 listen socket on port 1883.
+1722217304: Opening ipv6 listen socket on port 1883.
+1722217304: mosquitto version 2.0.18 running
+1722217360: mosquitto version 2.0.18 terminating
+1722217360: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722217369: mosquitto version 2.0.18 starting
+1722217369: Config loaded from /mosquitto/config/mosquitto.conf.
+1722217369: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722217369: Create a configuration file which defines a listener to allow remote access.
+1722217369: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722217369: Opening ipv4 listen socket on port 1883.
+1722217369: Opening ipv6 listen socket on port 1883.
+1722217369: mosquitto version 2.0.18 running
+1722217435: mosquitto version 2.0.18 terminating
+1722217435: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722217454: mosquitto version 2.0.18 starting
+1722217454: Config loaded from /mosquitto/config/mosquitto.conf.
+1722217454: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722217454: Create a configuration file which defines a listener to allow remote access.
+1722217454: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722217454: Opening ipv4 listen socket on port 1883.
+1722217454: Opening ipv6 listen socket on port 1883.
+1722217454: mosquitto version 2.0.18 running
+1722217688: mosquitto version 2.0.18 terminating
+1722217688: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722217701: mosquitto version 2.0.18 starting
+1722217701: Config loaded from /mosquitto/config/mosquitto.conf.
+1722217701: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722217701: Create a configuration file which defines a listener to allow remote access.
+1722217701: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722217701: Opening ipv4 listen socket on port 1883.
+1722217701: Opening ipv6 listen socket on port 1883.
+1722217701: mosquitto version 2.0.18 running
+1722217831: mosquitto version 2.0.18 terminating
+1722217831: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722217837: mosquitto version 2.0.18 starting
+1722217837: Config loaded from /mosquitto/config/mosquitto.conf.
+1722217837: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1722217837: Create a configuration file which defines a listener to allow remote access.
+1722217837: For more details see https://mosquitto.org/documentation/authentication-methods/
+1722217837: Opening ipv4 listen socket on port 1883.
+1722217837: Opening ipv6 listen socket on port 1883.
+1722217837: mosquitto version 2.0.18 running
+1722218044: mosquitto version 2.0.18 terminating
+1722218044: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722218055: mosquitto version 2.0.18 starting
+1722218055: Config loaded from /mosquitto/config/mosquitto.conf.
+1722218055: Opening ipv4 listen socket on port 1883.
+1722218055: Opening ipv6 listen socket on port 1883.
+1722218055: mosquitto version 2.0.18 running
+1722218098: mosquitto version 2.0.18 starting
+1722218098: Config loaded from /mosquitto/config/mosquitto.conf.
+1722218098: Opening ipv4 listen socket on port 1883.
+1722218098: Opening ipv6 listen socket on port 1883.
+1722218098: mosquitto version 2.0.18 running
+1722218250: New connection from 192.168.192.3:54925 on port 1883.
+1722218250: New client connected from 192.168.192.3:54925 as auto-E40D9313-B1F0-DC66-64B8-85031848DED4 (p2, c1, k60, u'user').
+1722218292: Client auto-E40D9313-B1F0-DC66-64B8-85031848DED4 closed its connection.
+1722218293: mosquitto version 2.0.18 terminating
+1722218293: Saving in-memory database to /mosquitto/data//mosquitto.db.
