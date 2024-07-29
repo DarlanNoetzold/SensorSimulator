@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  mosquitto:
+    image: eclipse-mosquitto
+    volumes:
+      - C:\Users\Usuário\Documents\Projetos\GitHub\SensorSimulator\mosquitto\config:/mosquitto/config
+      - C:\Users\Usuário\Documents\Projetos\GitHub\SensorSimulator\mosquitto\data:/mosquitto/data
+      - C:\Users\Usuário\Documents\Projetos\GitHub\SensorSimulator\mosquitto\log:/mosquitto/log
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    networks:
+      - mqtt_net_tese
+
+  sensor_simulator:
+    build: ./sensor_simulator
+    depends_on:
+      - mosquitto
+    networks:
+      - mqtt_net_tese
+
+networks:
+  mqtt_net_tese:
+    driver: bridge
