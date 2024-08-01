@@ -9,4 +9,4 @@ COPY wait-for-mosquitto.sh /app/wait-for-mosquitto.sh
 RUN chmod +x /app/wait-for-mosquitto.sh
 
 # Comando de entrada para esperar pelo Mosquitto e iniciar o simulador
-ENTRYPOINT ["python", "sensor_simulator.py"]
+ENTRYPOINT ["python", "/app/sensor_simulator.py"]
