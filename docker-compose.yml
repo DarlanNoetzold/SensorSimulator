@@ -13,9 +13,30 @@ services:
       - mqtt_net_tese
 
   sensor_simulator:
-    build: ./sensor_simulator
+    build: C:\Users\Usuário\Documents\Projetos\GitHub\SensorSimulator\sensor_simulator
     depends_on:
       - mosquitto
+    networks:
+      - mqtt_net_tese
+
+  server:
+    build: C:\Users\Usuário\Documents\Projetos\GitHub\SensorDataProcessor
+    depends_on:
+      - mosquitto
+      - postgres-sensor
+    ports:
+      - "8080:8080"
+    networks:
+      - mqtt_net_tese
+
+  postgres-sensor:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: SensorDataProcessor
+    ports:
+      - "5432:5432"
     networks:
       - mqtt_net_tese
 
