@@ -751,3 +751,10 @@
 1722998776: mosquitto version 2.0.18 running
 1722998777: New connection from 172.28.0.4:44289 on port 1883.
 1722998777: New client connected from 172.28.0.4:44289 as auto-BC0B337A-997F-8629-645C-8E9C5ECCF4FA (p2, c1, k60, u'user').
+1723115376: mosquitto version 2.0.18 starting
+1723115376: Config loaded from /mosquitto/config/mosquitto.conf.
+1723115376: Opening ipv4 listen socket on port 1883.
+1723115376: Opening ipv6 listen socket on port 1883.
+1723115376: mosquitto version 2.0.18 running
+1723117176: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723118977: Saving in-memory database to /mosquitto/data//mosquitto.db.
