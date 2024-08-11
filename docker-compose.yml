@@ -10,36 +10,65 @@ services:
       - "1883:1883"
       - "9001:9001"
     networks:
-      - mqtt_net_tese
+      - mqtt_net_2
 
   sensor_simulator:
     build: C:\Users\Usuário\Documents\Projetos\GitHub\SensorSimulator\sensor_simulator
     depends_on:
       - mosquitto
     networks:
-      - mqtt_net_tese
+      - mqtt_net_2
 
   server:
     build: C:\Users\Usuário\Documents\Projetos\GitHub\SensorDataProcessor
+    environment:
+      - POSTGRES_DB=jdbc:postgresql://postgres-sensor:5432/SensorDataProcessor
+      - KAFKA_URL=kafka:9092
+      - MQTT_URL=tcp://mosquitto:1883
     depends_on:
       - mosquitto
       - postgres-sensor
+      - kafka
+      - zookeeper
     ports:
-      - "8080:8080"
+      - "8082:8082"
     networks:
-      - mqtt_net_tese
+      - mqtt_net_2
+
+  server-center:
+    build: C:\Users\Usuário\Documents\Projetos\GitHub\SensorCenter
+    environment:
+      - POSTGRES_DB_CENTER=jdbc:postgresql://postgres-center:5432/SensorCenter
+      - KAFKA_URL=kafka:9092
+    depends_on:
+      - mosquitto
+      - postgres-sensor
+      - kafka
+      - zookeeper
+    ports:
+      - "8081:8081"
+    networks:
+      - mqtt_net_2
 
   postgres-sensor:
     image: postgres
     environment:
-      POSTGRES_DB_CENTER: SensorCenter
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: SensorDataProcessor
     ports:
-      - "5432:5432"
+      - "5432:5433"
     networks:
-      - mqtt_net_tese
+      - mqtt_net_2
+
+  postgres-center:
+    image: postgres
+    environment:
+      POSTGRES_DB: SensorCenter
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    networks:
+      - mqtt_net_2
 
   zookeeper:
     image: bitnami/zookeeper:latest
@@ -48,7 +77,7 @@ services:
     environment:
       - ALLOW_ANONYMOUS_LOGIN=yes
     networks:
-      - mqtt_net_tese
+      - mqtt_net_2
 
   kafka:
     image: bitnami/kafka:latest
@@ -58,13 +87,13 @@ services:
       - KAFKA_BROKER_ID=1
       - KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
       - KAFKA_LISTENERS=PLAINTEXT://:9092
-      - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092
+      - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
       - ALLOW_PLAINTEXT_LISTENER=yes
     depends_on:
       - zookeeper
     networks:
-      - mqtt_net_tese
+      - mqtt_net_2
 
 networks:
-  mqtt_net_tese:
+  mqtt_net_2:
     driver: bridge
