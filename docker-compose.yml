@@ -20,7 +20,8 @@ services:
       - mqtt_net_2
 
   server:
-    build: C:\Users\Usuário\Documents\Projetos\GitHub\SensorDataProcessor
+    build:
+      context: https://github.com/DarlanNoetzold/SensorDataProcessor.git
     environment:
       - POSTGRES_DB=jdbc:postgresql://postgres-sensor:5432/SensorDataProcessor
       - KAFKA_URL=kafka:9092
@@ -36,7 +37,8 @@ services:
       - mqtt_net_2
 
   server-center:
-    build: C:\Users\Usuário\Documents\Projetos\GitHub\SensorCenter
+    build:
+      context: https://github.com/DarlanNoetzold/SensorCenter.git
     environment:
       - POSTGRES_DB_CENTER=jdbc:postgresql://postgres-center:5432/SensorCenter
       - KAFKA_URL=kafka:9092
@@ -47,6 +49,33 @@ services:
       - zookeeper
     ports:
       - "8081:8081"
+    networks:
+      - mqtt_net_2
+
+  extract_metrics:
+    build:
+      context: https://github.com/DarlanNoetzold/ExtractSensorMetrics.git
+    volumes:
+      - ./shared:/app/shared
+    networks:
+      - mqtt_net_2
+
+  train_models:
+    build:
+      context: https://github.com/DarlanNoetzold/SensorModelsTraining.git
+    volumes:
+      - ./shared:/app/shared
+      - ./models:/app/models
+    networks:
+      - mqtt_net_2
+
+  predict_api:
+    build:
+      context: https://github.com/DarlanNoetzold/SensorModelPredictionApi.git
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./models:/app/models
     networks:
       - mqtt_net_2
 
