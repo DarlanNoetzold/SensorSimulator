@@ -52,6 +52,6 @@ sensors = {
 }
 
 for sensor_type, generate_function in sensors.items():
-    threading.Thread(target=publish_sensor_data, args=(sensor_type, generate_function, 5)).start()
+    threading.Thread(target=publish_sensor_data, args=(sensor_type, generate_function, 50)).start()
 
 client.loop_forever()

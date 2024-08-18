@@ -1,1431 +1,1416 @@
-1722213499: mosquitto version 2.0.18 starting
-1722213499: Config loaded from /mosquitto/config/mosquitto.conf.
-1722213499: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722213499: Create a configuration file which defines a listener to allow remote access.
-1722213499: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722213499: Opening ipv4 listen socket on port 1883.
-1722213499: Opening ipv6 listen socket on port 1883.
-1722213499: mosquitto version 2.0.18 running
-1722213594: mosquitto version 2.0.18 terminating
-1722213594: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722213624: mosquitto version 2.0.18 starting
-1722213624: Config loaded from /mosquitto/config/mosquitto.conf.
-1722213624: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722213624: Create a configuration file which defines a listener to allow remote access.
-1722213624: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722213624: Opening ipv4 listen socket on port 1883.
-1722213624: Opening ipv6 listen socket on port 1883.
-1722213624: mosquitto version 2.0.18 running
-1722213976: mosquitto version 2.0.18 terminating
-1722213976: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722213982: mosquitto version 2.0.18 starting
-1722213982: Config loaded from /mosquitto/config/mosquitto.conf.
-1722213982: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722213982: Create a configuration file which defines a listener to allow remote access.
-1722213982: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722213982: Opening ipv4 listen socket on port 1883.
-1722213982: Opening ipv6 listen socket on port 1883.
-1722213982: mosquitto version 2.0.18 running
-1722214042: mosquitto version 2.0.18 terminating
-1722214042: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722214053: mosquitto version 2.0.18 starting
-1722214053: Config loaded from /mosquitto/config/mosquitto.conf.
-1722214053: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722214053: Create a configuration file which defines a listener to allow remote access.
-1722214053: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722214053: Opening ipv4 listen socket on port 1883.
-1722214053: Opening ipv6 listen socket on port 1883.
-1722214053: mosquitto version 2.0.18 running
-1722214161: mosquitto version 2.0.18 terminating
-1722214161: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722214225: mosquitto version 2.0.18 starting
-1722214225: Config loaded from /mosquitto/config/mosquitto.conf.
-1722214225: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722214225: Create a configuration file which defines a listener to allow remote access.
-1722214225: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722214225: Opening ipv4 listen socket on port 1883.
-1722214225: Opening ipv6 listen socket on port 1883.
-1722214225: mosquitto version 2.0.18 running
-1722214306: mosquitto version 2.0.18 starting
-1722214306: Config loaded from /mosquitto/config/mosquitto.conf.
-1722214306: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722214306: Create a configuration file which defines a listener to allow remote access.
-1722214306: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722214306: Opening ipv4 listen socket on port 1883.
-1722214306: Opening ipv6 listen socket on port 1883.
-1722214306: mosquitto version 2.0.18 running
-1722214636: mosquitto version 2.0.18 terminating
-1722214636: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722214639: mosquitto version 2.0.18 starting
-1722214639: Config loaded from /mosquitto/config/mosquitto.conf.
-1722214639: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722214639: Create a configuration file which defines a listener to allow remote access.
-1722214639: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722214639: Opening ipv4 listen socket on port 1883.
-1722214639: Opening ipv6 listen socket on port 1883.
-1722214639: mosquitto version 2.0.18 running
-1722215057: mosquitto version 2.0.18 terminating
-1722215057: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722215325: mosquitto version 2.0.18 starting
-1722215325: Config loaded from /mosquitto/config/mosquitto.conf.
-1722215325: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722215325: Create a configuration file which defines a listener to allow remote access.
-1722215325: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722215325: Opening ipv4 listen socket on port 1883.
-1722215325: Opening ipv6 listen socket on port 1883.
-1722215325: mosquitto version 2.0.18 running
-1722215461: mosquitto version 2.0.18 terminating
-1722215461: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722215559: mosquitto version 2.0.18 starting
-1722215559: Config loaded from /mosquitto/config/mosquitto.conf.
-1722215559: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722215559: Create a configuration file which defines a listener to allow remote access.
-1722215559: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722215559: Opening ipv4 listen socket on port 1883.
-1722215559: Opening ipv6 listen socket on port 1883.
-1722215559: mosquitto version 2.0.18 running
-1722215695: mosquitto version 2.0.18 starting
-1722215695: Config loaded from /mosquitto/config/mosquitto.conf.
-1722215695: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722215695: Create a configuration file which defines a listener to allow remote access.
-1722215695: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722215695: Opening ipv4 listen socket on port 1883.
-1722215695: Opening ipv6 listen socket on port 1883.
-1722215695: mosquitto version 2.0.18 running
-1722216195: mosquitto version 2.0.18 terminating
-1722216195: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722216225: mosquitto version 2.0.18 starting
-1722216225: Config loaded from /mosquitto/config/mosquitto.conf.
-1722216225: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722216225: Create a configuration file which defines a listener to allow remote access.
-1722216225: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722216225: Opening ipv4 listen socket on port 1883.
-1722216225: Opening ipv6 listen socket on port 1883.
-1722216225: mosquitto version 2.0.18 running
-1722216271: mosquitto version 2.0.18 terminating
-1722216271: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722216285: mosquitto version 2.0.18 starting
-1722216285: Config loaded from /mosquitto/config/mosquitto.conf.
-1722216285: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722216285: Create a configuration file which defines a listener to allow remote access.
-1722216285: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722216285: Opening ipv4 listen socket on port 1883.
-1722216285: Opening ipv6 listen socket on port 1883.
-1722216285: mosquitto version 2.0.18 running
-1722216956: mosquitto version 2.0.18 terminating
-1722216956: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722217046: mosquitto version 2.0.18 starting
-1722217046: Config loaded from /mosquitto/config/mosquitto.conf.
-1722217046: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722217046: Create a configuration file which defines a listener to allow remote access.
-1722217046: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722217046: Opening ipv4 listen socket on port 1883.
-1722217046: Opening ipv6 listen socket on port 1883.
-1722217046: mosquitto version 2.0.18 running
-1722217049: mosquitto version 2.0.18 terminating
-1722217049: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722217077: mosquitto version 2.0.18 starting
-1722217077: Config loaded from /mosquitto/config/mosquitto.conf.
-1722217077: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722217077: Create a configuration file which defines a listener to allow remote access.
-1722217077: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722217077: Opening ipv4 listen socket on port 1883.
-1722217077: Opening ipv6 listen socket on port 1883.
-1722217077: mosquitto version 2.0.18 running
-1722217209: mosquitto version 2.0.18 terminating
-1722217209: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722217304: mosquitto version 2.0.18 starting
-1722217304: Config loaded from /mosquitto/config/mosquitto.conf.
-1722217304: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722217304: Create a configuration file which defines a listener to allow remote access.
-1722217304: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722217304: Opening ipv4 listen socket on port 1883.
-1722217304: Opening ipv6 listen socket on port 1883.
-1722217304: mosquitto version 2.0.18 running
-1722217360: mosquitto version 2.0.18 terminating
-1722217360: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722217369: mosquitto version 2.0.18 starting
-1722217369: Config loaded from /mosquitto/config/mosquitto.conf.
-1722217369: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722217369: Create a configuration file which defines a listener to allow remote access.
-1722217369: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722217369: Opening ipv4 listen socket on port 1883.
-1722217369: Opening ipv6 listen socket on port 1883.
-1722217369: mosquitto version 2.0.18 running
-1722217435: mosquitto version 2.0.18 terminating
-1722217435: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722217454: mosquitto version 2.0.18 starting
-1722217454: Config loaded from /mosquitto/config/mosquitto.conf.
-1722217454: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722217454: Create a configuration file which defines a listener to allow remote access.
-1722217454: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722217454: Opening ipv4 listen socket on port 1883.
-1722217454: Opening ipv6 listen socket on port 1883.
-1722217454: mosquitto version 2.0.18 running
-1722217688: mosquitto version 2.0.18 terminating
-1722217688: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722217701: mosquitto version 2.0.18 starting
-1722217701: Config loaded from /mosquitto/config/mosquitto.conf.
-1722217701: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722217701: Create a configuration file which defines a listener to allow remote access.
-1722217701: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722217701: Opening ipv4 listen socket on port 1883.
-1722217701: Opening ipv6 listen socket on port 1883.
-1722217701: mosquitto version 2.0.18 running
-1722217831: mosquitto version 2.0.18 terminating
-1722217831: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722217837: mosquitto version 2.0.18 starting
-1722217837: Config loaded from /mosquitto/config/mosquitto.conf.
-1722217837: Starting in local only mode. Connections will only be possible from clients running on this machine.
-1722217837: Create a configuration file which defines a listener to allow remote access.
-1722217837: For more details see https://mosquitto.org/documentation/authentication-methods/
-1722217837: Opening ipv4 listen socket on port 1883.
-1722217837: Opening ipv6 listen socket on port 1883.
-1722217837: mosquitto version 2.0.18 running
-1722218044: mosquitto version 2.0.18 terminating
-1722218044: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722218055: mosquitto version 2.0.18 starting
-1722218055: Config loaded from /mosquitto/config/mosquitto.conf.
-1722218055: Opening ipv4 listen socket on port 1883.
-1722218055: Opening ipv6 listen socket on port 1883.
-1722218055: mosquitto version 2.0.18 running
-1722218098: mosquitto version 2.0.18 starting
-1722218098: Config loaded from /mosquitto/config/mosquitto.conf.
-1722218098: Opening ipv4 listen socket on port 1883.
-1722218098: Opening ipv6 listen socket on port 1883.
-1722218098: mosquitto version 2.0.18 running
-1722218250: New connection from 192.168.192.3:54925 on port 1883.
-1722218250: New client connected from 192.168.192.3:54925 as auto-E40D9313-B1F0-DC66-64B8-85031848DED4 (p2, c1, k60, u'user').
-1722218292: Client auto-E40D9313-B1F0-DC66-64B8-85031848DED4 closed its connection.
-1722218293: mosquitto version 2.0.18 terminating
-1722218293: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722337384: mosquitto version 2.0.18 starting
-1722337384: Config loaded from /mosquitto/config/mosquitto.conf.
-1722337384: Opening ipv4 listen socket on port 1883.
-1722337384: Opening ipv6 listen socket on port 1883.
-1722337384: mosquitto version 2.0.18 running
-1722337468: mosquitto version 2.0.18 terminating
-1722337468: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722337603: mosquitto version 2.0.18 starting
-1722337603: Config loaded from /mosquitto/config/mosquitto.conf.
-1722337603: Opening ipv4 listen socket on port 1883.
-1722337603: Opening ipv6 listen socket on port 1883.
-1722337603: mosquitto version 2.0.18 running
-1722337636: mosquitto version 2.0.18 terminating
-1722337636: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722337648: mosquitto version 2.0.18 starting
-1722337648: Config loaded from /mosquitto/config/mosquitto.conf.
-1722337648: Opening ipv4 listen socket on port 1883.
-1722337648: Opening ipv6 listen socket on port 1883.
-1722337648: mosquitto version 2.0.18 running
-1722337714: mosquitto version 2.0.18 terminating
-1722337714: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722337726: mosquitto version 2.0.18 starting
-1722337726: Config loaded from /mosquitto/config/mosquitto.conf.
-1722337726: Opening ipv4 listen socket on port 1883.
-1722337726: Opening ipv6 listen socket on port 1883.
-1722337726: mosquitto version 2.0.18 running
-1722337726: New connection from 172.23.0.3:40399 on port 1883.
-1722337726: New client connected from 172.23.0.3:40399 as auto-8BFD3862-5B45-4745-2403-C02AC666DD17 (p2, c1, k60, u'user').
-1722338562: mosquitto version 2.0.18 starting
-1722338562: Config loaded from /mosquitto/config/mosquitto.conf.
-1722338562: Opening ipv4 listen socket on port 1883.
-1722338562: Opening ipv6 listen socket on port 1883.
-1722338562: mosquitto version 2.0.18 running
-1722338562: New connection from 172.28.0.4:60493 on port 1883.
-1722338562: New client connected from 172.28.0.4:60493 as auto-53B4390F-22D7-69A7-01F2-5A86112877BE (p2, c1, k60, u'user').
-1722339127: New connection from 172.28.0.1:36238 on port 1883.
-1722339128: New client connected from 172.28.0.1:36238 as paho5309554433100 (p2, c1, k60).
-1722339571: New connection from 172.28.0.1:59374 on port 1883.
-1722339571: New client connected from 172.28.0.1:59374 as mqtt-explorer-bb782b2e (p2, c1, k60).
-1722339756: Client paho5309554433100 closed its connection.
-1722339796: New connection from 172.28.0.1:59122 on port 1883.
-1722339796: New client connected from 172.28.0.1:59122 as paho5977876252000 (p2, c1, k60).
-1722339887: Client paho5977876252000 has exceeded timeout, disconnecting.
-1722340017: New connection from 172.28.0.1:56118 on port 1883.
-1722340017: Client <unknown> closed its connection.
-1722340362: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722342163: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722342312: Client mqtt-explorer-bb782b2e disconnected.
-1722772726: mosquitto version 2.0.18 starting
-1722772726: Config loaded from /mosquitto/config/mosquitto.conf.
-1722772726: Opening ipv4 listen socket on port 1883.
-1722772726: Opening ipv6 listen socket on port 1883.
-1722772726: mosquitto version 2.0.18 running
-1722772727: New connection from 172.28.0.5:36875 on port 1883.
-1722772727: New client connected from 172.28.0.5:36875 as auto-C78C06F1-A676-B496-7D04-45D1760D30EA (p2, c1, k60, u'user').
-1722774526: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722775571: New connection from 172.28.0.1:43858 on port 1883.
-1722775571: New client connected from 172.28.0.1:43858 as paho3762359788800 (p2, c1, k60).
-1722775575: Client paho3762359788800 closed its connection.
-1722775575: New connection from 172.28.0.1:49338 on port 1883.
-1722775609: Client <unknown> closed its connection.
-1722775733: New connection from 172.28.0.1:55490 on port 1883.
-1722775734: New client connected from 172.28.0.1:55490 as paho3924622843900 (p2, c1, k60).
-1722775735: Client paho3924622843900 closed its connection.
-1722775735: New connection from 172.28.0.1:52544 on port 1883.
-1722775749: Client <unknown> closed its connection.
-1722775756: New connection from 172.28.0.1:36208 on port 1883.
-1722775756: New client connected from 172.28.0.1:36208 as paho3947046492300 (p2, c1, k60).
-1722775760: Client paho3947046492300 closed its connection.
-1722775760: New connection from 172.28.0.1:36224 on port 1883.
-1722775828: Client <unknown> closed its connection.
-1722776223: New connection from 172.28.0.1:41280 on port 1883.
-1722776224: New client connected from 172.28.0.1:41280 as paho4414470782100 (p2, c1, k60).
-1722776225: Client paho4414470782100 closed its connection.
-1722776225: New connection from 172.28.0.1:33080 on port 1883.
-1722776234: Client <unknown> closed its connection.
-1722776256: New connection from 172.28.0.1:60990 on port 1883.
-1722776256: New client connected from 172.28.0.1:60990 as paho4447280364500 (p2, c1, k60).
-1722776260: Client paho4447280364500 closed its connection.
-1722776260: New connection from 172.28.0.1:60994 on port 1883.
-1722776295: Client <unknown> closed its connection.
-1722776327: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722776736: New connection from 172.28.0.1:59812 on port 1883.
-1722776736: New client connected from 172.28.0.1:59812 as paho4927076775700 (p2, c1, k60).
-1722776740: Client paho4927076775700 closed its connection.
-1722776775: New connection from 172.28.0.1:53552 on port 1883.
-1722776776: New client connected from 172.28.0.1:53552 as paho4966633598100 (p2, c1, k60).
-1722776781: Client paho4966633598100 closed its connection.
-1722776781: New connection from 172.28.0.1:53562 on port 1883.
-1722776790: Client <unknown> closed its connection.
-1722776983: New connection from 172.28.0.1:48802 on port 1883.
-1722776983: New client connected from 172.28.0.1:48802 as paho5173915926700 (p2, c1, k60).
-1722776989: Client paho5173915926700 closed its connection.
-1722776989: New connection from 172.28.0.1:45874 on port 1883.
-1722776993: Client <unknown> closed its connection.
-1722778128: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722779929: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722781730: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722783531: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722785332: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722785956: New connection from 172.28.0.1:57558 on port 1883.
-1722785957: New client connected from 172.28.0.1:57558 as paho14147364124700 (p2, c1, k60).
-1722785962: Client paho14147364124700 closed its connection.
-1722785962: New connection from 172.28.0.1:57566 on port 1883.
-1722786057: Client <unknown> has exceeded timeout, disconnecting.
-1722786057: New connection from 172.28.0.1:48006 on port 1883.
-1722786153: Client <unknown> has exceeded timeout, disconnecting.
-1722786158: New connection from 172.28.0.1:51656 on port 1883.
-1722786249: Client <unknown> has exceeded timeout, disconnecting.
-1722786249: New connection from 172.28.0.1:59256 on port 1883.
-1722786345: Client <unknown> has exceeded timeout, disconnecting.
-1722786350: New connection from 172.28.0.1:56714 on port 1883.
-1722786441: Client <unknown> has exceeded timeout, disconnecting.
-1722786441: New connection from 172.28.0.1:54982 on port 1883.
-1722786537: Client <unknown> has exceeded timeout, disconnecting.
-1722786542: New connection from 172.28.0.1:54838 on port 1883.
-1722786633: Client <unknown> has exceeded timeout, disconnecting.
-1722786633: New connection from 172.28.0.1:56824 on port 1883.
-1722786729: Client <unknown> has exceeded timeout, disconnecting.
-1722786734: New connection from 172.28.0.1:60986 on port 1883.
-1722786825: Client <unknown> has exceeded timeout, disconnecting.
-1722786825: New connection from 172.28.0.1:57990 on port 1883.
-1722786921: Client <unknown> has exceeded timeout, disconnecting.
-1722786926: New connection from 172.28.0.1:32954 on port 1883.
-1722787017: Client <unknown> has exceeded timeout, disconnecting.
-1722787017: New connection from 172.28.0.1:60866 on port 1883.
-1722787113: Client <unknown> has exceeded timeout, disconnecting.
-1722787118: New connection from 172.28.0.1:53752 on port 1883.
-1722787133: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722787209: Client <unknown> has exceeded timeout, disconnecting.
-1722787209: New connection from 172.28.0.1:42926 on port 1883.
-1722787305: Client <unknown> has exceeded timeout, disconnecting.
-1722787310: New connection from 172.28.0.1:59082 on port 1883.
-1722787401: Client <unknown> has exceeded timeout, disconnecting.
-1722787401: New connection from 172.28.0.1:33148 on port 1883.
-1722787497: Client <unknown> has exceeded timeout, disconnecting.
-1722787502: New connection from 172.28.0.1:49058 on port 1883.
-1722787593: Client <unknown> has exceeded timeout, disconnecting.
-1722787593: New connection from 172.28.0.1:43924 on port 1883.
-1722787689: Client <unknown> has exceeded timeout, disconnecting.
-1722787694: New connection from 172.28.0.1:45976 on port 1883.
-1722787785: Client <unknown> has exceeded timeout, disconnecting.
-1722787785: New connection from 172.28.0.1:50468 on port 1883.
-1722787881: Client <unknown> has exceeded timeout, disconnecting.
-1722787886: New connection from 172.28.0.1:55612 on port 1883.
-1722787977: Client <unknown> has exceeded timeout, disconnecting.
-1722787977: New connection from 172.28.0.1:37312 on port 1883.
-1722788073: Client <unknown> has exceeded timeout, disconnecting.
-1722788078: New connection from 172.28.0.1:41086 on port 1883.
-1722788169: Client <unknown> has exceeded timeout, disconnecting.
-1722788169: New connection from 172.28.0.1:50246 on port 1883.
-1722788265: Client <unknown> has exceeded timeout, disconnecting.
-1722788270: New connection from 172.28.0.1:34294 on port 1883.
-1722788361: Client <unknown> has exceeded timeout, disconnecting.
-1722788361: New connection from 172.28.0.1:43628 on port 1883.
-1722788457: Client <unknown> has exceeded timeout, disconnecting.
-1722788462: New connection from 172.28.0.1:33778 on port 1883.
-1722788553: Client <unknown> has exceeded timeout, disconnecting.
-1722788553: New connection from 172.28.0.1:45534 on port 1883.
-1722788649: Client <unknown> has exceeded timeout, disconnecting.
-1722788654: New connection from 172.28.0.1:58440 on port 1883.
-1722788745: Client <unknown> has exceeded timeout, disconnecting.
-1722788745: New connection from 172.28.0.1:56232 on port 1883.
-1722788841: Client <unknown> has exceeded timeout, disconnecting.
-1722788846: New connection from 172.28.0.1:47068 on port 1883.
-1722788934: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722788937: Client <unknown> has exceeded timeout, disconnecting.
-1722788937: New connection from 172.28.0.1:58512 on port 1883.
-1722789033: Client <unknown> has exceeded timeout, disconnecting.
-1722789038: New connection from 172.28.0.1:33210 on port 1883.
-1722789129: Client <unknown> has exceeded timeout, disconnecting.
-1722789129: New connection from 172.28.0.1:47106 on port 1883.
-1722789225: Client <unknown> has exceeded timeout, disconnecting.
-1722789230: New connection from 172.28.0.1:53110 on port 1883.
-1722789321: Client <unknown> has exceeded timeout, disconnecting.
-1722789321: New connection from 172.28.0.1:52464 on port 1883.
-1722789417: Client <unknown> has exceeded timeout, disconnecting.
-1722789422: New connection from 172.28.0.1:54278 on port 1883.
-1722789513: Client <unknown> has exceeded timeout, disconnecting.
-1722789513: New connection from 172.28.0.1:41552 on port 1883.
-1722789609: Client <unknown> has exceeded timeout, disconnecting.
-1722789614: New connection from 172.28.0.1:45370 on port 1883.
-1722789705: Client <unknown> has exceeded timeout, disconnecting.
-1722789705: New connection from 172.28.0.1:59514 on port 1883.
-1722789801: Client <unknown> has exceeded timeout, disconnecting.
-1722789806: New connection from 172.28.0.1:49668 on port 1883.
-1722789897: Client <unknown> has exceeded timeout, disconnecting.
-1722789897: New connection from 172.28.0.1:48480 on port 1883.
-1722789993: Client <unknown> has exceeded timeout, disconnecting.
-1722789998: New connection from 172.28.0.1:35636 on port 1883.
-1722790089: Client <unknown> has exceeded timeout, disconnecting.
-1722790089: New connection from 172.28.0.1:48118 on port 1883.
-1722790185: Client <unknown> has exceeded timeout, disconnecting.
-1722790190: New connection from 172.28.0.1:34940 on port 1883.
-1722790281: Client <unknown> has exceeded timeout, disconnecting.
-1722790281: New connection from 172.28.0.1:47944 on port 1883.
-1722790377: Client <unknown> has exceeded timeout, disconnecting.
-1722790382: New connection from 172.28.0.1:51170 on port 1883.
-1722790473: Client <unknown> has exceeded timeout, disconnecting.
-1722790473: New connection from 172.28.0.1:42248 on port 1883.
-1722790569: Client <unknown> has exceeded timeout, disconnecting.
-1722790574: New connection from 172.28.0.1:49858 on port 1883.
-1722790665: Client <unknown> has exceeded timeout, disconnecting.
-1722790665: New connection from 172.28.0.1:51638 on port 1883.
-1722790735: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722790761: Client <unknown> has exceeded timeout, disconnecting.
-1722790766: New connection from 172.28.0.1:46820 on port 1883.
-1722790857: Client <unknown> has exceeded timeout, disconnecting.
-1722790857: New connection from 172.28.0.1:53614 on port 1883.
-1722790953: Client <unknown> has exceeded timeout, disconnecting.
-1722790958: New connection from 172.28.0.1:58086 on port 1883.
-1722791049: Client <unknown> has exceeded timeout, disconnecting.
-1722791049: New connection from 172.28.0.1:60140 on port 1883.
-1722791145: Client <unknown> has exceeded timeout, disconnecting.
-1722791150: New connection from 172.28.0.1:53004 on port 1883.
-1722791241: Client <unknown> has exceeded timeout, disconnecting.
-1722791241: New connection from 172.28.0.1:43706 on port 1883.
-1722791337: Client <unknown> has exceeded timeout, disconnecting.
-1722791342: New connection from 172.28.0.1:48998 on port 1883.
-1722791433: Client <unknown> has exceeded timeout, disconnecting.
-1722791433: New connection from 172.28.0.1:46100 on port 1883.
-1722791529: Client <unknown> has exceeded timeout, disconnecting.
-1722791534: New connection from 172.28.0.1:50996 on port 1883.
-1722791625: Client <unknown> has exceeded timeout, disconnecting.
-1722791625: New connection from 172.28.0.1:57624 on port 1883.
-1722791721: Client <unknown> has exceeded timeout, disconnecting.
-1722791726: New connection from 172.28.0.1:42762 on port 1883.
-1722791817: Client <unknown> has exceeded timeout, disconnecting.
-1722791817: New connection from 172.28.0.1:49738 on port 1883.
-1722791913: Client <unknown> has exceeded timeout, disconnecting.
-1722791918: New connection from 172.28.0.1:57542 on port 1883.
-1722792009: Client <unknown> has exceeded timeout, disconnecting.
-1722792009: New connection from 172.28.0.1:45096 on port 1883.
-1722792105: Client <unknown> has exceeded timeout, disconnecting.
-1722792110: New connection from 172.28.0.1:56602 on port 1883.
-1722792201: Client <unknown> has exceeded timeout, disconnecting.
-1722792201: New connection from 172.28.0.1:54130 on port 1883.
-1722792297: Client <unknown> has exceeded timeout, disconnecting.
-1722792302: New connection from 172.28.0.1:51982 on port 1883.
-1722792393: Client <unknown> has exceeded timeout, disconnecting.
-1722792393: New connection from 172.28.0.1:33332 on port 1883.
-1722792489: Client <unknown> has exceeded timeout, disconnecting.
-1722792494: New connection from 172.28.0.1:40264 on port 1883.
-1722792536: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722792585: Client <unknown> has exceeded timeout, disconnecting.
-1722792585: New connection from 172.28.0.1:33596 on port 1883.
-1722792681: Client <unknown> has exceeded timeout, disconnecting.
-1722792686: New connection from 172.28.0.1:47144 on port 1883.
-1722792777: Client <unknown> has exceeded timeout, disconnecting.
-1722792777: New connection from 172.28.0.1:42118 on port 1883.
-1722792873: Client <unknown> has exceeded timeout, disconnecting.
-1722792878: New connection from 172.28.0.1:57678 on port 1883.
-1722792969: Client <unknown> has exceeded timeout, disconnecting.
-1722792969: New connection from 172.28.0.1:44078 on port 1883.
-1722793065: Client <unknown> has exceeded timeout, disconnecting.
-1722793070: New connection from 172.28.0.1:45528 on port 1883.
-1722793161: Client <unknown> has exceeded timeout, disconnecting.
-1722793161: New connection from 172.28.0.1:54244 on port 1883.
-1722793257: Client <unknown> has exceeded timeout, disconnecting.
-1722793262: New connection from 172.28.0.1:52622 on port 1883.
-1722793353: Client <unknown> has exceeded timeout, disconnecting.
-1722793353: New connection from 172.28.0.1:53542 on port 1883.
-1722793449: Client <unknown> has exceeded timeout, disconnecting.
-1722793454: New connection from 172.28.0.1:44500 on port 1883.
-1722793545: Client <unknown> has exceeded timeout, disconnecting.
-1722793545: New connection from 172.28.0.1:53222 on port 1883.
-1722793641: Client <unknown> has exceeded timeout, disconnecting.
-1722793646: New connection from 172.28.0.1:54424 on port 1883.
-1722793737: Client <unknown> has exceeded timeout, disconnecting.
-1722793737: New connection from 172.28.0.1:34402 on port 1883.
-1722793833: Client <unknown> has exceeded timeout, disconnecting.
-1722793838: New connection from 172.28.0.1:35712 on port 1883.
-1722793929: Client <unknown> has exceeded timeout, disconnecting.
-1722793929: New connection from 172.28.0.1:52762 on port 1883.
-1722794025: Client <unknown> has exceeded timeout, disconnecting.
-1722794030: New connection from 172.28.0.1:34018 on port 1883.
-1722794121: Client <unknown> has exceeded timeout, disconnecting.
-1722794121: New connection from 172.28.0.1:51030 on port 1883.
-1722794217: Client <unknown> has exceeded timeout, disconnecting.
-1722794222: New connection from 172.28.0.1:33238 on port 1883.
-1722794313: Client <unknown> has exceeded timeout, disconnecting.
-1722794313: New connection from 172.28.0.1:55056 on port 1883.
-1722794337: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722794409: Client <unknown> has exceeded timeout, disconnecting.
-1722794414: New connection from 172.28.0.1:52680 on port 1883.
-1722794505: Client <unknown> has exceeded timeout, disconnecting.
-1722794505: New connection from 172.28.0.1:52300 on port 1883.
-1722794601: Client <unknown> has exceeded timeout, disconnecting.
-1722794606: New connection from 172.28.0.1:40970 on port 1883.
-1722794697: Client <unknown> has exceeded timeout, disconnecting.
-1722794697: New connection from 172.28.0.1:33058 on port 1883.
-1722794793: Client <unknown> has exceeded timeout, disconnecting.
-1722794798: New connection from 172.28.0.1:54966 on port 1883.
-1722794889: Client <unknown> has exceeded timeout, disconnecting.
-1722794889: New connection from 172.28.0.1:50844 on port 1883.
-1722794985: Client <unknown> has exceeded timeout, disconnecting.
-1722794990: New connection from 172.28.0.1:37450 on port 1883.
-1722795081: Client <unknown> has exceeded timeout, disconnecting.
-1722795081: New connection from 172.28.0.1:37752 on port 1883.
-1722795177: Client <unknown> has exceeded timeout, disconnecting.
-1722795182: New connection from 172.28.0.1:55978 on port 1883.
-1722795273: Client <unknown> has exceeded timeout, disconnecting.
-1722795273: New connection from 172.28.0.1:42832 on port 1883.
-1722795369: Client <unknown> has exceeded timeout, disconnecting.
-1722795374: New connection from 172.28.0.1:46324 on port 1883.
-1722795465: Client <unknown> has exceeded timeout, disconnecting.
-1722795465: New connection from 172.28.0.1:45234 on port 1883.
-1722795561: Client <unknown> has exceeded timeout, disconnecting.
-1722795566: New connection from 172.28.0.1:50530 on port 1883.
-1722795657: Client <unknown> has exceeded timeout, disconnecting.
-1722795657: New connection from 172.28.0.1:59416 on port 1883.
-1722795753: Client <unknown> has exceeded timeout, disconnecting.
-1722795758: New connection from 172.28.0.1:42326 on port 1883.
-1722795849: Client <unknown> has exceeded timeout, disconnecting.
-1722795849: New connection from 172.28.0.1:40324 on port 1883.
-1722795945: Client <unknown> has exceeded timeout, disconnecting.
-1722795950: New connection from 172.28.0.1:35046 on port 1883.
-1722796041: Client <unknown> has exceeded timeout, disconnecting.
-1722796041: New connection from 172.28.0.1:58742 on port 1883.
-1722796137: Client <unknown> has exceeded timeout, disconnecting.
-1722796138: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722796142: New connection from 172.28.0.1:41896 on port 1883.
-1722796233: Client <unknown> has exceeded timeout, disconnecting.
-1722796233: New connection from 172.28.0.1:43944 on port 1883.
-1722796329: Client <unknown> has exceeded timeout, disconnecting.
-1722796334: New connection from 172.28.0.1:49382 on port 1883.
-1722796425: Client <unknown> has exceeded timeout, disconnecting.
-1722796425: New connection from 172.28.0.1:48520 on port 1883.
-1722796521: Client <unknown> has exceeded timeout, disconnecting.
-1722796526: New connection from 172.28.0.1:51764 on port 1883.
-1722796617: Client <unknown> has exceeded timeout, disconnecting.
-1722796617: New connection from 172.28.0.1:49682 on port 1883.
-1722796713: Client <unknown> has exceeded timeout, disconnecting.
-1722796718: New connection from 172.28.0.1:37634 on port 1883.
-1722796809: Client <unknown> has exceeded timeout, disconnecting.
-1722796809: New connection from 172.28.0.1:48384 on port 1883.
-1722796905: Client <unknown> has exceeded timeout, disconnecting.
-1722796910: New connection from 172.28.0.1:45024 on port 1883.
-1722797001: Client <unknown> has exceeded timeout, disconnecting.
-1722797001: New connection from 172.28.0.1:50436 on port 1883.
-1722797097: Client <unknown> has exceeded timeout, disconnecting.
-1722797102: New connection from 172.28.0.1:37372 on port 1883.
-1722797193: Client <unknown> has exceeded timeout, disconnecting.
-1722797193: New connection from 172.28.0.1:47330 on port 1883.
-1722797289: Client <unknown> has exceeded timeout, disconnecting.
-1722797294: New connection from 172.28.0.1:54740 on port 1883.
-1722797385: Client <unknown> has exceeded timeout, disconnecting.
-1722797385: New connection from 172.28.0.1:56774 on port 1883.
-1722797481: Client <unknown> has exceeded timeout, disconnecting.
-1722797486: New connection from 172.28.0.1:42830 on port 1883.
-1722797577: Client <unknown> has exceeded timeout, disconnecting.
-1722797577: New connection from 172.28.0.1:46736 on port 1883.
-1722797673: Client <unknown> has exceeded timeout, disconnecting.
-1722797678: New connection from 172.28.0.1:58220 on port 1883.
-1722797769: Client <unknown> has exceeded timeout, disconnecting.
-1722797769: New connection from 172.28.0.1:50186 on port 1883.
-1722797865: Client <unknown> has exceeded timeout, disconnecting.
-1722797870: New connection from 172.28.0.1:43750 on port 1883.
-1722797939: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722797961: Client <unknown> has exceeded timeout, disconnecting.
-1722797961: New connection from 172.28.0.1:47368 on port 1883.
-1722798057: Client <unknown> has exceeded timeout, disconnecting.
-1722798062: New connection from 172.28.0.1:57786 on port 1883.
-1722798153: Client <unknown> has exceeded timeout, disconnecting.
-1722798153: New connection from 172.28.0.1:42414 on port 1883.
-1722798249: Client <unknown> has exceeded timeout, disconnecting.
-1722798254: New connection from 172.28.0.1:58544 on port 1883.
-1722798345: Client <unknown> has exceeded timeout, disconnecting.
-1722798345: New connection from 172.28.0.1:39648 on port 1883.
-1722798441: Client <unknown> has exceeded timeout, disconnecting.
-1722798446: New connection from 172.28.0.1:43918 on port 1883.
-1722798537: Client <unknown> has exceeded timeout, disconnecting.
-1722798537: New connection from 172.28.0.1:53396 on port 1883.
-1722798633: Client <unknown> has exceeded timeout, disconnecting.
-1722798638: New connection from 172.28.0.1:54230 on port 1883.
-1722798729: Client <unknown> has exceeded timeout, disconnecting.
-1722798729: New connection from 172.28.0.1:42276 on port 1883.
-1722798825: Client <unknown> has exceeded timeout, disconnecting.
-1722798830: New connection from 172.28.0.1:33620 on port 1883.
-1722798921: Client <unknown> has exceeded timeout, disconnecting.
-1722798921: New connection from 172.28.0.1:54652 on port 1883.
-1722799017: Client <unknown> has exceeded timeout, disconnecting.
-1722799022: New connection from 172.28.0.1:56822 on port 1883.
-1722799113: Client <unknown> has exceeded timeout, disconnecting.
-1722799113: New connection from 172.28.0.1:48382 on port 1883.
-1722799209: Client <unknown> has exceeded timeout, disconnecting.
-1722799214: New connection from 172.28.0.1:37856 on port 1883.
-1722799305: Client <unknown> has exceeded timeout, disconnecting.
-1722799305: New connection from 172.28.0.1:46384 on port 1883.
-1722799401: Client <unknown> has exceeded timeout, disconnecting.
-1722799406: New connection from 172.28.0.1:44252 on port 1883.
-1722799497: Client <unknown> has exceeded timeout, disconnecting.
-1722799497: New connection from 172.28.0.1:37968 on port 1883.
-1722799593: Client <unknown> has exceeded timeout, disconnecting.
-1722799598: New connection from 172.28.0.1:44276 on port 1883.
-1722799689: Client <unknown> has exceeded timeout, disconnecting.
-1722799689: New connection from 172.28.0.1:45010 on port 1883.
-1722799740: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722799785: Client <unknown> has exceeded timeout, disconnecting.
-1722799790: New connection from 172.28.0.1:37974 on port 1883.
-1722799881: Client <unknown> has exceeded timeout, disconnecting.
-1722799881: New connection from 172.28.0.1:60966 on port 1883.
-1722799977: Client <unknown> has exceeded timeout, disconnecting.
-1722799982: New connection from 172.28.0.1:43596 on port 1883.
-1722800073: Client <unknown> has exceeded timeout, disconnecting.
-1722800073: New connection from 172.28.0.1:43584 on port 1883.
-1722800169: Client <unknown> has exceeded timeout, disconnecting.
-1722800174: New connection from 172.28.0.1:42402 on port 1883.
-1722800265: Client <unknown> has exceeded timeout, disconnecting.
-1722800265: New connection from 172.28.0.1:48464 on port 1883.
-1722800361: Client <unknown> has exceeded timeout, disconnecting.
-1722800366: New connection from 172.28.0.1:33618 on port 1883.
-1722800457: Client <unknown> has exceeded timeout, disconnecting.
-1722800457: New connection from 172.28.0.1:57532 on port 1883.
-1722800553: Client <unknown> has exceeded timeout, disconnecting.
-1722800558: New connection from 172.28.0.1:59976 on port 1883.
-1722800649: Client <unknown> has exceeded timeout, disconnecting.
-1722800649: New connection from 172.28.0.1:54376 on port 1883.
-1722800745: Client <unknown> has exceeded timeout, disconnecting.
-1722800750: New connection from 172.28.0.1:43078 on port 1883.
-1722800841: Client <unknown> has exceeded timeout, disconnecting.
-1722800841: New connection from 172.28.0.1:44592 on port 1883.
-1722800937: Client <unknown> has exceeded timeout, disconnecting.
-1722800942: New connection from 172.28.0.1:51592 on port 1883.
-1722801033: Client <unknown> has exceeded timeout, disconnecting.
-1722801033: New connection from 172.28.0.1:49314 on port 1883.
-1722801129: Client <unknown> has exceeded timeout, disconnecting.
-1722801134: New connection from 172.28.0.1:54702 on port 1883.
-1722801225: Client <unknown> has exceeded timeout, disconnecting.
-1722801225: New connection from 172.28.0.1:35020 on port 1883.
-1722801321: Client <unknown> has exceeded timeout, disconnecting.
-1722801326: New connection from 172.28.0.1:51044 on port 1883.
-1722801417: Client <unknown> has exceeded timeout, disconnecting.
-1722801417: New connection from 172.28.0.1:38676 on port 1883.
-1722801513: Client <unknown> has exceeded timeout, disconnecting.
-1722801518: New connection from 172.28.0.1:56322 on port 1883.
-1722801541: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722801609: Client <unknown> has exceeded timeout, disconnecting.
-1722801609: New connection from 172.28.0.1:57218 on port 1883.
-1722801705: Client <unknown> has exceeded timeout, disconnecting.
-1722801710: New connection from 172.28.0.1:58788 on port 1883.
-1722801801: Client <unknown> has exceeded timeout, disconnecting.
-1722801801: New connection from 172.28.0.1:38678 on port 1883.
-1722801897: Client <unknown> has exceeded timeout, disconnecting.
-1722801902: New connection from 172.28.0.1:42806 on port 1883.
-1722801993: Client <unknown> has exceeded timeout, disconnecting.
-1722801993: New connection from 172.28.0.1:34784 on port 1883.
-1722802089: Client <unknown> has exceeded timeout, disconnecting.
-1722802094: New connection from 172.28.0.1:59042 on port 1883.
-1722802185: Client <unknown> has exceeded timeout, disconnecting.
-1722802185: New connection from 172.28.0.1:35598 on port 1883.
-1722802281: Client <unknown> has exceeded timeout, disconnecting.
-1722802286: New connection from 172.28.0.1:56104 on port 1883.
-1722802377: Client <unknown> has exceeded timeout, disconnecting.
-1722802377: New connection from 172.28.0.1:32888 on port 1883.
-1722802473: Client <unknown> has exceeded timeout, disconnecting.
-1722802478: New connection from 172.28.0.1:59876 on port 1883.
-1722802569: Client <unknown> has exceeded timeout, disconnecting.
-1722802569: New connection from 172.28.0.1:49586 on port 1883.
-1722802665: Client <unknown> has exceeded timeout, disconnecting.
-1722802670: New connection from 172.28.0.1:45966 on port 1883.
-1722802761: Client <unknown> has exceeded timeout, disconnecting.
-1722802761: New connection from 172.28.0.1:35198 on port 1883.
-1722802857: Client <unknown> has exceeded timeout, disconnecting.
-1722802862: New connection from 172.28.0.1:54050 on port 1883.
-1722802953: Client <unknown> has exceeded timeout, disconnecting.
-1722802953: New connection from 172.28.0.1:55722 on port 1883.
-1722803049: Client <unknown> has exceeded timeout, disconnecting.
-1722803054: New connection from 172.28.0.1:45548 on port 1883.
-1722803145: Client <unknown> has exceeded timeout, disconnecting.
-1722803145: New connection from 172.28.0.1:52792 on port 1883.
-1722803241: Client <unknown> has exceeded timeout, disconnecting.
-1722803246: New connection from 172.28.0.1:58152 on port 1883.
-1722803337: Client <unknown> has exceeded timeout, disconnecting.
-1722803337: New connection from 172.28.0.1:57282 on port 1883.
-1722803342: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722803433: Client <unknown> has exceeded timeout, disconnecting.
-1722803438: New connection from 172.28.0.1:59546 on port 1883.
-1722803529: Client <unknown> has exceeded timeout, disconnecting.
-1722803529: New connection from 172.28.0.1:34682 on port 1883.
-1722803625: Client <unknown> has exceeded timeout, disconnecting.
-1722803630: New connection from 172.28.0.1:43058 on port 1883.
-1722803721: Client <unknown> has exceeded timeout, disconnecting.
-1722803721: New connection from 172.28.0.1:56600 on port 1883.
-1722803817: Client <unknown> has exceeded timeout, disconnecting.
-1722803822: New connection from 172.28.0.1:33308 on port 1883.
-1722803913: Client <unknown> has exceeded timeout, disconnecting.
-1722803913: New connection from 172.28.0.1:42244 on port 1883.
-1722804009: Client <unknown> has exceeded timeout, disconnecting.
-1722804014: New connection from 172.28.0.1:51830 on port 1883.
-1722804105: Client <unknown> has exceeded timeout, disconnecting.
-1722804105: New connection from 172.28.0.1:43320 on port 1883.
-1722804132: Client <unknown> closed its connection.
-1722804745: New connection from 172.28.0.1:39018 on port 1883.
-1722804746: New client connected from 172.28.0.1:39018 as paho32936414177100 (p2, c1, k60).
-1722804837: Client paho32936414177100 has exceeded timeout, disconnecting.
-1722804896: New connection from 172.28.0.1:51246 on port 1883.
-1722804896: Client <unknown> closed its connection.
-1722804902: New connection from 172.28.0.1:51254 on port 1883.
-1722804902: New client connected from 172.28.0.1:51254 as paho33093131669700 (p2, c1, k60).
-1722804912: Client paho33093131669700 closed its connection.
-1722804993: New connection from 172.28.0.1:59434 on port 1883.
-1722804994: New client connected from 172.28.0.1:59434 as paho33184465377700 (p2, c1, k60).
-1722804994: Client paho33184465377700 closed its connection.
-1722805000: New connection from 172.28.0.1:59442 on port 1883.
-1722805000: New client connected from 172.28.0.1:59442 as paho33191078677900 (p2, c1, k60).
-1722805003: Client paho33191078677900 closed its connection.
-1722805003: New connection from 172.28.0.1:45914 on port 1883.
-1722805009: Client <unknown> closed its connection.
-1722805025: New connection from 172.28.0.1:38094 on port 1883.
-1722805026: New client connected from 172.28.0.1:38094 as paho33216535917100 (p2, c1, k60).
-1722805028: Client paho33216535917100 closed its connection.
-1722805028: New connection from 172.28.0.1:38108 on port 1883.
-1722805119: Client <unknown> has exceeded timeout, disconnecting.
-1722805119: New connection from 172.28.0.1:48930 on port 1883.
-1722805143: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722805215: Client <unknown> has exceeded timeout, disconnecting.
-1722805220: New connection from 172.28.0.1:45646 on port 1883.
-1722805311: Client <unknown> has exceeded timeout, disconnecting.
-1722805311: New connection from 172.28.0.1:36764 on port 1883.
-1722805407: Client <unknown> has exceeded timeout, disconnecting.
-1722805412: New connection from 172.28.0.1:33852 on port 1883.
-1722805503: Client <unknown> has exceeded timeout, disconnecting.
-1722805503: New connection from 172.28.0.1:34624 on port 1883.
-1722805599: Client <unknown> has exceeded timeout, disconnecting.
-1722805604: New connection from 172.28.0.1:45718 on port 1883.
-1722805695: Client <unknown> has exceeded timeout, disconnecting.
-1722805695: New connection from 172.28.0.1:44474 on port 1883.
-1722805708: Client <unknown> closed its connection.
-1722805715: New connection from 172.28.0.1:52850 on port 1883.
-1722805715: New client connected from 172.28.0.1:52850 as paho33905696534900 (p2, c1, k60).
-1722805722: Client paho33905696534900 closed its connection.
-1722805722: New connection from 172.28.0.1:52852 on port 1883.
-1722805730: Client <unknown> closed its connection.
-1722806944: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722808745: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722810546: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722812346: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722814148: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722815948: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722817749: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722819550: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722821351: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722823152: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722824953: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1722998776: mosquitto version 2.0.18 starting
-1722998776: Config loaded from /mosquitto/config/mosquitto.conf.
-1722998776: Opening ipv4 listen socket on port 1883.
-1722998776: Opening ipv6 listen socket on port 1883.
-1722998776: mosquitto version 2.0.18 running
-1722998777: New connection from 172.28.0.4:44289 on port 1883.
-1722998777: New client connected from 172.28.0.4:44289 as auto-BC0B337A-997F-8629-645C-8E9C5ECCF4FA (p2, c1, k60, u'user').
-1723115376: mosquitto version 2.0.18 starting
-1723115376: Config loaded from /mosquitto/config/mosquitto.conf.
-1723115376: Opening ipv4 listen socket on port 1883.
-1723115376: Opening ipv6 listen socket on port 1883.
-1723115376: mosquitto version 2.0.18 running
-1723117176: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723118977: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723317528: mosquitto version 2.0.18 starting
-1723317528: Config loaded from /mosquitto/config/mosquitto.conf.
-1723317528: Opening ipv4 listen socket on port 1883.
-1723317528: Opening ipv6 listen socket on port 1883.
-1723317528: mosquitto version 2.0.18 running
-1723317535: New connection from 172.28.0.4:59111 on port 1883.
-1723317535: New client connected from 172.28.0.4:59111 as auto-C0850BAC-D8AB-3C2B-4889-DCE37997DFEE (p2, c1, k60, u'user').
-1723319033: New connection from 172.28.0.1:51536 on port 1883.
-1723319033: New client connected from 172.28.0.1:51536 as paho423945107953300 (p2, c1, k60).
-1723319329: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723321130: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723322931: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723324732: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723326533: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723328334: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723330135: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723331936: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723333737: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723335538: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723337339: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723339140: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723340941: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723342742: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723344543: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723344993: Client paho423945107953300 closed its connection.
-1723346344: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723381634: mosquitto version 2.0.18 starting
-1723381634: Config loaded from /mosquitto/config/mosquitto.conf.
-1723381634: Opening ipv4 listen socket on port 1883.
-1723381634: Opening ipv6 listen socket on port 1883.
-1723381634: mosquitto version 2.0.18 running
-1723381635: New connection from 172.21.0.7:46427 on port 1883.
-1723381635: New client connected from 172.21.0.7:46427 as auto-8CD5630F-2CDB-617A-80A5-DFCF79410FC2 (p2, c1, k60, u'user').
-1723381768: Client auto-8CD5630F-2CDB-617A-80A5-DFCF79410FC2 closed its connection.
-1723381768: mosquitto version 2.0.18 terminating
-1723381768: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723382635: mosquitto version 2.0.18 starting
-1723382635: Config loaded from /mosquitto/config/mosquitto.conf.
-1723382635: Opening ipv4 listen socket on port 1883.
-1723382635: Opening ipv6 listen socket on port 1883.
-1723382635: mosquitto version 2.0.18 running
-1723382655: New connection from 172.21.0.1:42448 on port 1883.
-1723382655: New client connected from 172.21.0.1:42448 as paho487570125047500 (p2, c1, k60).
-1723382657: Client paho487570125047500 closed its connection.
-1723382692: mosquitto version 2.0.18 terminating
-1723382692: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723382741: mosquitto version 2.0.18 starting
-1723382741: Config loaded from /mosquitto/config/mosquitto.conf.
-1723382741: Opening ipv4 listen socket on port 1883.
-1723382741: Opening ipv6 listen socket on port 1883.
-1723382741: mosquitto version 2.0.18 running
-1723382742: New connection from 172.23.0.6:58163 on port 1883.
-1723382742: New client connected from 172.23.0.6:58163 as auto-FC637511-4305-6E05-7100-8C9C13C5E6C3 (p2, c1, k60, u'user').
-1723383273: Client auto-FC637511-4305-6E05-7100-8C9C13C5E6C3 closed its connection.
-1723383274: mosquitto version 2.0.18 terminating
-1723383274: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723383358: mosquitto version 2.0.18 starting
-1723383358: Config loaded from /mosquitto/config/mosquitto.conf.
-1723383358: Opening ipv4 listen socket on port 1883.
-1723383358: Opening ipv6 listen socket on port 1883.
-1723383358: mosquitto version 2.0.18 running
-1723383375: mosquitto version 2.0.18 terminating
-1723383375: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723383434: mosquitto version 2.0.18 starting
-1723383434: Config loaded from /mosquitto/config/mosquitto.conf.
-1723383434: Opening ipv4 listen socket on port 1883.
-1723383434: Opening ipv6 listen socket on port 1883.
-1723383434: mosquitto version 2.0.18 running
-1723383435: New connection from 172.26.0.6:52865 on port 1883.
-1723383435: New client connected from 172.26.0.6:52865 as auto-7654AF39-EFDC-4D74-B68D-27BB6D35A625 (p2, c1, k60, u'user').
-1723383479: Client auto-7654AF39-EFDC-4D74-B68D-27BB6D35A625 closed its connection.
-1723383480: mosquitto version 2.0.18 terminating
-1723383480: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723383486: mosquitto version 2.0.18 starting
-1723383486: Config loaded from /mosquitto/config/mosquitto.conf.
-1723383486: Opening ipv4 listen socket on port 1883.
-1723383486: Opening ipv6 listen socket on port 1883.
-1723383486: mosquitto version 2.0.18 running
-1723383486: New connection from 172.28.0.6:54133 on port 1883.
-1723383486: New client connected from 172.28.0.6:54133 as auto-B9314D39-0844-078C-6FEF-94F06EA2206B (p2, c1, k60, u'user').
-1723383632: Client auto-B9314D39-0844-078C-6FEF-94F06EA2206B closed its connection.
-1723383632: mosquitto version 2.0.18 terminating
-1723383632: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723383645: mosquitto version 2.0.18 starting
-1723383645: Config loaded from /mosquitto/config/mosquitto.conf.
-1723383645: Opening ipv4 listen socket on port 1883.
-1723383645: Opening ipv6 listen socket on port 1883.
-1723383645: mosquitto version 2.0.18 running
-1723383646: New connection from 172.29.0.6:41815 on port 1883.
-1723383646: New client connected from 172.29.0.6:41815 as auto-17B1D908-FF81-4E23-D7E1-BE7F8EE6283F (p2, c1, k60, u'user').
-1723383863: Client auto-17B1D908-FF81-4E23-D7E1-BE7F8EE6283F closed its connection.
-1723384255: mosquitto version 2.0.18 terminating
-1723384255: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723384273: mosquitto version 2.0.18 starting
-1723384273: Config loaded from /mosquitto/config/mosquitto.conf.
-1723384273: Opening ipv4 listen socket on port 1883.
-1723384273: Opening ipv6 listen socket on port 1883.
-1723384273: mosquitto version 2.0.18 running
-1723384273: New connection from 172.30.0.7:42587 on port 1883.
-1723384273: New client connected from 172.30.0.7:42587 as auto-6754E12D-1251-4138-B21A-7DA0FCB36CFA (p2, c1, k60, u'user').
-1723384425: Client auto-6754E12D-1251-4138-B21A-7DA0FCB36CFA closed its connection.
-1723384428: New connection from 172.30.0.7:58191 on port 1883.
-1723384428: New client connected from 172.30.0.7:58191 as auto-B99883B9-B35D-3D25-6D33-22547BC2F53A (p2, c1, k60, u'user').
-1723384653: Client auto-B99883B9-B35D-3D25-6D33-22547BC2F53A closed its connection.
-1723384655: New connection from 172.30.0.7:56747 on port 1883.
-1723384655: New client connected from 172.30.0.7:56747 as auto-8775D216-66C9-CA07-D5F7-83CB3808D9BB (p2, c1, k60, u'user').
-1723384722: New connection from 172.30.0.1:47992 on port 1883.
-1723384722: New client connected from 172.30.0.1:47992 as auto-E6B1BE48-138F-6470-6697-93BB10FA0BAA (p2, c1, k60, u'user').
-1723384733: Client auto-E6B1BE48-138F-6470-6697-93BB10FA0BAA closed its connection.
-1723384836: Client auto-8775D216-66C9-CA07-D5F7-83CB3808D9BB closed its connection.
-1723384836: mosquitto version 2.0.18 terminating
-1723384836: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723384844: mosquitto version 2.0.18 starting
-1723384844: Config loaded from /mosquitto/config/mosquitto.conf.
-1723384844: Opening ipv4 listen socket on port 1883.
-1723384844: Opening ipv6 listen socket on port 1883.
-1723384844: mosquitto version 2.0.18 running
-1723384844: New connection from 172.31.0.7:56989 on port 1883.
-1723384844: New client connected from 172.31.0.7:56989 as auto-785BAFA9-3594-36EC-2975-01D7BC4004F0 (p2, c1, k60, u'user').
-1723384927: mosquitto version 2.0.18 terminating
-1723384927: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723384941: mosquitto version 2.0.18 starting
-1723384941: Config loaded from /mosquitto/config/mosquitto.conf.
-1723384941: Opening ipv4 listen socket on port 1883.
-1723384941: Opening ipv6 listen socket on port 1883.
-1723384941: mosquitto version 2.0.18 running
-1723384941: New connection from 172.31.0.7:37541 on port 1883.
-1723384941: New client connected from 172.31.0.7:37541 as auto-7A94F55E-F8E6-6D3A-BF50-CCE27C95B6EA (p2, c1, k60, u'user').
-1723384988: Client auto-7A94F55E-F8E6-6D3A-BF50-CCE27C95B6EA closed its connection.
-1723384994: New connection from 172.31.0.7:41527 on port 1883.
-1723384994: New client connected from 172.31.0.7:41527 as auto-BB9BD815-0F83-273C-6204-69E72C08F378 (p2, c1, k60, u'user').
-1723385003: New connection from 172.31.0.1:39272 on port 1883.
-1723385003: New client connected from 172.31.0.1:39272 as auto-4DA5CEB6-0C70-EF19-5340-8428BC6A0F25 (p2, c1, k60, u'user').
-1723385139: Client auto-BB9BD815-0F83-273C-6204-69E72C08F378 closed its connection.
-1723385139: mosquitto version 2.0.18 terminating
-1723385139: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723385148: mosquitto version 2.0.18 starting
-1723385148: Config loaded from /mosquitto/config/mosquitto.conf.
-1723385148: Opening ipv4 listen socket on port 1883.
-1723385148: Opening ipv6 listen socket on port 1883.
-1723385148: mosquitto version 2.0.18 running
-1723385148: New connection from 192.168.0.7:59435 on port 1883.
-1723385148: New client connected from 192.168.0.7:59435 as auto-5205566E-E930-1032-0D07-26047358A79C (p2, c1, k60, u'user').
-1723385367: New connection from 192.168.0.1:55036 on port 1883.
-1723385367: New client connected from 192.168.0.1:55036 as paho490281892581600 (p2, c1, k60).
-1723385368: Client paho490281892581600 closed its connection.
-1723385389: Client auto-5205566E-E930-1032-0D07-26047358A79C closed its connection.
-1723385390: mosquitto version 2.0.18 terminating
-1723385390: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723385398: mosquitto version 2.0.18 starting
-1723385398: Config loaded from /mosquitto/config/mosquitto.conf.
-1723385398: Opening ipv4 listen socket on port 1883.
-1723385398: Opening ipv6 listen socket on port 1883.
-1723385398: mosquitto version 2.0.18 running
-1723385399: New connection from 192.168.32.7:55941 on port 1883.
-1723385399: New client connected from 192.168.32.7:55941 as auto-4E7B5426-4BF3-9266-F8BC-36FB2F010E26 (p2, c1, k60, u'user').
-1723386030: Client auto-4E7B5426-4BF3-9266-F8BC-36FB2F010E26 closed its connection.
-1723386030: mosquitto version 2.0.18 terminating
-1723386030: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723386046: mosquitto version 2.0.18 starting
-1723386046: Config loaded from /mosquitto/config/mosquitto.conf.
-1723386046: Opening ipv4 listen socket on port 1883.
-1723386046: Opening ipv6 listen socket on port 1883.
-1723386046: mosquitto version 2.0.18 running
-1723386046: New connection from 192.168.48.6:42631 on port 1883.
-1723386046: New client connected from 192.168.48.6:42631 as auto-B54647A4-174D-7ACF-BBEA-06AEFC5937E8 (p2, c1, k60, u'user').
-1723386448: Client auto-B54647A4-174D-7ACF-BBEA-06AEFC5937E8 closed its connection.
-1723386448: mosquitto version 2.0.18 terminating
-1723386448: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723386451: mosquitto version 2.0.18 starting
-1723386451: Config loaded from /mosquitto/config/mosquitto.conf.
-1723386451: Opening ipv4 listen socket on port 1883.
-1723386451: Opening ipv6 listen socket on port 1883.
-1723386451: mosquitto version 2.0.18 running
-1723386452: New connection from 192.168.80.7:54083 on port 1883.
-1723386452: New client connected from 192.168.80.7:54083 as auto-B9948D03-6C68-8229-5F43-F681E86ED1ED (p2, c1, k60, u'user').
-1723386663: Client auto-B9948D03-6C68-8229-5F43-F681E86ED1ED closed its connection.
-1723386663: mosquitto version 2.0.18 terminating
-1723386663: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723386685: mosquitto version 2.0.18 starting
-1723386685: Config loaded from /mosquitto/config/mosquitto.conf.
-1723386685: Opening ipv4 listen socket on port 1883.
-1723386685: Opening ipv6 listen socket on port 1883.
-1723386685: mosquitto version 2.0.18 running
-1723386685: New connection from 192.168.96.6:51321 on port 1883.
-1723386685: New client connected from 192.168.96.6:51321 as auto-4CD1DC07-B19C-49D9-90DE-33F6FD5BC7CA (p2, c1, k60, u'user').
-1723387046: Client auto-4CD1DC07-B19C-49D9-90DE-33F6FD5BC7CA closed its connection.
-1723387046: mosquitto version 2.0.18 terminating
-1723387046: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723387122: mosquitto version 2.0.18 starting
-1723387122: Config loaded from /mosquitto/config/mosquitto.conf.
-1723387122: Opening ipv4 listen socket on port 1883.
-1723387122: Opening ipv6 listen socket on port 1883.
-1723387122: mosquitto version 2.0.18 running
-1723387122: New connection from 192.168.112.6:57551 on port 1883.
-1723387122: New client connected from 192.168.112.6:57551 as auto-295634FC-34D4-F9CA-1C25-858A611AD0A3 (p2, c1, k60, u'user').
-1723387271: New connection from 192.168.112.1:36232 on port 1883.
-1723387271: New client connected from 192.168.112.1:36232 as paho492185994106100 (p2, c1, k60).
-1723387272: Client paho492185994106100 closed its connection.
-1723387272: New connection from 192.168.112.1:39044 on port 1883.
-1723387296: Client <unknown> closed its connection.
-1723387301: New connection from 192.168.112.1:33324 on port 1883.
-1723387302: New client connected from 192.168.112.1:33324 as paho492216597680400 (p2, c1, k60).
-1723387320: Client paho492216597680400 closed its connection.
-1723388922: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723389223: Client auto-295634FC-34D4-F9CA-1C25-858A611AD0A3 closed its connection.
-1723389225: New connection from 192.168.112.6:37085 on port 1883.
-1723389225: New client connected from 192.168.112.6:37085 as auto-150975ED-34EE-AB1F-6B8C-D06EEF8E1C27 (p2, c1, k60, u'user').
-1723389493: New connection from 192.168.112.1:38538 on port 1883.
-1723389493: New client connected from 192.168.112.1:38538 as paho494408044449000 (p2, c1, k60).
-1723389494: Client paho494408044449000 closed its connection.
-1723389888: New connection from 192.168.112.1:34356 on port 1883.
-1723389888: New client connected from 192.168.112.1:34356 as paho494803273027000 (p2, c1, k60).
-1723389889: Client paho494803273027000 closed its connection.
-1723390405: New connection from 192.168.112.1:48886 on port 1883.
-1723390406: New client connected from 192.168.112.1:48886 as paho495320636998400 (p2, c1, k60).
-1723390406: Client paho495320636998400 closed its connection.
-1723390406: New connection from 192.168.112.1:48890 on port 1883.
-1723390499: Client <unknown> has exceeded timeout, disconnecting.
-1723390499: New connection from 192.168.112.1:33448 on port 1883.
-1723390595: Client <unknown> has exceeded timeout, disconnecting.
-1723390600: New connection from 192.168.112.1:43350 on port 1883.
-1723390628: New connection from 192.168.112.9:39552 on port 1883.
-1723390629: New client connected from 192.168.112.9:39552 as paho11834572970720 (p2, c1, k60).
-1723390632: Client paho11834572970720 closed its connection.
-1723390632: New connection from 192.168.112.9:34236 on port 1883.
-1723390691: Client <unknown> has exceeded timeout, disconnecting.
-1723390691: New connection from 192.168.112.1:58646 on port 1883.
-1723390723: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723390727: Client <unknown> has exceeded timeout, disconnecting.
-1723390727: New connection from 192.168.112.9:36556 on port 1883.
-1723390787: Client <unknown> has exceeded timeout, disconnecting.
-1723390792: New connection from 192.168.112.1:41840 on port 1883.
-1723390823: Client <unknown> has exceeded timeout, disconnecting.
-1723390828: New connection from 192.168.112.9:43158 on port 1883.
-1723390883: Client <unknown> has exceeded timeout, disconnecting.
-1723390883: New connection from 192.168.112.1:58258 on port 1883.
-1723390919: Client <unknown> has exceeded timeout, disconnecting.
-1723390919: New connection from 192.168.112.9:41946 on port 1883.
-1723390979: Client <unknown> has exceeded timeout, disconnecting.
-1723390984: New connection from 192.168.112.1:46528 on port 1883.
-1723391015: Client <unknown> has exceeded timeout, disconnecting.
-1723391020: New connection from 192.168.112.9:49614 on port 1883.
-1723391075: Client <unknown> has exceeded timeout, disconnecting.
-1723391075: New connection from 192.168.112.1:46526 on port 1883.
-1723391111: Client <unknown> has exceeded timeout, disconnecting.
-1723391111: New connection from 192.168.112.9:46508 on port 1883.
-1723391171: Client <unknown> has exceeded timeout, disconnecting.
-1723391176: New connection from 192.168.112.1:56862 on port 1883.
-1723391207: Client <unknown> has exceeded timeout, disconnecting.
-1723391212: New connection from 192.168.112.9:53786 on port 1883.
-1723391267: Client <unknown> has exceeded timeout, disconnecting.
-1723391267: New connection from 192.168.112.1:41882 on port 1883.
-1723391303: Client <unknown> has exceeded timeout, disconnecting.
-1723391303: New connection from 192.168.112.9:38302 on port 1883.
-1723391363: Client <unknown> has exceeded timeout, disconnecting.
-1723391368: New connection from 192.168.112.1:42888 on port 1883.
-1723391399: Client <unknown> has exceeded timeout, disconnecting.
-1723391404: New connection from 192.168.112.9:57370 on port 1883.
-1723391459: Client <unknown> has exceeded timeout, disconnecting.
-1723391459: New connection from 192.168.112.1:51258 on port 1883.
-1723391495: Client <unknown> has exceeded timeout, disconnecting.
-1723391495: New connection from 192.168.112.9:38360 on port 1883.
-1723391555: Client <unknown> has exceeded timeout, disconnecting.
-1723391560: New connection from 192.168.112.1:57492 on port 1883.
-1723391591: Client <unknown> has exceeded timeout, disconnecting.
-1723391596: New connection from 192.168.112.9:56420 on port 1883.
-1723391651: Client <unknown> has exceeded timeout, disconnecting.
-1723391651: New connection from 192.168.112.1:60338 on port 1883.
-1723391687: Client <unknown> has exceeded timeout, disconnecting.
-1723391687: New connection from 192.168.112.9:58822 on port 1883.
-1723391747: Client <unknown> has exceeded timeout, disconnecting.
-1723391752: New connection from 192.168.112.1:59918 on port 1883.
-1723391783: Client <unknown> has exceeded timeout, disconnecting.
-1723391788: New connection from 192.168.112.9:38916 on port 1883.
-1723391843: Client <unknown> has exceeded timeout, disconnecting.
-1723391843: New connection from 192.168.112.1:36124 on port 1883.
-1723391879: Client <unknown> has exceeded timeout, disconnecting.
-1723391879: New connection from 192.168.112.9:34384 on port 1883.
-1723391939: Client <unknown> has exceeded timeout, disconnecting.
-1723391944: New connection from 192.168.112.1:40814 on port 1883.
-1723391975: Client <unknown> has exceeded timeout, disconnecting.
-1723391980: New connection from 192.168.112.9:39302 on port 1883.
-1723392035: Client <unknown> has exceeded timeout, disconnecting.
-1723392035: New connection from 192.168.112.1:46656 on port 1883.
-1723392071: Client <unknown> has exceeded timeout, disconnecting.
-1723392071: New connection from 192.168.112.9:58586 on port 1883.
-1723392131: Client <unknown> has exceeded timeout, disconnecting.
-1723392136: New connection from 192.168.112.1:53264 on port 1883.
-1723392167: Client <unknown> has exceeded timeout, disconnecting.
-1723392172: New connection from 192.168.112.9:52244 on port 1883.
-1723392227: Client <unknown> has exceeded timeout, disconnecting.
-1723392227: New connection from 192.168.112.1:38194 on port 1883.
-1723392263: Client <unknown> has exceeded timeout, disconnecting.
-1723392263: New connection from 192.168.112.9:50396 on port 1883.
-1723392323: Client <unknown> has exceeded timeout, disconnecting.
-1723392328: New connection from 192.168.112.1:56942 on port 1883.
-1723392359: Client <unknown> has exceeded timeout, disconnecting.
-1723392364: New connection from 192.168.112.9:34922 on port 1883.
-1723392419: Client <unknown> has exceeded timeout, disconnecting.
-1723392419: New connection from 192.168.112.1:59022 on port 1883.
-1723392455: Client <unknown> has exceeded timeout, disconnecting.
-1723392455: New connection from 192.168.112.9:39926 on port 1883.
-1723392515: Client <unknown> has exceeded timeout, disconnecting.
-1723392520: New connection from 192.168.112.1:56970 on port 1883.
-1723392524: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723392551: Client <unknown> has exceeded timeout, disconnecting.
-1723392556: New connection from 192.168.112.9:50040 on port 1883.
-1723392611: Client <unknown> has exceeded timeout, disconnecting.
-1723392611: New connection from 192.168.112.1:40970 on port 1883.
-1723392647: Client <unknown> has exceeded timeout, disconnecting.
-1723392647: New connection from 192.168.112.9:45782 on port 1883.
-1723392707: Client <unknown> has exceeded timeout, disconnecting.
-1723392712: New connection from 192.168.112.1:44006 on port 1883.
-1723392743: Client <unknown> has exceeded timeout, disconnecting.
-1723392748: New connection from 192.168.112.9:54974 on port 1883.
-1723392803: Client <unknown> has exceeded timeout, disconnecting.
-1723392803: New connection from 192.168.112.1:33630 on port 1883.
-1723392839: Client <unknown> has exceeded timeout, disconnecting.
-1723392839: New connection from 192.168.112.9:39560 on port 1883.
-1723392899: Client <unknown> has exceeded timeout, disconnecting.
-1723392904: New connection from 192.168.112.1:49198 on port 1883.
-1723392935: Client <unknown> has exceeded timeout, disconnecting.
-1723392940: New connection from 192.168.112.9:50980 on port 1883.
-1723392995: Client <unknown> has exceeded timeout, disconnecting.
-1723392995: New connection from 192.168.112.1:41032 on port 1883.
-1723393031: Client <unknown> has exceeded timeout, disconnecting.
-1723393031: New connection from 192.168.112.9:40224 on port 1883.
-1723393091: Client <unknown> has exceeded timeout, disconnecting.
-1723393096: New connection from 192.168.112.1:50596 on port 1883.
-1723393127: Client <unknown> has exceeded timeout, disconnecting.
-1723393132: New connection from 192.168.112.9:42658 on port 1883.
-1723393187: Client <unknown> has exceeded timeout, disconnecting.
-1723393187: New connection from 192.168.112.1:46296 on port 1883.
-1723393223: Client <unknown> has exceeded timeout, disconnecting.
-1723393223: New connection from 192.168.112.9:37764 on port 1883.
-1723393283: Client <unknown> has exceeded timeout, disconnecting.
-1723393288: New connection from 192.168.112.1:45104 on port 1883.
-1723393319: Client <unknown> has exceeded timeout, disconnecting.
-1723393324: New connection from 192.168.112.9:42762 on port 1883.
-1723393379: Client <unknown> has exceeded timeout, disconnecting.
-1723393379: New connection from 192.168.112.1:52272 on port 1883.
-1723393415: Client <unknown> has exceeded timeout, disconnecting.
-1723393415: New connection from 192.168.112.9:40880 on port 1883.
-1723393475: Client <unknown> has exceeded timeout, disconnecting.
-1723393480: New connection from 192.168.112.1:40944 on port 1883.
-1723393511: Client <unknown> has exceeded timeout, disconnecting.
-1723393516: New connection from 192.168.112.9:46878 on port 1883.
-1723393571: Client <unknown> has exceeded timeout, disconnecting.
-1723393571: New connection from 192.168.112.1:37842 on port 1883.
-1723393607: Client <unknown> has exceeded timeout, disconnecting.
-1723393607: New connection from 192.168.112.9:41546 on port 1883.
-1723393667: Client <unknown> has exceeded timeout, disconnecting.
-1723393672: New connection from 192.168.112.1:41164 on port 1883.
-1723393703: Client <unknown> has exceeded timeout, disconnecting.
-1723393708: New connection from 192.168.112.9:44542 on port 1883.
-1723393763: Client <unknown> has exceeded timeout, disconnecting.
-1723393763: New connection from 192.168.112.1:54448 on port 1883.
-1723393799: Client <unknown> has exceeded timeout, disconnecting.
-1723393799: New connection from 192.168.112.9:60082 on port 1883.
-1723393859: Client <unknown> has exceeded timeout, disconnecting.
-1723393864: New connection from 192.168.112.1:45242 on port 1883.
-1723393895: Client <unknown> has exceeded timeout, disconnecting.
-1723393900: New connection from 192.168.112.9:36584 on port 1883.
-1723393955: Client <unknown> has exceeded timeout, disconnecting.
-1723393955: New connection from 192.168.112.1:45508 on port 1883.
-1723393991: Client <unknown> has exceeded timeout, disconnecting.
-1723393991: New connection from 192.168.112.9:55940 on port 1883.
-1723394051: Client <unknown> has exceeded timeout, disconnecting.
-1723394056: New connection from 192.168.112.1:48754 on port 1883.
-1723394087: Client <unknown> has exceeded timeout, disconnecting.
-1723394092: New connection from 192.168.112.9:48232 on port 1883.
-1723394147: Client <unknown> has exceeded timeout, disconnecting.
-1723394147: New connection from 192.168.112.1:35956 on port 1883.
-1723394183: Client <unknown> has exceeded timeout, disconnecting.
-1723394183: New connection from 192.168.112.9:37170 on port 1883.
-1723394243: Client <unknown> has exceeded timeout, disconnecting.
-1723394248: New connection from 192.168.112.1:33790 on port 1883.
-1723394279: Client <unknown> has exceeded timeout, disconnecting.
-1723394284: New connection from 192.168.112.9:48864 on port 1883.
-1723394325: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723394339: Client <unknown> has exceeded timeout, disconnecting.
-1723394339: New connection from 192.168.112.1:56774 on port 1883.
-1723394375: Client <unknown> has exceeded timeout, disconnecting.
-1723394375: New connection from 192.168.112.9:45468 on port 1883.
-1723394435: Client <unknown> has exceeded timeout, disconnecting.
-1723394440: New connection from 192.168.112.1:47394 on port 1883.
-1723394471: Client <unknown> has exceeded timeout, disconnecting.
-1723394476: New connection from 192.168.112.9:50380 on port 1883.
-1723394531: Client <unknown> has exceeded timeout, disconnecting.
-1723394531: New connection from 192.168.112.1:60480 on port 1883.
-1723394567: Client <unknown> has exceeded timeout, disconnecting.
-1723394567: New connection from 192.168.112.9:43384 on port 1883.
-1723394627: Client <unknown> has exceeded timeout, disconnecting.
-1723394632: New connection from 192.168.112.1:33778 on port 1883.
-1723394663: Client <unknown> has exceeded timeout, disconnecting.
-1723394668: New connection from 192.168.112.9:41202 on port 1883.
-1723394723: Client <unknown> has exceeded timeout, disconnecting.
-1723394723: New connection from 192.168.112.1:54868 on port 1883.
-1723394759: Client <unknown> has exceeded timeout, disconnecting.
-1723394759: New connection from 192.168.112.9:39910 on port 1883.
-1723394819: Client <unknown> has exceeded timeout, disconnecting.
-1723394824: New connection from 192.168.112.1:59328 on port 1883.
-1723394855: Client <unknown> has exceeded timeout, disconnecting.
-1723394860: New connection from 192.168.112.9:50814 on port 1883.
-1723394915: Client <unknown> has exceeded timeout, disconnecting.
-1723394915: New connection from 192.168.112.1:42608 on port 1883.
-1723394951: Client <unknown> has exceeded timeout, disconnecting.
-1723394951: New connection from 192.168.112.9:37052 on port 1883.
-1723395011: Client <unknown> has exceeded timeout, disconnecting.
-1723395016: New connection from 192.168.112.1:34608 on port 1883.
-1723395047: Client <unknown> has exceeded timeout, disconnecting.
-1723395052: New connection from 192.168.112.9:35512 on port 1883.
-1723395107: Client <unknown> has exceeded timeout, disconnecting.
-1723395107: New connection from 192.168.112.1:39154 on port 1883.
-1723395143: Client <unknown> has exceeded timeout, disconnecting.
-1723395143: New connection from 192.168.112.9:53234 on port 1883.
-1723395203: Client <unknown> has exceeded timeout, disconnecting.
-1723395208: New connection from 192.168.112.1:51238 on port 1883.
-1723395239: Client <unknown> has exceeded timeout, disconnecting.
-1723395244: New connection from 192.168.112.9:43426 on port 1883.
-1723395299: Client <unknown> has exceeded timeout, disconnecting.
-1723395299: New connection from 192.168.112.1:43278 on port 1883.
-1723395335: Client <unknown> has exceeded timeout, disconnecting.
-1723395335: New connection from 192.168.112.9:36620 on port 1883.
-1723395395: Client <unknown> has exceeded timeout, disconnecting.
-1723395400: New connection from 192.168.112.1:56938 on port 1883.
-1723395431: Client <unknown> has exceeded timeout, disconnecting.
-1723395436: New connection from 192.168.112.9:38164 on port 1883.
-1723395491: Client <unknown> has exceeded timeout, disconnecting.
-1723395491: New connection from 192.168.112.1:47034 on port 1883.
-1723395527: Client <unknown> has exceeded timeout, disconnecting.
-1723395527: New connection from 192.168.112.9:50638 on port 1883.
-1723395587: Client <unknown> has exceeded timeout, disconnecting.
-1723395592: New connection from 192.168.112.1:55554 on port 1883.
-1723395623: Client <unknown> has exceeded timeout, disconnecting.
-1723395628: New connection from 192.168.112.9:37810 on port 1883.
-1723395683: Client <unknown> has exceeded timeout, disconnecting.
-1723395683: New connection from 192.168.112.1:43470 on port 1883.
-1723395719: Client <unknown> has exceeded timeout, disconnecting.
-1723395719: New connection from 192.168.112.9:58222 on port 1883.
-1723395779: Client <unknown> has exceeded timeout, disconnecting.
-1723395784: New connection from 192.168.112.1:48412 on port 1883.
-1723395815: Client <unknown> has exceeded timeout, disconnecting.
-1723395820: New connection from 192.168.112.9:55358 on port 1883.
-1723395875: Client <unknown> has exceeded timeout, disconnecting.
-1723395875: New connection from 192.168.112.1:56882 on port 1883.
-1723395911: Client <unknown> has exceeded timeout, disconnecting.
-1723395911: New connection from 192.168.112.9:41432 on port 1883.
-1723395971: Client <unknown> has exceeded timeout, disconnecting.
-1723395976: New connection from 192.168.112.1:51650 on port 1883.
-1723396007: Client <unknown> has exceeded timeout, disconnecting.
-1723396012: New connection from 192.168.112.9:59572 on port 1883.
-1723396067: Client <unknown> has exceeded timeout, disconnecting.
-1723396067: New connection from 192.168.112.1:35998 on port 1883.
-1723396103: Client <unknown> has exceeded timeout, disconnecting.
-1723396103: New connection from 192.168.112.9:54402 on port 1883.
-1723396126: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723396163: Client <unknown> has exceeded timeout, disconnecting.
-1723396168: New connection from 192.168.112.1:44760 on port 1883.
-1723396199: Client <unknown> has exceeded timeout, disconnecting.
-1723396204: New connection from 192.168.112.9:51868 on port 1883.
-1723396259: Client <unknown> has exceeded timeout, disconnecting.
-1723396259: New connection from 192.168.112.1:41054 on port 1883.
-1723396295: Client <unknown> has exceeded timeout, disconnecting.
-1723396295: New connection from 192.168.112.9:54484 on port 1883.
-1723396355: Client <unknown> has exceeded timeout, disconnecting.
-1723396360: New connection from 192.168.112.1:46866 on port 1883.
-1723396391: Client <unknown> has exceeded timeout, disconnecting.
-1723396396: New connection from 192.168.112.9:50834 on port 1883.
-1723396451: Client <unknown> has exceeded timeout, disconnecting.
-1723396451: New connection from 192.168.112.1:35214 on port 1883.
-1723396487: Client <unknown> has exceeded timeout, disconnecting.
-1723396487: New connection from 192.168.112.9:35160 on port 1883.
-1723396547: Client <unknown> has exceeded timeout, disconnecting.
-1723396552: New connection from 192.168.112.1:51020 on port 1883.
-1723396583: Client <unknown> has exceeded timeout, disconnecting.
-1723396588: New connection from 192.168.112.9:57928 on port 1883.
-1723396643: Client <unknown> has exceeded timeout, disconnecting.
-1723396643: New connection from 192.168.112.1:39944 on port 1883.
-1723396679: Client <unknown> has exceeded timeout, disconnecting.
-1723396679: New connection from 192.168.112.9:46274 on port 1883.
-1723396739: Client <unknown> has exceeded timeout, disconnecting.
-1723396744: New connection from 192.168.112.1:33082 on port 1883.
-1723396775: Client <unknown> has exceeded timeout, disconnecting.
-1723396780: New connection from 192.168.112.9:47150 on port 1883.
-1723396835: Client <unknown> has exceeded timeout, disconnecting.
-1723396835: New connection from 192.168.112.1:47630 on port 1883.
-1723396871: Client <unknown> has exceeded timeout, disconnecting.
-1723396871: New connection from 192.168.112.9:35900 on port 1883.
-1723396931: Client <unknown> has exceeded timeout, disconnecting.
-1723396936: New connection from 192.168.112.1:41200 on port 1883.
-1723396967: Client <unknown> has exceeded timeout, disconnecting.
-1723396972: New connection from 192.168.112.9:54990 on port 1883.
-1723397027: Client <unknown> has exceeded timeout, disconnecting.
-1723397027: New connection from 192.168.112.1:58192 on port 1883.
-1723397063: Client <unknown> has exceeded timeout, disconnecting.
-1723397063: New connection from 192.168.112.9:50300 on port 1883.
-1723397123: Client <unknown> has exceeded timeout, disconnecting.
-1723397128: New connection from 192.168.112.1:60830 on port 1883.
-1723397159: Client <unknown> has exceeded timeout, disconnecting.
-1723397164: New connection from 192.168.112.9:55928 on port 1883.
-1723397219: Client <unknown> has exceeded timeout, disconnecting.
-1723397219: New connection from 192.168.112.1:58388 on port 1883.
-1723397255: Client <unknown> has exceeded timeout, disconnecting.
-1723397255: New connection from 192.168.112.9:52574 on port 1883.
-1723397315: Client <unknown> has exceeded timeout, disconnecting.
-1723397320: New connection from 192.168.112.1:45808 on port 1883.
-1723397351: Client <unknown> has exceeded timeout, disconnecting.
-1723397356: New connection from 192.168.112.9:48502 on port 1883.
-1723397411: Client <unknown> has exceeded timeout, disconnecting.
-1723397411: New connection from 192.168.112.1:47416 on port 1883.
-1723397447: Client <unknown> has exceeded timeout, disconnecting.
-1723397447: New connection from 192.168.112.9:60434 on port 1883.
-1723397507: Client <unknown> has exceeded timeout, disconnecting.
-1723397512: New connection from 192.168.112.1:50412 on port 1883.
-1723397543: Client <unknown> has exceeded timeout, disconnecting.
-1723397548: New connection from 192.168.112.9:35532 on port 1883.
-1723397603: Client <unknown> has exceeded timeout, disconnecting.
-1723397603: New connection from 192.168.112.1:51206 on port 1883.
-1723397639: Client <unknown> has exceeded timeout, disconnecting.
-1723397639: New connection from 192.168.112.9:35058 on port 1883.
-1723397699: Client <unknown> has exceeded timeout, disconnecting.
-1723397704: New connection from 192.168.112.1:50692 on port 1883.
-1723397735: Client <unknown> has exceeded timeout, disconnecting.
-1723397740: New connection from 192.168.112.9:60832 on port 1883.
-1723397795: Client <unknown> has exceeded timeout, disconnecting.
-1723397795: New connection from 192.168.112.1:45168 on port 1883.
-1723397831: Client <unknown> has exceeded timeout, disconnecting.
-1723397831: New connection from 192.168.112.9:56610 on port 1883.
-1723397891: Client <unknown> has exceeded timeout, disconnecting.
-1723397896: New connection from 192.168.112.1:43072 on port 1883.
-1723397927: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723397927: Client <unknown> has exceeded timeout, disconnecting.
-1723397932: New connection from 192.168.112.9:56506 on port 1883.
-1723397987: Client <unknown> has exceeded timeout, disconnecting.
-1723397987: New connection from 192.168.112.1:46812 on port 1883.
-1723398023: Client <unknown> has exceeded timeout, disconnecting.
-1723398023: New connection from 192.168.112.9:44242 on port 1883.
-1723398083: Client <unknown> has exceeded timeout, disconnecting.
-1723398088: New connection from 192.168.112.1:42138 on port 1883.
-1723398119: Client <unknown> has exceeded timeout, disconnecting.
-1723398124: New connection from 192.168.112.9:42110 on port 1883.
-1723398179: Client <unknown> has exceeded timeout, disconnecting.
-1723398179: New connection from 192.168.112.1:54516 on port 1883.
-1723398215: Client <unknown> has exceeded timeout, disconnecting.
-1723398215: New connection from 192.168.112.9:42360 on port 1883.
-1723398275: Client <unknown> has exceeded timeout, disconnecting.
-1723398280: New connection from 192.168.112.1:33912 on port 1883.
-1723398311: Client <unknown> has exceeded timeout, disconnecting.
-1723398316: New connection from 192.168.112.9:34728 on port 1883.
-1723398371: Client <unknown> has exceeded timeout, disconnecting.
-1723398371: New connection from 192.168.112.1:45020 on port 1883.
-1723398407: Client <unknown> has exceeded timeout, disconnecting.
-1723398407: New connection from 192.168.112.9:38074 on port 1883.
-1723398467: Client <unknown> has exceeded timeout, disconnecting.
-1723398472: New connection from 192.168.112.1:33370 on port 1883.
-1723398503: Client <unknown> has exceeded timeout, disconnecting.
-1723398508: New connection from 192.168.112.9:39680 on port 1883.
-1723398563: Client <unknown> has exceeded timeout, disconnecting.
-1723398563: New connection from 192.168.112.1:42060 on port 1883.
-1723398572: Client <unknown> closed its connection.
-1723398636: New connection from 192.168.112.9:35202 on port 1883.
-1723398636: New client connected from 192.168.112.9:35202 as paho19842227535251 (p2, c1, k60).
-1723398639: Client paho19842227535251 closed its connection.
-1723398639: New connection from 192.168.112.9:35218 on port 1883.
-1723398659: Client <unknown> has exceeded timeout, disconnecting.
-1723398664: New connection from 192.168.112.1:47264 on port 1883.
-1723398675: Client <unknown> closed its connection.
-1723398755: Client <unknown> has exceeded timeout, disconnecting.
-1723398755: New connection from 192.168.112.1:54910 on port 1883.
-1723398851: Client <unknown> has exceeded timeout, disconnecting.
-1723398856: New connection from 192.168.112.1:49784 on port 1883.
-1723398946: Client <unknown> has exceeded timeout, disconnecting.
-1723398946: New connection from 192.168.112.1:41788 on port 1883.
-1723399042: Client <unknown> has exceeded timeout, disconnecting.
-1723399047: New connection from 192.168.112.1:43758 on port 1883.
-1723399139: Client <unknown> has exceeded timeout, disconnecting.
-1723399139: New connection from 192.168.112.1:46862 on port 1883.
-1723399234: Client <unknown> has exceeded timeout, disconnecting.
-1723399240: New connection from 192.168.112.1:55534 on port 1883.
-1723399331: Client <unknown> has exceeded timeout, disconnecting.
-1723399331: New connection from 192.168.112.1:46494 on port 1883.
-1723399400: New connection from 192.168.112.9:48370 on port 1883.
-1723399400: New client connected from 192.168.112.9:48370 as paho20606111007941 (p2, c1, k60).
-1723399405: Client paho20606111007941 closed its connection.
-1723399405: New connection from 192.168.112.9:52136 on port 1883.
-1723399427: Client <unknown> has exceeded timeout, disconnecting.
-1723399432: New connection from 192.168.112.1:44520 on port 1883.
-1723399498: Client <unknown> has exceeded timeout, disconnecting.
-1723399498: New connection from 192.168.112.9:40890 on port 1883.
-1723399514: Client <unknown> closed its connection.
-1723399523: Client <unknown> has exceeded timeout, disconnecting.
-1723399523: New connection from 192.168.112.1:59504 on port 1883.
-1723399543: Client <unknown> closed its connection.
-1723399562: New connection from 192.168.112.9:46252 on port 1883.
-1723399562: New client connected from 192.168.112.9:46252 as paho20768574940786 (p2, c1, k60).
-1723399565: Client paho20768574940786 closed its connection.
-1723399565: New connection from 192.168.112.9:46268 on port 1883.
-1723399661: Client <unknown> has exceeded timeout, disconnecting.
-1723399661: New connection from 192.168.112.9:46118 on port 1883.
-1723399722: Client <unknown> closed its connection.
-1723399727: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723399746: New connection from 192.168.112.9:52328 on port 1883.
-1723399746: New client connected from 192.168.112.9:52328 as paho20952476409079 (p2, c1, k60).
-1723399750: Client paho20952476409079 closed its connection.
-1723399750: New connection from 192.168.112.9:52344 on port 1883.
-1723399840: Client <unknown> has exceeded timeout, disconnecting.
-1723399840: New connection from 192.168.112.9:35826 on port 1883.
-1723399936: Client <unknown> has exceeded timeout, disconnecting.
-1723399941: New connection from 192.168.112.9:49930 on port 1883.
-1723399957: Client <unknown> closed its connection.
-1723400111: New connection from 192.168.112.9:54136 on port 1883.
-1723400111: New client connected from 192.168.112.9:54136 as paho21317041084592 (p2, c1, k60).
-1723400115: Client paho21317041084592 closed its connection.
-1723400115: New connection from 192.168.112.9:49902 on port 1883.
-1723400207: Client <unknown> has exceeded timeout, disconnecting.
-1723400207: New connection from 192.168.112.9:53826 on port 1883.
-1723400260: Client <unknown> closed its connection.
-1723400310: New connection from 192.168.112.9:52416 on port 1883.
-1723400311: New client connected from 192.168.112.9:52416 as paho21516864015914 (p2, c1, k60).
-1723400316: Client paho21516864015914 closed its connection.
-1723400316: New connection from 192.168.112.9:44090 on port 1883.
-1723400410: Client <unknown> has exceeded timeout, disconnecting.
-1723400410: New connection from 192.168.112.9:54760 on port 1883.
-1723400506: Client <unknown> has exceeded timeout, disconnecting.
-1723400511: New connection from 192.168.112.9:36790 on port 1883.
-1723400602: Client <unknown> has exceeded timeout, disconnecting.
-1723400602: New connection from 192.168.112.9:56940 on port 1883.
-1723400678: Client <unknown> closed its connection.
-1723400711: New connection from 192.168.112.9:46680 on port 1883.
-1723400711: New client connected from 192.168.112.9:46680 as paho21917523092703 (p2, c1, k60).
-1723400716: Client paho21917523092703 closed its connection.
-1723400716: New connection from 192.168.112.9:46694 on port 1883.
-1723400806: Client <unknown> has exceeded timeout, disconnecting.
-1723400806: New connection from 192.168.112.9:60896 on port 1883.
-1723400902: Client <unknown> has exceeded timeout, disconnecting.
-1723400907: New connection from 192.168.112.9:45022 on port 1883.
-1723400999: Client <unknown> has exceeded timeout, disconnecting.
-1723400999: New connection from 192.168.112.9:48824 on port 1883.
-1723401094: Client <unknown> has exceeded timeout, disconnecting.
-1723401099: New connection from 192.168.112.9:57634 on port 1883.
-1723401132: Client <unknown> closed its connection.
-1723401528: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723401726: New connection from 192.168.112.9:57792 on port 1883.
-1723401726: New client connected from 192.168.112.9:57792 as paho22932715504363 (p2, c1, k60).
-1723401727: Client paho22932715504363 closed its connection.
-1723401727: New connection from 192.168.112.9:57800 on port 1883.
-1723401820: Client <unknown> has exceeded timeout, disconnecting.
-1723401820: New connection from 192.168.112.9:56564 on port 1883.
-1723401916: Client <unknown> has exceeded timeout, disconnecting.
-1723401921: New connection from 192.168.112.9:51164 on port 1883.
-1723401989: New connection from 192.168.112.1:56804 on port 1883.
-1723401989: New client connected from 192.168.112.1:56804 as paho506904126127300 (p2, c1, k60).
-1723401990: Client paho506904126127300 closed its connection.
-1723402013: Client <unknown> has exceeded timeout, disconnecting.
-1723402013: New connection from 192.168.112.9:60946 on port 1883.
-1723402030: Client <unknown> closed its connection.
-1723402055: New connection from 192.168.112.9:43192 on port 1883.
-1723402056: New client connected from 192.168.112.9:43192 as paho23262029380923 (p2, c1, k60).
-1723403329: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723405130: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723406931: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723408732: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723410533: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723412334: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723414135: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1723415109: Client paho23262029380923 closed its connection.
-1723415119: Client auto-150975ED-34EE-AB1F-6B8C-D06EEF8E1C27 closed its connection.
-1723415119: mosquitto version 2.0.18 terminating
-1723415119: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723782754: mosquitto version 2.0.18 starting
+1723782754: Config loaded from /mosquitto/config/mosquitto.conf.
+1723782754: Opening ipv4 listen socket on port 1883.
+1723782754: Opening ipv6 listen socket on port 1883.
+1723782754: mosquitto version 2.0.18 running
+1723782754: New connection from 172.28.0.7:49895 on port 1883.
+1723782754: New client connected from 172.28.0.7:49895 as auto-21B095FC-0F50-F699-8FD3-84DC4ABBAB33 (p2, c1, k60, u'user').
+1723782761: New connection from 172.28.0.8:53534 on port 1883.
+1723782761: New client connected from 172.28.0.8:53534 as paho24628452614272 (p2, c1, k60).
+1723782774: Client paho24628452614272 closed its connection.
+1723782774: New connection from 172.28.0.8:45650 on port 1883.
+1723782867: Client <unknown> has exceeded timeout, disconnecting.
+1723782867: New connection from 172.28.0.8:54822 on port 1883.
+1723782963: Client <unknown> has exceeded timeout, disconnecting.
+1723782968: New connection from 172.28.0.8:41584 on port 1883.
+1723783059: Client <unknown> has exceeded timeout, disconnecting.
+1723783059: New connection from 172.28.0.8:33390 on port 1883.
+1723783104: New connection from 172.28.0.1:45434 on port 1883.
+1723783104: New client connected from 172.28.0.1:45434 as paho64001077914500 (p2, c1, k60).
+1723783105: Client paho64001077914500 closed its connection.
+1723783105: New connection from 172.28.0.1:45444 on port 1883.
+1723783106: Client <unknown> closed its connection.
+1723783156: Client <unknown> has exceeded timeout, disconnecting.
+1723783161: New connection from 172.28.0.8:55792 on port 1883.
+1723783202: Client <unknown> closed its connection.
+1723783211: Client auto-21B095FC-0F50-F699-8FD3-84DC4ABBAB33 closed its connection.
+1723783212: mosquitto version 2.0.18 terminating
+1723783212: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723783551: mosquitto version 2.0.18 starting
+1723783551: Config loaded from /mosquitto/config/mosquitto.conf.
+1723783551: Opening ipv4 listen socket on port 1883.
+1723783551: Opening ipv6 listen socket on port 1883.
+1723783551: mosquitto version 2.0.18 running
+1723783552: New connection from 172.29.0.7:57895 on port 1883.
+1723783552: New client connected from 172.29.0.7:57895 as auto-10FDF6EC-6F28-EB4D-C0FA-BED87BD16E93 (p2, c1, k60, u'user').
+1723783560: New connection from 172.29.0.9:57332 on port 1883.
+1723783561: New client connected from 172.29.0.9:57332 as paho25427863835609 (p2, c1, k60).
+1723811494: mosquitto version 2.0.18 starting
+1723811494: Config loaded from /mosquitto/config/mosquitto.conf.
+1723811494: Opening ipv4 listen socket on port 1883.
+1723811494: Opening ipv6 listen socket on port 1883.
+1723811494: mosquitto version 2.0.18 running
+1723811495: New connection from 172.29.0.7:44903 on port 1883.
+1723811495: New client connected from 172.29.0.7:44903 as auto-9A4076EA-A395-B351-1050-E7260DA6B76F (p2, c1, k60, u'user').
+1723811501: New connection from 172.29.0.9:55584 on port 1883.
+1723811501: New client connected from 172.29.0.9:55584 as paho1004434910051 (p2, c1, k60).
+1723811508: Client paho1004434910051 closed its connection.
+1723811508: New connection from 172.29.0.9:51896 on port 1883.
+1723811601: Client <unknown> has exceeded timeout, disconnecting.
+1723811601: New connection from 172.29.0.9:46016 on port 1883.
+1723811697: Client <unknown> has exceeded timeout, disconnecting.
+1723811702: New connection from 172.29.0.9:36114 on port 1883.
+1723811793: Client <unknown> has exceeded timeout, disconnecting.
+1723811793: New connection from 172.29.0.9:39058 on port 1883.
+1723811889: Client <unknown> has exceeded timeout, disconnecting.
+1723811894: New connection from 172.29.0.9:32950 on port 1883.
+1723811985: Client <unknown> has exceeded timeout, disconnecting.
+1723811985: New connection from 172.29.0.9:49840 on port 1883.
+1723812081: Client <unknown> has exceeded timeout, disconnecting.
+1723812086: New connection from 172.29.0.9:53732 on port 1883.
+1723812177: Client <unknown> has exceeded timeout, disconnecting.
+1723812177: New connection from 172.29.0.9:51140 on port 1883.
+1723812273: Client <unknown> has exceeded timeout, disconnecting.
+1723812278: New connection from 172.29.0.9:40232 on port 1883.
+1723812369: Client <unknown> has exceeded timeout, disconnecting.
+1723812369: New connection from 172.29.0.9:38188 on port 1883.
+1723812465: Client <unknown> has exceeded timeout, disconnecting.
+1723812470: New connection from 172.29.0.9:34438 on port 1883.
+1723812561: Client <unknown> has exceeded timeout, disconnecting.
+1723812561: New connection from 172.29.0.9:45922 on port 1883.
+1723812657: Client <unknown> has exceeded timeout, disconnecting.
+1723812662: New connection from 172.29.0.9:33526 on port 1883.
+1723812753: Client <unknown> has exceeded timeout, disconnecting.
+1723812753: New connection from 172.29.0.9:37784 on port 1883.
+1723812849: Client <unknown> has exceeded timeout, disconnecting.
+1723812854: New connection from 172.29.0.9:52530 on port 1883.
+1723812945: Client <unknown> has exceeded timeout, disconnecting.
+1723812945: New connection from 172.29.0.9:45082 on port 1883.
+1723813041: Client <unknown> has exceeded timeout, disconnecting.
+1723813046: New connection from 172.29.0.9:39136 on port 1883.
+1723813137: Client <unknown> has exceeded timeout, disconnecting.
+1723813137: New connection from 172.29.0.9:45762 on port 1883.
+1723813233: Client <unknown> has exceeded timeout, disconnecting.
+1723813238: New connection from 172.29.0.9:42866 on port 1883.
+1723813294: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723813329: Client <unknown> has exceeded timeout, disconnecting.
+1723813329: New connection from 172.29.0.9:37372 on port 1883.
+1723813425: Client <unknown> has exceeded timeout, disconnecting.
+1723813430: New connection from 172.29.0.9:59218 on port 1883.
+1723813521: Client <unknown> has exceeded timeout, disconnecting.
+1723813521: New connection from 172.29.0.9:34122 on port 1883.
+1723813617: Client <unknown> has exceeded timeout, disconnecting.
+1723813622: New connection from 172.29.0.9:35542 on port 1883.
+1723813713: Client <unknown> has exceeded timeout, disconnecting.
+1723813713: New connection from 172.29.0.9:57648 on port 1883.
+1723813809: Client <unknown> has exceeded timeout, disconnecting.
+1723813814: New connection from 172.29.0.9:52140 on port 1883.
+1723813905: Client <unknown> has exceeded timeout, disconnecting.
+1723813905: New connection from 172.29.0.9:53438 on port 1883.
+1723814001: Client <unknown> has exceeded timeout, disconnecting.
+1723814006: New connection from 172.29.0.9:59428 on port 1883.
+1723814097: Client <unknown> has exceeded timeout, disconnecting.
+1723814097: New connection from 172.29.0.9:46672 on port 1883.
+1723814193: Client <unknown> has exceeded timeout, disconnecting.
+1723814198: New connection from 172.29.0.9:49554 on port 1883.
+1723814289: Client <unknown> has exceeded timeout, disconnecting.
+1723814289: New connection from 172.29.0.9:53702 on port 1883.
+1723814385: Client <unknown> has exceeded timeout, disconnecting.
+1723814390: New connection from 172.29.0.9:49372 on port 1883.
+1723814481: Client <unknown> has exceeded timeout, disconnecting.
+1723814481: New connection from 172.29.0.9:51532 on port 1883.
+1723814577: Client <unknown> has exceeded timeout, disconnecting.
+1723814582: New connection from 172.29.0.9:58502 on port 1883.
+1723814673: Client <unknown> has exceeded timeout, disconnecting.
+1723814673: New connection from 172.29.0.9:39358 on port 1883.
+1723814769: Client <unknown> has exceeded timeout, disconnecting.
+1723814774: New connection from 172.29.0.9:49924 on port 1883.
+1723814865: Client <unknown> has exceeded timeout, disconnecting.
+1723814865: New connection from 172.29.0.9:57122 on port 1883.
+1723814961: Client <unknown> has exceeded timeout, disconnecting.
+1723814966: New connection from 172.29.0.9:57100 on port 1883.
+1723815057: Client <unknown> has exceeded timeout, disconnecting.
+1723815057: New connection from 172.29.0.9:58082 on port 1883.
+1723815095: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723815153: Client <unknown> has exceeded timeout, disconnecting.
+1723815158: New connection from 172.29.0.9:45742 on port 1883.
+1723815249: Client <unknown> has exceeded timeout, disconnecting.
+1723815249: New connection from 172.29.0.9:36534 on port 1883.
+1723815345: Client <unknown> has exceeded timeout, disconnecting.
+1723815350: New connection from 172.29.0.9:46802 on port 1883.
+1723815441: Client <unknown> has exceeded timeout, disconnecting.
+1723815441: New connection from 172.29.0.9:34944 on port 1883.
+1723815442: Client <unknown> closed its connection.
+1723815452: Client auto-9A4076EA-A395-B351-1050-E7260DA6B76F closed its connection.
+1723815453: mosquitto version 2.0.18 terminating
+1723815453: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723815481: mosquitto version 2.0.18 starting
+1723815481: Config loaded from /mosquitto/config/mosquitto.conf.
+1723815481: Opening ipv4 listen socket on port 1883.
+1723815481: Opening ipv6 listen socket on port 1883.
+1723815481: mosquitto version 2.0.18 running
+1723815482: New connection from 172.21.0.7:42979 on port 1883.
+1723815482: New client connected from 172.21.0.7:42979 as auto-54950593-6BAA-9FD8-6D71-7A348C08C0A3 (p2, c1, k60, u'user').
+1723815488: New connection from 172.21.0.9:43706 on port 1883.
+1723815488: New client connected from 172.21.0.9:43706 as paho4991446883715 (p2, c1, k60).
+1723817282: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723819083: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723820884: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723822685: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723824486: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723826287: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723828088: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723829889: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723831690: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723833491: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723835292: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723837093: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723838196: New connection from 172.21.0.1:45412 on port 1883.
+1723838197: New client connected from 172.21.0.1:45412 as paho119096656102300 (p2, c1, k60).
+1723838197: Client paho119096656102300 closed its connection.
+1723838197: New connection from 172.21.0.1:45418 on port 1883.
+1723838198: Client <unknown> closed its connection.
+1723838212: Client paho4991446883715 closed its connection.
+1723838222: Client auto-54950593-6BAA-9FD8-6D71-7A348C08C0A3 closed its connection.
+1723838222: mosquitto version 2.0.18 terminating
+1723838222: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723838255: mosquitto version 2.0.18 starting
+1723838255: Config loaded from /mosquitto/config/mosquitto.conf.
+1723838255: Opening ipv4 listen socket on port 1883.
+1723838255: Opening ipv6 listen socket on port 1883.
+1723838255: mosquitto version 2.0.18 running
+1723838256: New connection from 172.23.0.7:38857 on port 1883.
+1723838256: New client connected from 172.23.0.7:38857 as auto-525C6817-17E1-D425-94E1-6AB640ED828B (p2, c1, k60, u'user').
+1723838264: New connection from 172.23.0.9:46746 on port 1883.
+1723838264: New client connected from 172.23.0.9:46746 as paho27768261844397 (p2, c1, k60).
+1723838527: New connection from 172.23.0.1:42406 on port 1883.
+1723838527: New client connected from 172.23.0.1:42406 as paho119426971401900 (p2, c1, k60).
+1723838528: Client paho119426971401900 closed its connection.
+1723838556: Client paho27768261844397 closed its connection.
+1723838565: Client auto-525C6817-17E1-D425-94E1-6AB640ED828B closed its connection.
+1723838566: mosquitto version 2.0.18 terminating
+1723838566: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723838597: mosquitto version 2.0.18 starting
+1723838597: Config loaded from /mosquitto/config/mosquitto.conf.
+1723838597: Opening ipv4 listen socket on port 1883.
+1723838597: Opening ipv6 listen socket on port 1883.
+1723838597: mosquitto version 2.0.18 running
+1723838598: New connection from 172.24.0.6:34459 on port 1883.
+1723838598: New client connected from 172.24.0.6:34459 as auto-D5A14914-733B-4CF1-B3F3-2ADE213845E1 (p2, c1, k60, u'user').
+1723838605: New connection from 172.24.0.9:48122 on port 1883.
+1723838605: New client connected from 172.24.0.9:48122 as paho28109249438222 (p2, c1, k60).
+1723839207: New connection from 172.24.0.1:40866 on port 1883.
+1723839208: New client connected from 172.24.0.1:40866 as paho120107844735200 (p2, c1, k60).
+1723839208: Client paho120107844735200 closed its connection.
+1723839208: New connection from 172.24.0.1:40868 on port 1883.
+1723839209: Client <unknown> closed its connection.
+1723839291: New connection from 172.24.0.1:56820 on port 1883.
+1723839291: New client connected from 172.24.0.1:56820 as paho120191415652100 (p2, c1, k60).
+1723839292: Client paho120191415652100 closed its connection.
+1723839349: Client paho28109249438222 closed its connection.
+1723839359: Client auto-D5A14914-733B-4CF1-B3F3-2ADE213845E1 closed its connection.
+1723839359: mosquitto version 2.0.18 terminating
+1723839359: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723839522: mosquitto version 2.0.18 starting
+1723839522: Config loaded from /mosquitto/config/mosquitto.conf.
+1723839522: Opening ipv4 listen socket on port 1883.
+1723839522: Opening ipv6 listen socket on port 1883.
+1723839522: mosquitto version 2.0.18 running
+1723839522: New connection from 172.26.0.6:45417 on port 1883.
+1723839522: New client connected from 172.26.0.6:45417 as auto-38CD84A7-EB4B-DC1C-464E-66B26D35D5FC (p2, c1, k60, u'user').
+1723839530: New connection from 172.26.0.8:51430 on port 1883.
+1723839530: New client connected from 172.26.0.8:51430 as paho29034260042752 (p2, c1, k60).
+1723841323: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723843124: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723844924: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723846725: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723848526: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723850327: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723852128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723853929: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723855730: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723857531: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723859332: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723861133: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723862934: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723864735: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723866536: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723896632: mosquitto version 2.0.18 starting
+1723896632: Config loaded from /mosquitto/config/mosquitto.conf.
+1723896632: Opening ipv4 listen socket on port 1883.
+1723896632: Opening ipv6 listen socket on port 1883.
+1723896632: mosquitto version 2.0.18 running
+1723896632: New connection from 172.26.0.7:36651 on port 1883.
+1723896632: New client connected from 172.26.0.7:36651 as auto-BACBCBE9-30E2-0D60-5060-7D087DA719EF (p2, c1, k60, u'user').
+1723896639: New connection from 172.26.0.8:50050 on port 1883.
+1723896640: New client connected from 172.26.0.8:50050 as paho387589215759 (p2, c1, k60).
+1723896646: Client paho387589215759 closed its connection.
+1723896646: New connection from 172.26.0.8:50064 on port 1883.
+1723896740: Client <unknown> has exceeded timeout, disconnecting.
+1723896740: New connection from 172.26.0.8:38734 on port 1883.
+1723896836: Client <unknown> has exceeded timeout, disconnecting.
+1723896841: New connection from 172.26.0.8:57270 on port 1883.
+1723896932: Client <unknown> has exceeded timeout, disconnecting.
+1723896932: New connection from 172.26.0.8:35996 on port 1883.
+1723897028: Client <unknown> has exceeded timeout, disconnecting.
+1723897033: New connection from 172.26.0.8:47190 on port 1883.
+1723897124: Client <unknown> has exceeded timeout, disconnecting.
+1723897124: New connection from 172.26.0.8:54418 on port 1883.
+1723897220: Client <unknown> has exceeded timeout, disconnecting.
+1723897225: New connection from 172.26.0.8:59486 on port 1883.
+1723897316: Client <unknown> has exceeded timeout, disconnecting.
+1723897316: New connection from 172.26.0.8:49260 on port 1883.
+1723897412: Client <unknown> has exceeded timeout, disconnecting.
+1723897417: New connection from 172.26.0.8:48060 on port 1883.
+1723897508: Client <unknown> has exceeded timeout, disconnecting.
+1723897508: New connection from 172.26.0.8:37310 on port 1883.
+1723897604: Client <unknown> has exceeded timeout, disconnecting.
+1723897609: New connection from 172.26.0.8:33734 on port 1883.
+1723897700: Client <unknown> has exceeded timeout, disconnecting.
+1723897700: New connection from 172.26.0.8:57944 on port 1883.
+1723897796: Client <unknown> has exceeded timeout, disconnecting.
+1723897801: New connection from 172.26.0.8:49124 on port 1883.
+1723897892: Client <unknown> has exceeded timeout, disconnecting.
+1723897892: New connection from 172.26.0.8:55166 on port 1883.
+1723897988: Client <unknown> has exceeded timeout, disconnecting.
+1723897993: New connection from 172.26.0.8:48392 on port 1883.
+1723898084: Client <unknown> has exceeded timeout, disconnecting.
+1723898084: New connection from 172.26.0.8:36896 on port 1883.
+1723898180: Client <unknown> has exceeded timeout, disconnecting.
+1723898185: New connection from 172.26.0.8:41220 on port 1883.
+1723898276: Client <unknown> has exceeded timeout, disconnecting.
+1723898276: New connection from 172.26.0.8:36672 on port 1883.
+1723898372: Client <unknown> has exceeded timeout, disconnecting.
+1723898377: New connection from 172.26.0.8:37532 on port 1883.
+1723898433: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723898468: Client <unknown> has exceeded timeout, disconnecting.
+1723898468: New connection from 172.26.0.8:36316 on port 1883.
+1723898564: Client <unknown> has exceeded timeout, disconnecting.
+1723898569: New connection from 172.26.0.8:48526 on port 1883.
+1723898660: Client <unknown> has exceeded timeout, disconnecting.
+1723898660: New connection from 172.26.0.8:57196 on port 1883.
+1723898756: Client <unknown> has exceeded timeout, disconnecting.
+1723898761: New connection from 172.26.0.8:56072 on port 1883.
+1723898852: Client <unknown> has exceeded timeout, disconnecting.
+1723898852: New connection from 172.26.0.8:60214 on port 1883.
+1723898948: Client <unknown> has exceeded timeout, disconnecting.
+1723898953: New connection from 172.26.0.8:40376 on port 1883.
+1723899044: Client <unknown> has exceeded timeout, disconnecting.
+1723899044: New connection from 172.26.0.8:33518 on port 1883.
+1723899140: Client <unknown> has exceeded timeout, disconnecting.
+1723899145: New connection from 172.26.0.8:45430 on port 1883.
+1723899236: Client <unknown> has exceeded timeout, disconnecting.
+1723899236: New connection from 172.26.0.8:39858 on port 1883.
+1723899332: Client <unknown> has exceeded timeout, disconnecting.
+1723899337: New connection from 172.26.0.8:49600 on port 1883.
+1723899428: Client <unknown> has exceeded timeout, disconnecting.
+1723899428: New connection from 172.26.0.8:56082 on port 1883.
+1723899524: Client <unknown> has exceeded timeout, disconnecting.
+1723899529: New connection from 172.26.0.8:35350 on port 1883.
+1723899620: Client <unknown> has exceeded timeout, disconnecting.
+1723899620: New connection from 172.26.0.8:41442 on port 1883.
+1723899716: Client <unknown> has exceeded timeout, disconnecting.
+1723899721: New connection from 172.26.0.8:42386 on port 1883.
+1723899812: Client <unknown> has exceeded timeout, disconnecting.
+1723899812: New connection from 172.26.0.8:49438 on port 1883.
+1723899908: Client <unknown> has exceeded timeout, disconnecting.
+1723899913: New connection from 172.26.0.8:33426 on port 1883.
+1723900004: Client <unknown> has exceeded timeout, disconnecting.
+1723900004: New connection from 172.26.0.8:41204 on port 1883.
+1723900100: Client <unknown> has exceeded timeout, disconnecting.
+1723900105: New connection from 172.26.0.8:55756 on port 1883.
+1723900196: Client <unknown> has exceeded timeout, disconnecting.
+1723900196: New connection from 172.26.0.8:38924 on port 1883.
+1723900234: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723900292: Client <unknown> has exceeded timeout, disconnecting.
+1723900297: New connection from 172.26.0.8:41154 on port 1883.
+1723900388: Client <unknown> has exceeded timeout, disconnecting.
+1723900388: New connection from 172.26.0.8:54880 on port 1883.
+1723900484: Client <unknown> has exceeded timeout, disconnecting.
+1723900489: New connection from 172.26.0.8:52842 on port 1883.
+1723900580: Client <unknown> has exceeded timeout, disconnecting.
+1723900580: New connection from 172.26.0.8:41962 on port 1883.
+1723900676: Client <unknown> has exceeded timeout, disconnecting.
+1723900681: New connection from 172.26.0.8:47000 on port 1883.
+1723900772: Client <unknown> has exceeded timeout, disconnecting.
+1723900772: New connection from 172.26.0.8:50890 on port 1883.
+1723900868: Client <unknown> has exceeded timeout, disconnecting.
+1723900873: New connection from 172.26.0.8:49632 on port 1883.
+1723900964: Client <unknown> has exceeded timeout, disconnecting.
+1723900964: New connection from 172.26.0.8:56390 on port 1883.
+1723901060: Client <unknown> has exceeded timeout, disconnecting.
+1723901065: New connection from 172.26.0.8:46208 on port 1883.
+1723901156: Client <unknown> has exceeded timeout, disconnecting.
+1723901156: New connection from 172.26.0.8:34814 on port 1883.
+1723901251: Client <unknown> has exceeded timeout, disconnecting.
+1723901256: New connection from 172.26.0.8:52684 on port 1883.
+1723901348: Client <unknown> has exceeded timeout, disconnecting.
+1723901348: New connection from 172.26.0.8:46086 on port 1883.
+1723901444: Client <unknown> has exceeded timeout, disconnecting.
+1723901449: New connection from 172.26.0.8:49824 on port 1883.
+1723901539: Client <unknown> has exceeded timeout, disconnecting.
+1723901540: New connection from 172.26.0.8:56324 on port 1883.
+1723901635: Client <unknown> has exceeded timeout, disconnecting.
+1723901640: New connection from 172.26.0.8:39488 on port 1883.
+1723901731: Client <unknown> has exceeded timeout, disconnecting.
+1723901731: New connection from 172.26.0.8:40054 on port 1883.
+1723901827: Client <unknown> has exceeded timeout, disconnecting.
+1723901832: New connection from 172.26.0.8:40240 on port 1883.
+1723901924: Client <unknown> has exceeded timeout, disconnecting.
+1723901924: New connection from 172.26.0.8:51540 on port 1883.
+1723902020: Client <unknown> has exceeded timeout, disconnecting.
+1723902025: New connection from 172.26.0.8:52984 on port 1883.
+1723902034: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723902116: Client <unknown> has exceeded timeout, disconnecting.
+1723902116: New connection from 172.26.0.8:50916 on port 1883.
+1723902212: Client <unknown> has exceeded timeout, disconnecting.
+1723902217: New connection from 172.26.0.8:43652 on port 1883.
+1723902307: Client <unknown> has exceeded timeout, disconnecting.
+1723902307: New connection from 172.26.0.8:52062 on port 1883.
+1723902404: Client <unknown> has exceeded timeout, disconnecting.
+1723902409: New connection from 172.26.0.8:39748 on port 1883.
+1723902500: Client <unknown> has exceeded timeout, disconnecting.
+1723902500: New connection from 172.26.0.8:57730 on port 1883.
+1723902595: Client <unknown> has exceeded timeout, disconnecting.
+1723902600: New connection from 172.26.0.8:54586 on port 1883.
+1723902691: Client <unknown> has exceeded timeout, disconnecting.
+1723902691: New connection from 172.26.0.8:40856 on port 1883.
+1723902787: Client <unknown> has exceeded timeout, disconnecting.
+1723902792: New connection from 172.26.0.8:40780 on port 1883.
+1723902883: Client <unknown> has exceeded timeout, disconnecting.
+1723902883: New connection from 172.26.0.8:59992 on port 1883.
+1723902979: Client <unknown> has exceeded timeout, disconnecting.
+1723902984: New connection from 172.26.0.8:47624 on port 1883.
+1723903075: Client <unknown> has exceeded timeout, disconnecting.
+1723903075: New connection from 172.26.0.8:56318 on port 1883.
+1723903171: Client <unknown> has exceeded timeout, disconnecting.
+1723903176: New connection from 172.26.0.8:35256 on port 1883.
+1723903267: Client <unknown> has exceeded timeout, disconnecting.
+1723903267: New connection from 172.26.0.8:39058 on port 1883.
+1723903364: Client <unknown> has exceeded timeout, disconnecting.
+1723903369: New connection from 172.26.0.8:38480 on port 1883.
+1723903459: Client <unknown> has exceeded timeout, disconnecting.
+1723903459: New connection from 172.26.0.8:57008 on port 1883.
+1723903555: Client <unknown> has exceeded timeout, disconnecting.
+1723903560: New connection from 172.26.0.8:43198 on port 1883.
+1723903651: Client <unknown> has exceeded timeout, disconnecting.
+1723903651: New connection from 172.26.0.8:60992 on port 1883.
+1723903747: Client <unknown> has exceeded timeout, disconnecting.
+1723903752: New connection from 172.26.0.8:39574 on port 1883.
+1723903835: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723903843: Client <unknown> has exceeded timeout, disconnecting.
+1723903843: New connection from 172.26.0.8:36316 on port 1883.
+1723903939: Client <unknown> has exceeded timeout, disconnecting.
+1723903944: New connection from 172.26.0.8:35022 on port 1883.
+1723904035: Client <unknown> has exceeded timeout, disconnecting.
+1723904035: New connection from 172.26.0.8:59966 on port 1883.
+1723904131: Client <unknown> has exceeded timeout, disconnecting.
+1723904136: New connection from 172.26.0.8:49390 on port 1883.
+1723904228: Client <unknown> has exceeded timeout, disconnecting.
+1723904228: New connection from 172.26.0.8:46954 on port 1883.
+1723904323: Client <unknown> has exceeded timeout, disconnecting.
+1723904328: New connection from 172.26.0.8:42256 on port 1883.
+1723904419: Client <unknown> has exceeded timeout, disconnecting.
+1723904419: New connection from 172.26.0.8:50740 on port 1883.
+1723904515: Client <unknown> has exceeded timeout, disconnecting.
+1723904520: New connection from 172.26.0.8:35612 on port 1883.
+1723904611: Client <unknown> has exceeded timeout, disconnecting.
+1723904611: New connection from 172.26.0.8:38286 on port 1883.
+1723904707: Client <unknown> has exceeded timeout, disconnecting.
+1723904712: New connection from 172.26.0.8:56416 on port 1883.
+1723904803: Client <unknown> has exceeded timeout, disconnecting.
+1723904803: New connection from 172.26.0.8:57598 on port 1883.
+1723904899: Client <unknown> has exceeded timeout, disconnecting.
+1723904904: New connection from 172.26.0.8:39936 on port 1883.
+1723904995: Client <unknown> has exceeded timeout, disconnecting.
+1723904995: New connection from 172.26.0.8:55564 on port 1883.
+1723905091: Client <unknown> has exceeded timeout, disconnecting.
+1723905096: New connection from 172.26.0.8:40056 on port 1883.
+1723905187: Client <unknown> has exceeded timeout, disconnecting.
+1723905187: New connection from 172.26.0.8:38690 on port 1883.
+1723905283: Client <unknown> has exceeded timeout, disconnecting.
+1723905288: New connection from 172.26.0.8:47970 on port 1883.
+1723905379: Client <unknown> has exceeded timeout, disconnecting.
+1723905379: New connection from 172.26.0.8:37228 on port 1883.
+1723905475: Client <unknown> has exceeded timeout, disconnecting.
+1723905480: New connection from 172.26.0.8:51400 on port 1883.
+1723905571: Client <unknown> has exceeded timeout, disconnecting.
+1723905571: New connection from 172.26.0.8:40934 on port 1883.
+1723905636: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723905667: Client <unknown> has exceeded timeout, disconnecting.
+1723905672: New connection from 172.26.0.8:60090 on port 1883.
+1723905763: Client <unknown> has exceeded timeout, disconnecting.
+1723905763: New connection from 172.26.0.8:37500 on port 1883.
+1723905859: Client <unknown> has exceeded timeout, disconnecting.
+1723905864: New connection from 172.26.0.8:37892 on port 1883.
+1723905955: Client <unknown> has exceeded timeout, disconnecting.
+1723905955: New connection from 172.26.0.8:43044 on port 1883.
+1723906051: Client <unknown> has exceeded timeout, disconnecting.
+1723906056: New connection from 172.26.0.8:50468 on port 1883.
+1723906147: Client <unknown> has exceeded timeout, disconnecting.
+1723906147: New connection from 172.26.0.8:44070 on port 1883.
+1723906243: Client <unknown> has exceeded timeout, disconnecting.
+1723906248: New connection from 172.26.0.8:42042 on port 1883.
+1723906339: Client <unknown> has exceeded timeout, disconnecting.
+1723906339: New connection from 172.26.0.8:58178 on port 1883.
+1723906435: Client <unknown> has exceeded timeout, disconnecting.
+1723906440: New connection from 172.26.0.8:35450 on port 1883.
+1723906531: Client <unknown> has exceeded timeout, disconnecting.
+1723906531: New connection from 172.26.0.8:60534 on port 1883.
+1723906627: Client <unknown> has exceeded timeout, disconnecting.
+1723906632: New connection from 172.26.0.8:48208 on port 1883.
+1723906723: Client <unknown> has exceeded timeout, disconnecting.
+1723906723: New connection from 172.26.0.8:33906 on port 1883.
+1723906819: Client <unknown> has exceeded timeout, disconnecting.
+1723906824: New connection from 172.26.0.8:34278 on port 1883.
+1723906915: Client <unknown> has exceeded timeout, disconnecting.
+1723906915: New connection from 172.26.0.8:56326 on port 1883.
+1723907011: Client <unknown> has exceeded timeout, disconnecting.
+1723907016: New connection from 172.26.0.8:54194 on port 1883.
+1723907107: Client <unknown> has exceeded timeout, disconnecting.
+1723907107: New connection from 172.26.0.8:35068 on port 1883.
+1723907203: Client <unknown> has exceeded timeout, disconnecting.
+1723907208: New connection from 172.26.0.8:56118 on port 1883.
+1723907299: Client <unknown> has exceeded timeout, disconnecting.
+1723907299: New connection from 172.26.0.8:51420 on port 1883.
+1723907395: Client <unknown> has exceeded timeout, disconnecting.
+1723907400: New connection from 172.26.0.8:38774 on port 1883.
+1723907437: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723907491: Client <unknown> has exceeded timeout, disconnecting.
+1723907491: New connection from 172.26.0.8:51074 on port 1883.
+1723907587: Client <unknown> has exceeded timeout, disconnecting.
+1723907592: New connection from 172.26.0.8:60716 on port 1883.
+1723907683: Client <unknown> has exceeded timeout, disconnecting.
+1723907683: New connection from 172.26.0.8:37530 on port 1883.
+1723907779: Client <unknown> has exceeded timeout, disconnecting.
+1723907784: New connection from 172.26.0.8:39060 on port 1883.
+1723907875: Client <unknown> has exceeded timeout, disconnecting.
+1723907875: New connection from 172.26.0.8:57160 on port 1883.
+1723907971: Client <unknown> has exceeded timeout, disconnecting.
+1723907976: New connection from 172.26.0.8:40778 on port 1883.
+1723908067: Client <unknown> has exceeded timeout, disconnecting.
+1723908067: New connection from 172.26.0.8:54620 on port 1883.
+1723908163: Client <unknown> has exceeded timeout, disconnecting.
+1723908168: New connection from 172.26.0.8:33842 on port 1883.
+1723908259: Client <unknown> has exceeded timeout, disconnecting.
+1723908259: New connection from 172.26.0.8:44708 on port 1883.
+1723908355: Client <unknown> has exceeded timeout, disconnecting.
+1723908360: New connection from 172.26.0.8:55936 on port 1883.
+1723908451: Client <unknown> has exceeded timeout, disconnecting.
+1723908451: New connection from 172.26.0.8:45570 on port 1883.
+1723908547: Client <unknown> has exceeded timeout, disconnecting.
+1723908552: New connection from 172.26.0.8:48978 on port 1883.
+1723908643: Client <unknown> has exceeded timeout, disconnecting.
+1723908643: New connection from 172.26.0.8:57790 on port 1883.
+1723908739: Client <unknown> has exceeded timeout, disconnecting.
+1723908744: New connection from 172.26.0.8:54202 on port 1883.
+1723908835: Client <unknown> has exceeded timeout, disconnecting.
+1723908835: New connection from 172.26.0.8:38182 on port 1883.
+1723908931: Client <unknown> has exceeded timeout, disconnecting.
+1723908936: New connection from 172.26.0.8:49876 on port 1883.
+1723909027: Client <unknown> has exceeded timeout, disconnecting.
+1723909027: New connection from 172.26.0.8:59478 on port 1883.
+1723909123: Client <unknown> has exceeded timeout, disconnecting.
+1723909128: New connection from 172.26.0.8:51922 on port 1883.
+1723909219: Client <unknown> has exceeded timeout, disconnecting.
+1723909219: New connection from 172.26.0.8:38480 on port 1883.
+1723909238: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723909315: Client <unknown> has exceeded timeout, disconnecting.
+1723909320: New connection from 172.26.0.8:37594 on port 1883.
+1723909411: Client <unknown> has exceeded timeout, disconnecting.
+1723909411: New connection from 172.26.0.8:46660 on port 1883.
+1723909507: Client <unknown> has exceeded timeout, disconnecting.
+1723909512: New connection from 172.26.0.8:41514 on port 1883.
+1723909603: Client <unknown> has exceeded timeout, disconnecting.
+1723909603: New connection from 172.26.0.8:58660 on port 1883.
+1723909699: Client <unknown> has exceeded timeout, disconnecting.
+1723909704: New connection from 172.26.0.8:50408 on port 1883.
+1723909795: Client <unknown> has exceeded timeout, disconnecting.
+1723909795: New connection from 172.26.0.8:40042 on port 1883.
+1723909891: Client <unknown> has exceeded timeout, disconnecting.
+1723909896: New connection from 172.26.0.8:60856 on port 1883.
+1723909987: Client <unknown> has exceeded timeout, disconnecting.
+1723909987: New connection from 172.26.0.8:53368 on port 1883.
+1723910083: Client <unknown> has exceeded timeout, disconnecting.
+1723910088: New connection from 172.26.0.8:47612 on port 1883.
+1723910179: Client <unknown> has exceeded timeout, disconnecting.
+1723910179: New connection from 172.26.0.8:55780 on port 1883.
+1723910275: Client <unknown> has exceeded timeout, disconnecting.
+1723910280: New connection from 172.26.0.8:57448 on port 1883.
+1723910371: Client <unknown> has exceeded timeout, disconnecting.
+1723910371: New connection from 172.26.0.8:53516 on port 1883.
+1723910467: Client <unknown> has exceeded timeout, disconnecting.
+1723910472: New connection from 172.26.0.8:59590 on port 1883.
+1723910563: Client <unknown> has exceeded timeout, disconnecting.
+1723910563: New connection from 172.26.0.8:52310 on port 1883.
+1723910659: Client <unknown> has exceeded timeout, disconnecting.
+1723910664: New connection from 172.26.0.8:51848 on port 1883.
+1723910755: Client <unknown> has exceeded timeout, disconnecting.
+1723910755: New connection from 172.26.0.8:55782 on port 1883.
+1723910851: Client <unknown> has exceeded timeout, disconnecting.
+1723910856: New connection from 172.26.0.8:60196 on port 1883.
+1723910947: Client <unknown> has exceeded timeout, disconnecting.
+1723910947: New connection from 172.26.0.8:59482 on port 1883.
+1723911039: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723911043: Client <unknown> has exceeded timeout, disconnecting.
+1723911048: New connection from 172.26.0.8:60868 on port 1883.
+1723911139: Client <unknown> has exceeded timeout, disconnecting.
+1723911139: New connection from 172.26.0.8:51626 on port 1883.
+1723911235: Client <unknown> has exceeded timeout, disconnecting.
+1723911240: New connection from 172.26.0.8:44536 on port 1883.
+1723911331: Client <unknown> has exceeded timeout, disconnecting.
+1723911331: New connection from 172.26.0.8:46842 on port 1883.
+1723911427: Client <unknown> has exceeded timeout, disconnecting.
+1723911432: New connection from 172.26.0.8:44212 on port 1883.
+1723911523: Client <unknown> has exceeded timeout, disconnecting.
+1723911523: New connection from 172.26.0.8:33852 on port 1883.
+1723911619: Client <unknown> has exceeded timeout, disconnecting.
+1723911624: New connection from 172.26.0.8:52574 on port 1883.
+1723911715: Client <unknown> has exceeded timeout, disconnecting.
+1723911715: New connection from 172.26.0.8:39954 on port 1883.
+1723911811: Client <unknown> has exceeded timeout, disconnecting.
+1723911816: New connection from 172.26.0.8:52818 on port 1883.
+1723911907: Client <unknown> has exceeded timeout, disconnecting.
+1723911907: New connection from 172.26.0.8:57354 on port 1883.
+1723912003: Client <unknown> has exceeded timeout, disconnecting.
+1723912008: New connection from 172.26.0.8:49392 on port 1883.
+1723912099: Client <unknown> has exceeded timeout, disconnecting.
+1723912099: New connection from 172.26.0.8:49386 on port 1883.
+1723912195: Client <unknown> has exceeded timeout, disconnecting.
+1723912200: New connection from 172.26.0.8:47092 on port 1883.
+1723912291: Client <unknown> has exceeded timeout, disconnecting.
+1723912291: New connection from 172.26.0.8:41128 on port 1883.
+1723912387: Client <unknown> has exceeded timeout, disconnecting.
+1723912392: New connection from 172.26.0.8:34226 on port 1883.
+1723912483: Client <unknown> has exceeded timeout, disconnecting.
+1723912483: New connection from 172.26.0.8:40454 on port 1883.
+1723912579: Client <unknown> has exceeded timeout, disconnecting.
+1723912584: New connection from 172.26.0.8:40144 on port 1883.
+1723912675: Client <unknown> has exceeded timeout, disconnecting.
+1723912675: New connection from 172.26.0.8:48132 on port 1883.
+1723912771: Client <unknown> has exceeded timeout, disconnecting.
+1723912776: New connection from 172.26.0.8:41354 on port 1883.
+1723912840: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723912867: Client <unknown> has exceeded timeout, disconnecting.
+1723912867: New connection from 172.26.0.8:55338 on port 1883.
+1723912963: Client <unknown> has exceeded timeout, disconnecting.
+1723912968: New connection from 172.26.0.8:50328 on port 1883.
+1723913059: Client <unknown> has exceeded timeout, disconnecting.
+1723913059: New connection from 172.26.0.8:38706 on port 1883.
+1723913155: Client <unknown> has exceeded timeout, disconnecting.
+1723913160: New connection from 172.26.0.8:46486 on port 1883.
+1723913251: Client <unknown> has exceeded timeout, disconnecting.
+1723913251: New connection from 172.26.0.8:56288 on port 1883.
+1723913347: Client <unknown> has exceeded timeout, disconnecting.
+1723913352: New connection from 172.26.0.8:45368 on port 1883.
+1723913443: Client <unknown> has exceeded timeout, disconnecting.
+1723913443: New connection from 172.26.0.8:49366 on port 1883.
+1723913539: Client <unknown> has exceeded timeout, disconnecting.
+1723913544: New connection from 172.26.0.8:38548 on port 1883.
+1723913635: Client <unknown> has exceeded timeout, disconnecting.
+1723913635: New connection from 172.26.0.8:50196 on port 1883.
+1723913731: Client <unknown> has exceeded timeout, disconnecting.
+1723913736: New connection from 172.26.0.8:55800 on port 1883.
+1723913827: Client <unknown> has exceeded timeout, disconnecting.
+1723913827: New connection from 172.26.0.8:60692 on port 1883.
+1723913923: Client <unknown> has exceeded timeout, disconnecting.
+1723913928: New connection from 172.26.0.8:51012 on port 1883.
+1723914019: Client <unknown> has exceeded timeout, disconnecting.
+1723914019: New connection from 172.26.0.8:41494 on port 1883.
+1723914115: Client <unknown> has exceeded timeout, disconnecting.
+1723914120: New connection from 172.26.0.8:51906 on port 1883.
+1723914211: Client <unknown> has exceeded timeout, disconnecting.
+1723914211: New connection from 172.26.0.8:48044 on port 1883.
+1723914307: Client <unknown> has exceeded timeout, disconnecting.
+1723914312: New connection from 172.26.0.8:40106 on port 1883.
+1723914403: Client <unknown> has exceeded timeout, disconnecting.
+1723914403: New connection from 172.26.0.8:47344 on port 1883.
+1723914499: Client <unknown> has exceeded timeout, disconnecting.
+1723914504: New connection from 172.26.0.8:45954 on port 1883.
+1723914595: Client <unknown> has exceeded timeout, disconnecting.
+1723914595: New connection from 172.26.0.8:57386 on port 1883.
+1723914641: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723914691: Client <unknown> has exceeded timeout, disconnecting.
+1723914696: New connection from 172.26.0.8:53822 on port 1883.
+1723914787: Client <unknown> has exceeded timeout, disconnecting.
+1723914787: New connection from 172.26.0.8:58856 on port 1883.
+1723914883: Client <unknown> has exceeded timeout, disconnecting.
+1723914888: New connection from 172.26.0.8:46744 on port 1883.
+1723914979: Client <unknown> has exceeded timeout, disconnecting.
+1723914979: New connection from 172.26.0.8:37386 on port 1883.
+1723915075: Client <unknown> has exceeded timeout, disconnecting.
+1723915080: New connection from 172.26.0.8:47610 on port 1883.
+1723915171: Client <unknown> has exceeded timeout, disconnecting.
+1723915171: New connection from 172.26.0.8:43962 on port 1883.
+1723915267: Client <unknown> has exceeded timeout, disconnecting.
+1723915272: New connection from 172.26.0.8:36174 on port 1883.
+1723915363: Client <unknown> has exceeded timeout, disconnecting.
+1723915363: New connection from 172.26.0.8:44382 on port 1883.
+1723915459: Client <unknown> has exceeded timeout, disconnecting.
+1723915464: New connection from 172.26.0.8:40886 on port 1883.
+1723915555: Client <unknown> has exceeded timeout, disconnecting.
+1723915555: New connection from 172.26.0.8:43432 on port 1883.
+1723915651: Client <unknown> has exceeded timeout, disconnecting.
+1723915656: New connection from 172.26.0.8:47368 on port 1883.
+1723915747: Client <unknown> has exceeded timeout, disconnecting.
+1723915747: New connection from 172.26.0.8:34866 on port 1883.
+1723915843: Client <unknown> has exceeded timeout, disconnecting.
+1723915848: New connection from 172.26.0.8:47878 on port 1883.
+1723915939: Client <unknown> has exceeded timeout, disconnecting.
+1723915939: New connection from 172.26.0.8:36386 on port 1883.
+1723916035: Client <unknown> has exceeded timeout, disconnecting.
+1723916040: New connection from 172.26.0.8:44556 on port 1883.
+1723916131: Client <unknown> has exceeded timeout, disconnecting.
+1723916131: New connection from 172.26.0.8:56582 on port 1883.
+1723916227: Client <unknown> has exceeded timeout, disconnecting.
+1723916232: New connection from 172.26.0.8:50000 on port 1883.
+1723916323: Client <unknown> has exceeded timeout, disconnecting.
+1723916323: New connection from 172.26.0.8:52544 on port 1883.
+1723916419: Client <unknown> has exceeded timeout, disconnecting.
+1723916424: New connection from 172.26.0.8:47604 on port 1883.
+1723916442: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723916515: Client <unknown> has exceeded timeout, disconnecting.
+1723916515: New connection from 172.26.0.8:37826 on port 1883.
+1723916611: Client <unknown> has exceeded timeout, disconnecting.
+1723916616: New connection from 172.26.0.8:57282 on port 1883.
+1723916707: Client <unknown> has exceeded timeout, disconnecting.
+1723916707: New connection from 172.26.0.8:57594 on port 1883.
+1723916803: Client <unknown> has exceeded timeout, disconnecting.
+1723916808: New connection from 172.26.0.8:60102 on port 1883.
+1723916899: Client <unknown> has exceeded timeout, disconnecting.
+1723916899: New connection from 172.26.0.8:55978 on port 1883.
+1723916995: Client <unknown> has exceeded timeout, disconnecting.
+1723917000: New connection from 172.26.0.8:55618 on port 1883.
+1723917091: Client <unknown> has exceeded timeout, disconnecting.
+1723917091: New connection from 172.26.0.8:50566 on port 1883.
+1723917187: Client <unknown> has exceeded timeout, disconnecting.
+1723917192: New connection from 172.26.0.8:52648 on port 1883.
+1723917283: Client <unknown> has exceeded timeout, disconnecting.
+1723917283: New connection from 172.26.0.8:50654 on port 1883.
+1723917379: Client <unknown> has exceeded timeout, disconnecting.
+1723917384: New connection from 172.26.0.8:35544 on port 1883.
+1723917475: Client <unknown> has exceeded timeout, disconnecting.
+1723917475: New connection from 172.26.0.8:35752 on port 1883.
+1723917571: Client <unknown> has exceeded timeout, disconnecting.
+1723917576: New connection from 172.26.0.8:49676 on port 1883.
+1723917667: Client <unknown> has exceeded timeout, disconnecting.
+1723917667: New connection from 172.26.0.8:42988 on port 1883.
+1723917763: Client <unknown> has exceeded timeout, disconnecting.
+1723917768: New connection from 172.26.0.8:44484 on port 1883.
+1723917859: Client <unknown> has exceeded timeout, disconnecting.
+1723917859: New connection from 172.26.0.8:39904 on port 1883.
+1723917955: Client <unknown> has exceeded timeout, disconnecting.
+1723917960: New connection from 172.26.0.8:58114 on port 1883.
+1723918051: Client <unknown> has exceeded timeout, disconnecting.
+1723918051: New connection from 172.26.0.8:56810 on port 1883.
+1723918147: Client <unknown> has exceeded timeout, disconnecting.
+1723918152: New connection from 172.26.0.8:54678 on port 1883.
+1723918243: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723918243: Client <unknown> has exceeded timeout, disconnecting.
+1723918243: New connection from 172.26.0.8:47582 on port 1883.
+1723918339: Client <unknown> has exceeded timeout, disconnecting.
+1723918344: New connection from 172.26.0.8:54052 on port 1883.
+1723918435: Client <unknown> has exceeded timeout, disconnecting.
+1723918435: New connection from 172.26.0.8:59272 on port 1883.
+1723918531: Client <unknown> has exceeded timeout, disconnecting.
+1723918536: New connection from 172.26.0.8:42974 on port 1883.
+1723918627: Client <unknown> has exceeded timeout, disconnecting.
+1723918627: New connection from 172.26.0.8:59818 on port 1883.
+1723918723: Client <unknown> has exceeded timeout, disconnecting.
+1723918728: New connection from 172.26.0.8:44208 on port 1883.
+1723918819: Client <unknown> has exceeded timeout, disconnecting.
+1723918819: New connection from 172.26.0.8:33652 on port 1883.
+1723918915: Client <unknown> has exceeded timeout, disconnecting.
+1723918920: New connection from 172.26.0.8:53864 on port 1883.
+1723919011: Client <unknown> has exceeded timeout, disconnecting.
+1723919011: New connection from 172.26.0.8:47574 on port 1883.
+1723919107: Client <unknown> has exceeded timeout, disconnecting.
+1723919112: New connection from 172.26.0.8:51558 on port 1883.
+1723919203: Client <unknown> has exceeded timeout, disconnecting.
+1723919203: New connection from 172.26.0.8:41862 on port 1883.
+1723919299: Client <unknown> has exceeded timeout, disconnecting.
+1723919304: New connection from 172.26.0.8:36840 on port 1883.
+1723919395: Client <unknown> has exceeded timeout, disconnecting.
+1723919395: New connection from 172.26.0.8:36126 on port 1883.
+1723919491: Client <unknown> has exceeded timeout, disconnecting.
+1723919496: New connection from 172.26.0.8:49076 on port 1883.
+1723919587: Client <unknown> has exceeded timeout, disconnecting.
+1723919587: New connection from 172.26.0.8:49144 on port 1883.
+1723919683: Client <unknown> has exceeded timeout, disconnecting.
+1723919688: New connection from 172.26.0.8:47398 on port 1883.
+1723919779: Client <unknown> has exceeded timeout, disconnecting.
+1723919779: New connection from 172.26.0.8:42206 on port 1883.
+1723919875: Client <unknown> has exceeded timeout, disconnecting.
+1723919880: New connection from 172.26.0.8:54038 on port 1883.
+1723919971: Client <unknown> has exceeded timeout, disconnecting.
+1723919971: New connection from 172.26.0.8:56240 on port 1883.
+1723920044: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723920067: Client <unknown> has exceeded timeout, disconnecting.
+1723920072: New connection from 172.26.0.8:54180 on port 1883.
+1723920163: Client <unknown> has exceeded timeout, disconnecting.
+1723920163: New connection from 172.26.0.8:59784 on port 1883.
+1723920259: Client <unknown> has exceeded timeout, disconnecting.
+1723920264: New connection from 172.26.0.8:49122 on port 1883.
+1723920355: Client <unknown> has exceeded timeout, disconnecting.
+1723920355: New connection from 172.26.0.8:43774 on port 1883.
+1723920451: Client <unknown> has exceeded timeout, disconnecting.
+1723920456: New connection from 172.26.0.8:42480 on port 1883.
+1723920547: Client <unknown> has exceeded timeout, disconnecting.
+1723920547: New connection from 172.26.0.8:51552 on port 1883.
+1723920643: Client <unknown> has exceeded timeout, disconnecting.
+1723920648: New connection from 172.26.0.8:34880 on port 1883.
+1723920739: Client <unknown> has exceeded timeout, disconnecting.
+1723920739: New connection from 172.26.0.8:42556 on port 1883.
+1723920835: Client <unknown> has exceeded timeout, disconnecting.
+1723920840: New connection from 172.26.0.8:58302 on port 1883.
+1723920931: Client <unknown> has exceeded timeout, disconnecting.
+1723920931: New connection from 172.26.0.8:51196 on port 1883.
+1723921027: Client <unknown> has exceeded timeout, disconnecting.
+1723921032: New connection from 172.26.0.8:35712 on port 1883.
+1723921123: Client <unknown> has exceeded timeout, disconnecting.
+1723921123: New connection from 172.26.0.8:59556 on port 1883.
+1723921219: Client <unknown> has exceeded timeout, disconnecting.
+1723921224: New connection from 172.26.0.8:47010 on port 1883.
+1723921315: Client <unknown> has exceeded timeout, disconnecting.
+1723921315: New connection from 172.26.0.8:51846 on port 1883.
+1723921411: Client <unknown> has exceeded timeout, disconnecting.
+1723921416: New connection from 172.26.0.8:49510 on port 1883.
+1723921507: Client <unknown> has exceeded timeout, disconnecting.
+1723921507: New connection from 172.26.0.8:48308 on port 1883.
+1723921603: Client <unknown> has exceeded timeout, disconnecting.
+1723921608: New connection from 172.26.0.8:48144 on port 1883.
+1723921699: Client <unknown> has exceeded timeout, disconnecting.
+1723921699: New connection from 172.26.0.8:54346 on port 1883.
+1723921795: Client <unknown> has exceeded timeout, disconnecting.
+1723921800: New connection from 172.26.0.8:39386 on port 1883.
+1723921845: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723921891: Client <unknown> has exceeded timeout, disconnecting.
+1723921891: New connection from 172.26.0.8:37340 on port 1883.
+1723921987: Client <unknown> has exceeded timeout, disconnecting.
+1723921992: New connection from 172.26.0.8:57228 on port 1883.
+1723922083: Client <unknown> has exceeded timeout, disconnecting.
+1723922083: New connection from 172.26.0.8:43704 on port 1883.
+1723922179: Client <unknown> has exceeded timeout, disconnecting.
+1723922184: New connection from 172.26.0.8:50042 on port 1883.
+1723922275: Client <unknown> has exceeded timeout, disconnecting.
+1723922275: New connection from 172.26.0.8:33520 on port 1883.
+1723922371: Client <unknown> has exceeded timeout, disconnecting.
+1723922376: New connection from 172.26.0.8:45614 on port 1883.
+1723922467: Client <unknown> has exceeded timeout, disconnecting.
+1723922467: New connection from 172.26.0.8:48750 on port 1883.
+1723922563: Client <unknown> has exceeded timeout, disconnecting.
+1723922568: New connection from 172.26.0.8:47680 on port 1883.
+1723922659: Client <unknown> has exceeded timeout, disconnecting.
+1723922659: New connection from 172.26.0.8:33680 on port 1883.
+1723922755: Client <unknown> has exceeded timeout, disconnecting.
+1723922760: New connection from 172.26.0.8:52518 on port 1883.
+1723922851: Client <unknown> has exceeded timeout, disconnecting.
+1723922851: New connection from 172.26.0.8:33880 on port 1883.
+1723922947: Client <unknown> has exceeded timeout, disconnecting.
+1723922952: New connection from 172.26.0.8:38428 on port 1883.
+1723923043: Client <unknown> has exceeded timeout, disconnecting.
+1723923043: New connection from 172.26.0.8:46880 on port 1883.
+1723923139: Client <unknown> has exceeded timeout, disconnecting.
+1723923144: New connection from 172.26.0.8:56560 on port 1883.
+1723923235: Client <unknown> has exceeded timeout, disconnecting.
+1723923235: New connection from 172.26.0.8:43632 on port 1883.
+1723923331: Client <unknown> has exceeded timeout, disconnecting.
+1723923336: New connection from 172.26.0.8:46630 on port 1883.
+1723923427: Client <unknown> has exceeded timeout, disconnecting.
+1723923427: New connection from 172.26.0.8:49618 on port 1883.
+1723923523: Client <unknown> has exceeded timeout, disconnecting.
+1723923528: New connection from 172.26.0.8:56572 on port 1883.
+1723923619: Client <unknown> has exceeded timeout, disconnecting.
+1723923619: New connection from 172.26.0.8:53148 on port 1883.
+1723923646: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723923715: Client <unknown> has exceeded timeout, disconnecting.
+1723923720: New connection from 172.26.0.8:54798 on port 1883.
+1723923811: Client <unknown> has exceeded timeout, disconnecting.
+1723923811: New connection from 172.26.0.8:36610 on port 1883.
+1723923907: Client <unknown> has exceeded timeout, disconnecting.
+1723923912: New connection from 172.26.0.8:38244 on port 1883.
+1723924003: Client <unknown> has exceeded timeout, disconnecting.
+1723924003: New connection from 172.26.0.8:58844 on port 1883.
+1723924099: Client <unknown> has exceeded timeout, disconnecting.
+1723924104: New connection from 172.26.0.8:58454 on port 1883.
+1723924195: Client <unknown> has exceeded timeout, disconnecting.
+1723924195: New connection from 172.26.0.8:34862 on port 1883.
+1723924291: Client <unknown> has exceeded timeout, disconnecting.
+1723924296: New connection from 172.26.0.8:35964 on port 1883.
+1723924387: Client <unknown> has exceeded timeout, disconnecting.
+1723924387: New connection from 172.26.0.8:44912 on port 1883.
+1723924483: Client <unknown> has exceeded timeout, disconnecting.
+1723924488: New connection from 172.26.0.8:54302 on port 1883.
+1723924579: Client <unknown> has exceeded timeout, disconnecting.
+1723924579: New connection from 172.26.0.8:39416 on port 1883.
+1723924675: Client <unknown> has exceeded timeout, disconnecting.
+1723924680: New connection from 172.26.0.8:49690 on port 1883.
+1723924771: Client <unknown> has exceeded timeout, disconnecting.
+1723924771: New connection from 172.26.0.8:35342 on port 1883.
+1723924867: Client <unknown> has exceeded timeout, disconnecting.
+1723924872: New connection from 172.26.0.8:57688 on port 1883.
+1723924963: Client <unknown> has exceeded timeout, disconnecting.
+1723924963: New connection from 172.26.0.8:35404 on port 1883.
+1723925059: Client <unknown> has exceeded timeout, disconnecting.
+1723925064: New connection from 172.26.0.8:42364 on port 1883.
+1723925155: Client <unknown> has exceeded timeout, disconnecting.
+1723925155: New connection from 172.26.0.8:55452 on port 1883.
+1723925251: Client <unknown> has exceeded timeout, disconnecting.
+1723925256: New connection from 172.26.0.8:45494 on port 1883.
+1723925347: Client <unknown> has exceeded timeout, disconnecting.
+1723925347: New connection from 172.26.0.8:46050 on port 1883.
+1723925443: Client <unknown> has exceeded timeout, disconnecting.
+1723925447: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723925448: New connection from 172.26.0.8:48108 on port 1883.
+1723925539: Client <unknown> has exceeded timeout, disconnecting.
+1723925539: New connection from 172.26.0.8:33218 on port 1883.
+1723925635: Client <unknown> has exceeded timeout, disconnecting.
+1723925640: New connection from 172.26.0.8:33352 on port 1883.
+1723925731: Client <unknown> has exceeded timeout, disconnecting.
+1723925731: New connection from 172.26.0.8:34718 on port 1883.
+1723925827: Client <unknown> has exceeded timeout, disconnecting.
+1723925832: New connection from 172.26.0.8:56700 on port 1883.
+1723925923: Client <unknown> has exceeded timeout, disconnecting.
+1723925923: New connection from 172.26.0.8:50960 on port 1883.
+1723926019: Client <unknown> has exceeded timeout, disconnecting.
+1723926024: New connection from 172.26.0.8:52322 on port 1883.
+1723926115: Client <unknown> has exceeded timeout, disconnecting.
+1723926115: New connection from 172.26.0.8:47876 on port 1883.
+1723926211: Client <unknown> has exceeded timeout, disconnecting.
+1723926216: New connection from 172.26.0.8:33506 on port 1883.
+1723926307: Client <unknown> has exceeded timeout, disconnecting.
+1723926307: New connection from 172.26.0.8:39466 on port 1883.
+1723926403: Client <unknown> has exceeded timeout, disconnecting.
+1723926408: New connection from 172.26.0.8:46086 on port 1883.
+1723926499: Client <unknown> has exceeded timeout, disconnecting.
+1723926499: New connection from 172.26.0.8:38944 on port 1883.
+1723926595: Client <unknown> has exceeded timeout, disconnecting.
+1723926600: New connection from 172.26.0.8:51932 on port 1883.
+1723926691: Client <unknown> has exceeded timeout, disconnecting.
+1723926691: New connection from 172.26.0.8:52328 on port 1883.
+1723926787: Client <unknown> has exceeded timeout, disconnecting.
+1723926792: New connection from 172.26.0.8:38690 on port 1883.
+1723926883: Client <unknown> has exceeded timeout, disconnecting.
+1723926883: New connection from 172.26.0.8:55996 on port 1883.
+1723926979: Client <unknown> has exceeded timeout, disconnecting.
+1723926984: New connection from 172.26.0.8:49394 on port 1883.
+1723927075: Client <unknown> has exceeded timeout, disconnecting.
+1723927075: New connection from 172.26.0.8:43592 on port 1883.
+1723927171: Client <unknown> has exceeded timeout, disconnecting.
+1723927176: New connection from 172.26.0.8:49810 on port 1883.
+1723927248: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723927267: Client <unknown> has exceeded timeout, disconnecting.
+1723927267: New connection from 172.26.0.8:36528 on port 1883.
+1723927363: Client <unknown> has exceeded timeout, disconnecting.
+1723927368: New connection from 172.26.0.8:54288 on port 1883.
+1723927459: Client <unknown> has exceeded timeout, disconnecting.
+1723927459: New connection from 172.26.0.8:36012 on port 1883.
+1723927555: Client <unknown> has exceeded timeout, disconnecting.
+1723927560: New connection from 172.26.0.8:46266 on port 1883.
+1723927651: Client <unknown> has exceeded timeout, disconnecting.
+1723927651: New connection from 172.26.0.8:60784 on port 1883.
+1723927747: Client <unknown> has exceeded timeout, disconnecting.
+1723927752: New connection from 172.26.0.8:43230 on port 1883.
+1723927843: Client <unknown> has exceeded timeout, disconnecting.
+1723927843: New connection from 172.26.0.8:60326 on port 1883.
+1723927939: Client <unknown> has exceeded timeout, disconnecting.
+1723927944: New connection from 172.26.0.8:35362 on port 1883.
+1723928035: Client <unknown> has exceeded timeout, disconnecting.
+1723928035: New connection from 172.26.0.8:47000 on port 1883.
+1723928131: Client <unknown> has exceeded timeout, disconnecting.
+1723928136: New connection from 172.26.0.8:47538 on port 1883.
+1723928227: Client <unknown> has exceeded timeout, disconnecting.
+1723928227: New connection from 172.26.0.8:47642 on port 1883.
+1723928323: Client <unknown> has exceeded timeout, disconnecting.
+1723928328: New connection from 172.26.0.8:35430 on port 1883.
+1723928419: Client <unknown> has exceeded timeout, disconnecting.
+1723928419: New connection from 172.26.0.8:43402 on port 1883.
+1723928515: Client <unknown> has exceeded timeout, disconnecting.
+1723928520: New connection from 172.26.0.8:52616 on port 1883.
+1723928611: Client <unknown> has exceeded timeout, disconnecting.
+1723928611: New connection from 172.26.0.8:55162 on port 1883.
+1723928707: Client <unknown> has exceeded timeout, disconnecting.
+1723928712: New connection from 172.26.0.8:45266 on port 1883.
+1723928803: Client <unknown> has exceeded timeout, disconnecting.
+1723928803: New connection from 172.26.0.8:41252 on port 1883.
+1723928899: Client <unknown> has exceeded timeout, disconnecting.
+1723928904: New connection from 172.26.0.8:35884 on port 1883.
+1723928995: Client <unknown> has exceeded timeout, disconnecting.
+1723928995: New connection from 172.26.0.8:48446 on port 1883.
+1723929049: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723929091: Client <unknown> has exceeded timeout, disconnecting.
+1723929096: New connection from 172.26.0.8:42120 on port 1883.
+1723929187: Client <unknown> has exceeded timeout, disconnecting.
+1723929187: New connection from 172.26.0.8:52406 on port 1883.
+1723929283: Client <unknown> has exceeded timeout, disconnecting.
+1723929288: New connection from 172.26.0.8:38038 on port 1883.
+1723929379: Client <unknown> has exceeded timeout, disconnecting.
+1723929379: New connection from 172.26.0.8:46314 on port 1883.
+1723929475: Client <unknown> has exceeded timeout, disconnecting.
+1723929480: New connection from 172.26.0.8:48606 on port 1883.
+1723929571: Client <unknown> has exceeded timeout, disconnecting.
+1723929571: New connection from 172.26.0.8:35748 on port 1883.
+1723929667: Client <unknown> has exceeded timeout, disconnecting.
+1723929672: New connection from 172.26.0.8:36952 on port 1883.
+1723929763: Client <unknown> has exceeded timeout, disconnecting.
+1723929763: New connection from 172.26.0.8:50746 on port 1883.
+1723929859: Client <unknown> has exceeded timeout, disconnecting.
+1723929864: New connection from 172.26.0.8:35084 on port 1883.
+1723929955: Client <unknown> has exceeded timeout, disconnecting.
+1723929955: New connection from 172.26.0.8:53204 on port 1883.
+1723930051: Client <unknown> has exceeded timeout, disconnecting.
+1723930056: New connection from 172.26.0.8:43846 on port 1883.
+1723930147: Client <unknown> has exceeded timeout, disconnecting.
+1723930147: New connection from 172.26.0.8:48026 on port 1883.
+1723930243: Client <unknown> has exceeded timeout, disconnecting.
+1723930248: New connection from 172.26.0.8:52528 on port 1883.
+1723930339: Client <unknown> has exceeded timeout, disconnecting.
+1723930339: New connection from 172.26.0.8:43442 on port 1883.
+1723930435: Client <unknown> has exceeded timeout, disconnecting.
+1723930440: New connection from 172.26.0.8:51234 on port 1883.
+1723930531: Client <unknown> has exceeded timeout, disconnecting.
+1723930531: New connection from 172.26.0.8:41282 on port 1883.
+1723930627: Client <unknown> has exceeded timeout, disconnecting.
+1723930632: New connection from 172.26.0.8:57466 on port 1883.
+1723930723: Client <unknown> has exceeded timeout, disconnecting.
+1723930723: New connection from 172.26.0.8:52796 on port 1883.
+1723930819: Client <unknown> has exceeded timeout, disconnecting.
+1723930824: New connection from 172.26.0.8:34088 on port 1883.
+1723930850: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723930915: Client <unknown> has exceeded timeout, disconnecting.
+1723930915: New connection from 172.26.0.8:42720 on port 1883.
+1723931011: Client <unknown> has exceeded timeout, disconnecting.
+1723931016: New connection from 172.26.0.8:41894 on port 1883.
+1723931107: Client <unknown> has exceeded timeout, disconnecting.
+1723931107: New connection from 172.26.0.8:33870 on port 1883.
+1723931203: Client <unknown> has exceeded timeout, disconnecting.
+1723931208: New connection from 172.26.0.8:54184 on port 1883.
+1723931299: Client <unknown> has exceeded timeout, disconnecting.
+1723931299: New connection from 172.26.0.8:38580 on port 1883.
+1723931395: Client <unknown> has exceeded timeout, disconnecting.
+1723931400: New connection from 172.26.0.8:59766 on port 1883.
+1723931491: Client <unknown> has exceeded timeout, disconnecting.
+1723931491: New connection from 172.26.0.8:36744 on port 1883.
+1723931587: Client <unknown> has exceeded timeout, disconnecting.
+1723931592: New connection from 172.26.0.8:44350 on port 1883.
+1723931683: Client <unknown> has exceeded timeout, disconnecting.
+1723931683: New connection from 172.26.0.8:49510 on port 1883.
+1723931779: Client <unknown> has exceeded timeout, disconnecting.
+1723931784: New connection from 172.26.0.8:37742 on port 1883.
+1723931875: Client <unknown> has exceeded timeout, disconnecting.
+1723931875: New connection from 172.26.0.8:60526 on port 1883.
+1723931971: Client <unknown> has exceeded timeout, disconnecting.
+1723931976: New connection from 172.26.0.8:41142 on port 1883.
+1723932067: Client <unknown> has exceeded timeout, disconnecting.
+1723932067: New connection from 172.26.0.8:34000 on port 1883.
+1723932163: Client <unknown> has exceeded timeout, disconnecting.
+1723932168: New connection from 172.26.0.8:33602 on port 1883.
+1723932259: Client <unknown> has exceeded timeout, disconnecting.
+1723932259: New connection from 172.26.0.8:44812 on port 1883.
+1723932355: Client <unknown> has exceeded timeout, disconnecting.
+1723932360: New connection from 172.26.0.8:34826 on port 1883.
+1723932451: Client <unknown> has exceeded timeout, disconnecting.
+1723932451: New connection from 172.26.0.8:38494 on port 1883.
+1723932547: Client <unknown> has exceeded timeout, disconnecting.
+1723932552: New connection from 172.26.0.8:51100 on port 1883.
+1723932643: Client <unknown> has exceeded timeout, disconnecting.
+1723932643: New connection from 172.26.0.8:34622 on port 1883.
+1723932651: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723932739: Client <unknown> has exceeded timeout, disconnecting.
+1723932744: New connection from 172.26.0.8:37338 on port 1883.
+1723932835: Client <unknown> has exceeded timeout, disconnecting.
+1723932835: New connection from 172.26.0.8:55434 on port 1883.
+1723932931: Client <unknown> has exceeded timeout, disconnecting.
+1723932936: New connection from 172.26.0.8:35892 on port 1883.
+1723933027: Client <unknown> has exceeded timeout, disconnecting.
+1723933027: New connection from 172.26.0.8:43572 on port 1883.
+1723933123: Client <unknown> has exceeded timeout, disconnecting.
+1723933128: New connection from 172.26.0.8:51700 on port 1883.
+1723933219: Client <unknown> has exceeded timeout, disconnecting.
+1723933219: New connection from 172.26.0.8:46306 on port 1883.
+1723933315: Client <unknown> has exceeded timeout, disconnecting.
+1723933320: New connection from 172.26.0.8:49200 on port 1883.
+1723933411: Client <unknown> has exceeded timeout, disconnecting.
+1723933411: New connection from 172.26.0.8:52302 on port 1883.
+1723933507: Client <unknown> has exceeded timeout, disconnecting.
+1723933512: New connection from 172.26.0.8:44944 on port 1883.
+1723933603: Client <unknown> has exceeded timeout, disconnecting.
+1723933603: New connection from 172.26.0.8:39154 on port 1883.
+1723933699: Client <unknown> has exceeded timeout, disconnecting.
+1723933704: New connection from 172.26.0.8:48438 on port 1883.
+1723933795: Client <unknown> has exceeded timeout, disconnecting.
+1723933795: New connection from 172.26.0.8:36966 on port 1883.
+1723933891: Client <unknown> has exceeded timeout, disconnecting.
+1723933896: New connection from 172.26.0.8:41682 on port 1883.
+1723933987: Client <unknown> has exceeded timeout, disconnecting.
+1723933987: New connection from 172.26.0.8:59824 on port 1883.
+1723934083: Client <unknown> has exceeded timeout, disconnecting.
+1723934088: New connection from 172.26.0.8:35862 on port 1883.
+1723934179: Client <unknown> has exceeded timeout, disconnecting.
+1723934179: New connection from 172.26.0.8:58684 on port 1883.
+1723934275: Client <unknown> has exceeded timeout, disconnecting.
+1723934280: New connection from 172.26.0.8:32844 on port 1883.
+1723934371: Client <unknown> has exceeded timeout, disconnecting.
+1723934371: New connection from 172.26.0.8:43184 on port 1883.
+1723934452: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723934467: Client <unknown> has exceeded timeout, disconnecting.
+1723934472: New connection from 172.26.0.8:36274 on port 1883.
+1723934563: Client <unknown> has exceeded timeout, disconnecting.
+1723934563: New connection from 172.26.0.8:58088 on port 1883.
+1723934659: Client <unknown> has exceeded timeout, disconnecting.
+1723934664: New connection from 172.26.0.8:50542 on port 1883.
+1723934755: Client <unknown> has exceeded timeout, disconnecting.
+1723934755: New connection from 172.26.0.8:45470 on port 1883.
+1723934851: Client <unknown> has exceeded timeout, disconnecting.
+1723934856: New connection from 172.26.0.8:36752 on port 1883.
+1723934947: Client <unknown> has exceeded timeout, disconnecting.
+1723934947: New connection from 172.26.0.8:49106 on port 1883.
+1723935043: Client <unknown> has exceeded timeout, disconnecting.
+1723935048: New connection from 172.26.0.8:46490 on port 1883.
+1723935139: Client <unknown> has exceeded timeout, disconnecting.
+1723935139: New connection from 172.26.0.8:50978 on port 1883.
+1723935235: Client <unknown> has exceeded timeout, disconnecting.
+1723935240: New connection from 172.26.0.8:33982 on port 1883.
+1723935331: Client <unknown> has exceeded timeout, disconnecting.
+1723935331: New connection from 172.26.0.8:53600 on port 1883.
+1723935427: Client <unknown> has exceeded timeout, disconnecting.
+1723935432: New connection from 172.26.0.8:41662 on port 1883.
+1723935523: Client <unknown> has exceeded timeout, disconnecting.
+1723935523: New connection from 172.26.0.8:34252 on port 1883.
+1723935619: Client <unknown> has exceeded timeout, disconnecting.
+1723935624: New connection from 172.26.0.8:43960 on port 1883.
+1723935715: Client <unknown> has exceeded timeout, disconnecting.
+1723935715: New connection from 172.26.0.8:42024 on port 1883.
+1723935811: Client <unknown> has exceeded timeout, disconnecting.
+1723935816: New connection from 172.26.0.8:58014 on port 1883.
+1723935907: Client <unknown> has exceeded timeout, disconnecting.
+1723935907: New connection from 172.26.0.8:35254 on port 1883.
+1723936003: Client <unknown> has exceeded timeout, disconnecting.
+1723936008: New connection from 172.26.0.8:43690 on port 1883.
+1723936099: Client <unknown> has exceeded timeout, disconnecting.
+1723936099: New connection from 172.26.0.8:46852 on port 1883.
+1723936195: Client <unknown> has exceeded timeout, disconnecting.
+1723936200: New connection from 172.26.0.8:50756 on port 1883.
+1723936253: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723936291: Client <unknown> has exceeded timeout, disconnecting.
+1723936291: New connection from 172.26.0.8:48920 on port 1883.
+1723936387: Client <unknown> has exceeded timeout, disconnecting.
+1723936392: New connection from 172.26.0.8:55426 on port 1883.
+1723936483: Client <unknown> has exceeded timeout, disconnecting.
+1723936483: New connection from 172.26.0.8:43010 on port 1883.
+1723936579: Client <unknown> has exceeded timeout, disconnecting.
+1723936584: New connection from 172.26.0.8:60906 on port 1883.
+1723936675: Client <unknown> has exceeded timeout, disconnecting.
+1723936675: New connection from 172.26.0.8:44920 on port 1883.
+1723936771: Client <unknown> has exceeded timeout, disconnecting.
+1723936776: New connection from 172.26.0.8:52832 on port 1883.
+1723936867: Client <unknown> has exceeded timeout, disconnecting.
+1723936867: New connection from 172.26.0.8:57706 on port 1883.
+1723936963: Client <unknown> has exceeded timeout, disconnecting.
+1723936968: New connection from 172.26.0.8:58232 on port 1883.
+1723937059: Client <unknown> has exceeded timeout, disconnecting.
+1723937059: New connection from 172.26.0.8:52316 on port 1883.
+1723937155: Client <unknown> has exceeded timeout, disconnecting.
+1723937160: New connection from 172.26.0.8:55456 on port 1883.
+1723937251: Client <unknown> has exceeded timeout, disconnecting.
+1723937251: New connection from 172.26.0.8:58712 on port 1883.
+1723937347: Client <unknown> has exceeded timeout, disconnecting.
+1723937352: New connection from 172.26.0.8:48486 on port 1883.
+1723937443: Client <unknown> has exceeded timeout, disconnecting.
+1723937443: New connection from 172.26.0.8:51478 on port 1883.
+1723937539: Client <unknown> has exceeded timeout, disconnecting.
+1723937544: New connection from 172.26.0.8:45696 on port 1883.
+1723937635: Client <unknown> has exceeded timeout, disconnecting.
+1723937635: New connection from 172.26.0.8:39010 on port 1883.
+1723937731: Client <unknown> has exceeded timeout, disconnecting.
+1723937736: New connection from 172.26.0.8:48266 on port 1883.
+1723937827: Client <unknown> has exceeded timeout, disconnecting.
+1723937827: New connection from 172.26.0.8:44906 on port 1883.
+1723937923: Client <unknown> has exceeded timeout, disconnecting.
+1723937928: New connection from 172.26.0.8:38540 on port 1883.
+1723938019: Client <unknown> has exceeded timeout, disconnecting.
+1723938019: New connection from 172.26.0.8:46372 on port 1883.
+1723938054: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723938115: Client <unknown> has exceeded timeout, disconnecting.
+1723938120: New connection from 172.26.0.8:54056 on port 1883.
+1723938211: Client <unknown> has exceeded timeout, disconnecting.
+1723938211: New connection from 172.26.0.8:36278 on port 1883.
+1723938307: Client <unknown> has exceeded timeout, disconnecting.
+1723938312: New connection from 172.26.0.8:42674 on port 1883.
+1723938403: Client <unknown> has exceeded timeout, disconnecting.
+1723938403: New connection from 172.26.0.8:38698 on port 1883.
+1723938499: Client <unknown> has exceeded timeout, disconnecting.
+1723938504: New connection from 172.26.0.8:45608 on port 1883.
+1723938595: Client <unknown> has exceeded timeout, disconnecting.
+1723938595: New connection from 172.26.0.8:46454 on port 1883.
+1723938691: Client <unknown> has exceeded timeout, disconnecting.
+1723938696: New connection from 172.26.0.8:48144 on port 1883.
+1723938787: Client <unknown> has exceeded timeout, disconnecting.
+1723938787: New connection from 172.26.0.8:33692 on port 1883.
+1723938883: Client <unknown> has exceeded timeout, disconnecting.
+1723938888: New connection from 172.26.0.8:35966 on port 1883.
+1723938979: Client <unknown> has exceeded timeout, disconnecting.
+1723938979: New connection from 172.26.0.8:59100 on port 1883.
+1723939075: Client <unknown> has exceeded timeout, disconnecting.
+1723939080: New connection from 172.26.0.8:43738 on port 1883.
+1723939171: Client <unknown> has exceeded timeout, disconnecting.
+1723939171: New connection from 172.26.0.8:39998 on port 1883.
+1723939267: Client <unknown> has exceeded timeout, disconnecting.
+1723939272: New connection from 172.26.0.8:45502 on port 1883.
+1723939363: Client <unknown> has exceeded timeout, disconnecting.
+1723939363: New connection from 172.26.0.8:41744 on port 1883.
+1723939459: Client <unknown> has exceeded timeout, disconnecting.
+1723939464: New connection from 172.26.0.8:40556 on port 1883.
+1723939555: Client <unknown> has exceeded timeout, disconnecting.
+1723939555: New connection from 172.26.0.8:42998 on port 1883.
+1723939651: Client <unknown> has exceeded timeout, disconnecting.
+1723939656: New connection from 172.26.0.8:35858 on port 1883.
+1723939747: Client <unknown> has exceeded timeout, disconnecting.
+1723939747: New connection from 172.26.0.8:56260 on port 1883.
+1723939843: Client <unknown> has exceeded timeout, disconnecting.
+1723939848: New connection from 172.26.0.8:56258 on port 1883.
+1723939855: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723939939: Client <unknown> has exceeded timeout, disconnecting.
+1723939939: New connection from 172.26.0.8:36968 on port 1883.
+1723940035: Client <unknown> has exceeded timeout, disconnecting.
+1723940040: New connection from 172.26.0.8:48402 on port 1883.
+1723940131: Client <unknown> has exceeded timeout, disconnecting.
+1723940131: New connection from 172.26.0.8:36858 on port 1883.
+1723940227: Client <unknown> has exceeded timeout, disconnecting.
+1723940232: New connection from 172.26.0.8:57514 on port 1883.
+1723940323: Client <unknown> has exceeded timeout, disconnecting.
+1723940323: New connection from 172.26.0.8:38494 on port 1883.
+1723940419: Client <unknown> has exceeded timeout, disconnecting.
+1723940424: New connection from 172.26.0.8:48366 on port 1883.
+1723940515: Client <unknown> has exceeded timeout, disconnecting.
+1723940515: New connection from 172.26.0.8:36606 on port 1883.
+1723940611: Client <unknown> has exceeded timeout, disconnecting.
+1723940616: New connection from 172.26.0.8:38168 on port 1883.
+1723940707: Client <unknown> has exceeded timeout, disconnecting.
+1723940707: New connection from 172.26.0.8:50728 on port 1883.
+1723940803: Client <unknown> has exceeded timeout, disconnecting.
+1723940808: New connection from 172.26.0.8:50086 on port 1883.
+1723940899: Client <unknown> has exceeded timeout, disconnecting.
+1723940899: New connection from 172.26.0.8:51554 on port 1883.
+1723940995: Client <unknown> has exceeded timeout, disconnecting.
+1723941000: New connection from 172.26.0.8:58638 on port 1883.
+1723941091: Client <unknown> has exceeded timeout, disconnecting.
+1723941091: New connection from 172.26.0.8:57470 on port 1883.
+1723941187: Client <unknown> has exceeded timeout, disconnecting.
+1723941192: New connection from 172.26.0.8:49436 on port 1883.
+1723941283: Client <unknown> has exceeded timeout, disconnecting.
+1723941283: New connection from 172.26.0.8:34222 on port 1883.
+1723941379: Client <unknown> has exceeded timeout, disconnecting.
+1723941384: New connection from 172.26.0.8:33164 on port 1883.
+1723941475: Client <unknown> has exceeded timeout, disconnecting.
+1723941475: New connection from 172.26.0.8:50582 on port 1883.
+1723941571: Client <unknown> has exceeded timeout, disconnecting.
+1723941576: New connection from 172.26.0.8:39576 on port 1883.
+1723941656: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723941667: Client <unknown> has exceeded timeout, disconnecting.
+1723941667: New connection from 172.26.0.8:42288 on port 1883.
+1723941763: Client <unknown> has exceeded timeout, disconnecting.
+1723941768: New connection from 172.26.0.8:59652 on port 1883.
+1723941859: Client <unknown> has exceeded timeout, disconnecting.
+1723941859: New connection from 172.26.0.8:52014 on port 1883.
+1723941955: Client <unknown> has exceeded timeout, disconnecting.
+1723941960: New connection from 172.26.0.8:60968 on port 1883.
+1723942051: Client <unknown> has exceeded timeout, disconnecting.
+1723942051: New connection from 172.26.0.8:39058 on port 1883.
+1723942147: Client <unknown> has exceeded timeout, disconnecting.
+1723942152: New connection from 172.26.0.8:41268 on port 1883.
+1723942243: Client <unknown> has exceeded timeout, disconnecting.
+1723942243: New connection from 172.26.0.8:57870 on port 1883.
+1723942339: Client <unknown> has exceeded timeout, disconnecting.
+1723942344: New connection from 172.26.0.8:42970 on port 1883.
+1723942435: Client <unknown> has exceeded timeout, disconnecting.
+1723942435: New connection from 172.26.0.8:42398 on port 1883.
+1723942531: Client <unknown> has exceeded timeout, disconnecting.
+1723942536: New connection from 172.26.0.8:35342 on port 1883.
+1723942627: Client <unknown> has exceeded timeout, disconnecting.
+1723942627: New connection from 172.26.0.8:34398 on port 1883.
+1723942723: Client <unknown> has exceeded timeout, disconnecting.
+1723942728: New connection from 172.26.0.8:59674 on port 1883.
+1723942819: Client <unknown> has exceeded timeout, disconnecting.
+1723942819: New connection from 172.26.0.8:60900 on port 1883.
+1723942915: Client <unknown> has exceeded timeout, disconnecting.
+1723942920: New connection from 172.26.0.8:58754 on port 1883.
+1723943011: Client <unknown> has exceeded timeout, disconnecting.
+1723943011: New connection from 172.26.0.8:34022 on port 1883.
+1723943107: Client <unknown> has exceeded timeout, disconnecting.
+1723943112: New connection from 172.26.0.8:48622 on port 1883.
+1723943203: Client <unknown> has exceeded timeout, disconnecting.
+1723943203: New connection from 172.26.0.8:46102 on port 1883.
+1723943299: Client <unknown> has exceeded timeout, disconnecting.
+1723943304: New connection from 172.26.0.8:50988 on port 1883.
+1723943395: Client <unknown> has exceeded timeout, disconnecting.
+1723943395: New connection from 172.26.0.8:36164 on port 1883.
+1723943457: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723943491: Client <unknown> has exceeded timeout, disconnecting.
+1723943496: New connection from 172.26.0.8:55100 on port 1883.
+1723943587: Client <unknown> has exceeded timeout, disconnecting.
+1723943587: New connection from 172.26.0.8:58302 on port 1883.
+1723943683: Client <unknown> has exceeded timeout, disconnecting.
+1723943688: New connection from 172.26.0.8:58904 on port 1883.
+1723943779: Client <unknown> has exceeded timeout, disconnecting.
+1723943779: New connection from 172.26.0.8:60480 on port 1883.
+1723943875: Client <unknown> has exceeded timeout, disconnecting.
+1723943880: New connection from 172.26.0.8:42510 on port 1883.
+1723943971: Client <unknown> has exceeded timeout, disconnecting.
+1723943971: New connection from 172.26.0.8:56974 on port 1883.
+1723944067: Client <unknown> has exceeded timeout, disconnecting.
+1723944072: New connection from 172.26.0.8:52936 on port 1883.
+1723944163: Client <unknown> has exceeded timeout, disconnecting.
+1723944163: New connection from 172.26.0.8:42456 on port 1883.
+1723944259: Client <unknown> has exceeded timeout, disconnecting.
+1723944264: New connection from 172.26.0.8:42796 on port 1883.
+1723944355: Client <unknown> has exceeded timeout, disconnecting.
+1723944355: New connection from 172.26.0.8:50484 on port 1883.
+1723944451: Client <unknown> has exceeded timeout, disconnecting.
+1723944456: New connection from 172.26.0.8:53226 on port 1883.
+1723944547: Client <unknown> has exceeded timeout, disconnecting.
+1723944547: New connection from 172.26.0.8:42544 on port 1883.
+1723944643: Client <unknown> has exceeded timeout, disconnecting.
+1723944648: New connection from 172.26.0.8:49192 on port 1883.
+1723944739: Client <unknown> has exceeded timeout, disconnecting.
+1723944739: New connection from 172.26.0.8:33892 on port 1883.
+1723944834: Client <unknown> has exceeded timeout, disconnecting.
+1723944840: New connection from 172.26.0.8:32868 on port 1883.
+1723944930: Client <unknown> has exceeded timeout, disconnecting.
+1723944930: New connection from 172.26.0.8:37422 on port 1883.
+1723945027: Client <unknown> has exceeded timeout, disconnecting.
+1723945032: New connection from 172.26.0.8:59716 on port 1883.
+1723945123: Client <unknown> has exceeded timeout, disconnecting.
+1723945123: New connection from 172.26.0.8:54988 on port 1883.
+1723945219: Client <unknown> has exceeded timeout, disconnecting.
+1723945224: New connection from 172.26.0.8:39938 on port 1883.
+1723945257: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723945315: Client <unknown> has exceeded timeout, disconnecting.
+1723945315: New connection from 172.26.0.8:35092 on port 1883.
+1723945411: Client <unknown> has exceeded timeout, disconnecting.
+1723945416: New connection from 172.26.0.8:45694 on port 1883.
+1723945507: Client <unknown> has exceeded timeout, disconnecting.
+1723945507: New connection from 172.26.0.8:49764 on port 1883.
+1723945602: Client <unknown> has exceeded timeout, disconnecting.
+1723945607: New connection from 172.26.0.8:41622 on port 1883.
+1723945699: Client <unknown> has exceeded timeout, disconnecting.
+1723945699: New connection from 172.26.0.8:53668 on port 1883.
+1723945795: Client <unknown> has exceeded timeout, disconnecting.
+1723945800: New connection from 172.26.0.8:46128 on port 1883.
+1723945890: Client <unknown> has exceeded timeout, disconnecting.
+1723945891: New connection from 172.26.0.8:56184 on port 1883.
+1723945986: Client <unknown> has exceeded timeout, disconnecting.
+1723945991: New connection from 172.26.0.8:42566 on port 1883.
+1723946082: Client <unknown> has exceeded timeout, disconnecting.
+1723946082: New connection from 172.26.0.8:55380 on port 1883.
+1723946178: Client <unknown> has exceeded timeout, disconnecting.
+1723946183: New connection from 172.26.0.8:50586 on port 1883.
+1723946275: Client <unknown> has exceeded timeout, disconnecting.
+1723946275: New connection from 172.26.0.8:54002 on port 1883.
+1723946371: Client <unknown> has exceeded timeout, disconnecting.
+1723946376: New connection from 172.26.0.8:48746 on port 1883.
+1723946467: Client <unknown> has exceeded timeout, disconnecting.
+1723946467: New connection from 172.26.0.8:43090 on port 1883.
+1723946563: Client <unknown> has exceeded timeout, disconnecting.
+1723946568: New connection from 172.26.0.8:36282 on port 1883.
+1723946658: Client <unknown> has exceeded timeout, disconnecting.
+1723946658: New connection from 172.26.0.8:59440 on port 1883.
+1723946755: Client <unknown> has exceeded timeout, disconnecting.
+1723946760: New connection from 172.26.0.8:40126 on port 1883.
+1723946850: Client <unknown> has exceeded timeout, disconnecting.
+1723946850: New connection from 172.26.0.8:50394 on port 1883.
+1723946946: Client <unknown> has exceeded timeout, disconnecting.
+1723946951: New connection from 172.26.0.8:50504 on port 1883.
+1723947042: Client <unknown> has exceeded timeout, disconnecting.
+1723947042: New connection from 172.26.0.8:54902 on port 1883.
+1723947058: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723947138: Client <unknown> has exceeded timeout, disconnecting.
+1723947143: New connection from 172.26.0.8:43014 on port 1883.
+1723947234: Client <unknown> has exceeded timeout, disconnecting.
+1723947234: New connection from 172.26.0.8:53886 on port 1883.
+1723947330: Client <unknown> has exceeded timeout, disconnecting.
+1723947335: New connection from 172.26.0.8:39556 on port 1883.
+1723947426: Client <unknown> has exceeded timeout, disconnecting.
+1723947426: New connection from 172.26.0.8:60348 on port 1883.
+1723947523: Client <unknown> has exceeded timeout, disconnecting.
+1723947528: New connection from 172.26.0.8:39158 on port 1883.
+1723947619: Client <unknown> has exceeded timeout, disconnecting.
+1723947619: New connection from 172.26.0.8:34798 on port 1883.
+1723947714: Client <unknown> has exceeded timeout, disconnecting.
+1723947719: New connection from 172.26.0.8:49410 on port 1883.
+1723947811: Client <unknown> has exceeded timeout, disconnecting.
+1723947811: New connection from 172.26.0.8:57562 on port 1883.
+1723947907: Client <unknown> has exceeded timeout, disconnecting.
+1723947912: New connection from 172.26.0.8:50210 on port 1883.
+1723948002: Client <unknown> has exceeded timeout, disconnecting.
+1723948002: New connection from 172.26.0.8:50764 on port 1883.
+1723948098: Client <unknown> has exceeded timeout, disconnecting.
+1723948103: New connection from 172.26.0.8:33112 on port 1883.
+1723948194: Client <unknown> has exceeded timeout, disconnecting.
+1723948195: New connection from 172.26.0.8:54788 on port 1883.
+1723948290: Client <unknown> has exceeded timeout, disconnecting.
+1723948295: New connection from 172.26.0.8:42292 on port 1883.
+1723948386: Client <unknown> has exceeded timeout, disconnecting.
+1723948386: New connection from 172.26.0.8:60642 on port 1883.
+1723948482: Client <unknown> has exceeded timeout, disconnecting.
+1723948487: New connection from 172.26.0.8:33970 on port 1883.
+1723948578: Client <unknown> has exceeded timeout, disconnecting.
+1723948578: New connection from 172.26.0.8:45736 on port 1883.
+1723948674: Client <unknown> has exceeded timeout, disconnecting.
+1723948679: New connection from 172.26.0.8:39964 on port 1883.
+1723948770: Client <unknown> has exceeded timeout, disconnecting.
+1723948770: New connection from 172.26.0.8:51616 on port 1883.
+1723948859: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723948866: Client <unknown> has exceeded timeout, disconnecting.
+1723948871: New connection from 172.26.0.8:55158 on port 1883.
+1723948962: Client <unknown> has exceeded timeout, disconnecting.
+1723948962: New connection from 172.26.0.8:55756 on port 1883.
+1723949058: Client <unknown> has exceeded timeout, disconnecting.
+1723949063: New connection from 172.26.0.8:52546 on port 1883.
+1723949154: Client <unknown> has exceeded timeout, disconnecting.
+1723949154: New connection from 172.26.0.8:53826 on port 1883.
+1723949250: Client <unknown> has exceeded timeout, disconnecting.
+1723949255: New connection from 172.26.0.8:34716 on port 1883.
+1723949346: Client <unknown> has exceeded timeout, disconnecting.
+1723949346: New connection from 172.26.0.8:51890 on port 1883.
+1723949442: Client <unknown> has exceeded timeout, disconnecting.
+1723949447: New connection from 172.26.0.8:48164 on port 1883.
+1723949538: Client <unknown> has exceeded timeout, disconnecting.
+1723949538: New connection from 172.26.0.8:37178 on port 1883.
+1723949634: Client <unknown> has exceeded timeout, disconnecting.
+1723949639: New connection from 172.26.0.8:42682 on port 1883.
+1723949730: Client <unknown> has exceeded timeout, disconnecting.
+1723949730: New connection from 172.26.0.8:55398 on port 1883.
+1723949826: Client <unknown> has exceeded timeout, disconnecting.
+1723949831: New connection from 172.26.0.8:36492 on port 1883.
+1723949922: Client <unknown> has exceeded timeout, disconnecting.
+1723949922: New connection from 172.26.0.8:40292 on port 1883.
+1723950018: Client <unknown> has exceeded timeout, disconnecting.
+1723950023: New connection from 172.26.0.8:47380 on port 1883.
+1723950114: Client <unknown> has exceeded timeout, disconnecting.
+1723950114: New connection from 172.26.0.8:50366 on port 1883.
+1723950210: Client <unknown> has exceeded timeout, disconnecting.
+1723950215: New connection from 172.26.0.8:52200 on port 1883.
+1723950306: Client <unknown> has exceeded timeout, disconnecting.
+1723950306: New connection from 172.26.0.8:51882 on port 1883.
+1723950402: Client <unknown> has exceeded timeout, disconnecting.
+1723950407: New connection from 172.26.0.8:47662 on port 1883.
+1723950498: Client <unknown> has exceeded timeout, disconnecting.
+1723950498: New connection from 172.26.0.8:46980 on port 1883.
+1723950594: Client <unknown> has exceeded timeout, disconnecting.
+1723950599: New connection from 172.26.0.8:60874 on port 1883.
+1723950660: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723950690: Client <unknown> has exceeded timeout, disconnecting.
+1723950690: New connection from 172.26.0.8:53114 on port 1883.
+1723950786: Client <unknown> has exceeded timeout, disconnecting.
+1723950791: New connection from 172.26.0.8:58568 on port 1883.
+1723950882: Client <unknown> has exceeded timeout, disconnecting.
+1723950882: New connection from 172.26.0.8:46242 on port 1883.
+1723950978: Client <unknown> has exceeded timeout, disconnecting.
+1723950983: New connection from 172.26.0.8:48566 on port 1883.
+1723951074: Client <unknown> has exceeded timeout, disconnecting.
+1723951074: New connection from 172.26.0.8:45590 on port 1883.
+1723951170: Client <unknown> has exceeded timeout, disconnecting.
+1723951175: New connection from 172.26.0.8:36984 on port 1883.
+1723951266: Client <unknown> has exceeded timeout, disconnecting.
+1723951266: New connection from 172.26.0.8:45974 on port 1883.
+1723951362: Client <unknown> has exceeded timeout, disconnecting.
+1723951367: New connection from 172.26.0.8:57558 on port 1883.
+1723951458: Client <unknown> has exceeded timeout, disconnecting.
+1723951458: New connection from 172.26.0.8:34230 on port 1883.
+1723951554: Client <unknown> has exceeded timeout, disconnecting.
+1723951559: New connection from 172.26.0.8:41754 on port 1883.
+1723951650: Client <unknown> has exceeded timeout, disconnecting.
+1723951650: New connection from 172.26.0.8:50870 on port 1883.
+1723951746: Client <unknown> has exceeded timeout, disconnecting.
+1723951751: New connection from 172.26.0.8:56534 on port 1883.
