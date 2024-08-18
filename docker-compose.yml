@@ -13,7 +13,7 @@ services:
       - mqtt_net_2
 
   sensor_simulator:
-    build: C:\Users\Usuário\Documents\Projetos\GitHub\SensorSimulator\sensor_simulator
+    build: https://github.com/DarlanNoetzold/SensorSimulator.git
     depends_on:
       - mosquitto
     networks:
@@ -22,6 +22,7 @@ services:
   server:
     build:
       context: https://github.com/DarlanNoetzold/SensorDataProcessor.git
+      dockerfile: Dockerfile
     environment:
       - POSTGRES_DB=jdbc:postgresql://postgres-sensor:5432/SensorDataProcessor
       - KAFKA_URL=kafka:9092
@@ -39,6 +40,7 @@ services:
   server-center:
     build:
       context: https://github.com/DarlanNoetzold/SensorCenter.git
+      dockerfile: Dockerfile
     environment:
       - POSTGRES_DB_CENTER=jdbc:postgresql://postgres-center:5432/SensorCenter
       - KAFKA_URL=kafka:9092
@@ -53,31 +55,26 @@ services:
       - mqtt_net_2
 
   extract_metrics:
-    build:
-      context: https://github.com/DarlanNoetzold/ExtractSensorMetrics.git
+    build: https://github.com/DarlanNoetzold/ExtractSensorMetrics.git
     volumes:
-      - ./shared:/app/shared
+      - /path/to/shared/folder:/app/data
     networks:
       - mqtt_net_2
-    entrypoint: ["sh", "-c", "crontab -l | { cat; echo '0 0 * * * python /app/extract_metrics.py'; } | crontab - && cron -f"]
 
-  train_models:
-    build:
-      context: https://github.com/DarlanNoetzold/SensorModelsTraining.git
+  model_training:
+    build: https://github.com/DarlanNoetzold/SensorModelsTraining.git
     volumes:
-      - ./shared:/app/shared
-      - ./models:/app/models
+      - /path/to/shared/folder:/app/data
+      - /path/to/model/output:/app/models
     networks:
       - mqtt_net_2
-    entrypoint: ["sh", "-c", "crontab -l | { cat; echo '0 2 * * * python /app/train_models.py'; } | crontab - && cron -f"]
 
   predict_api:
-    build:
-      context: https://github.com/DarlanNoetzold/SensorModelPredictionApi.git
+    build: https://github.com/DarlanNoetzold/SensorModelPredictionApi.git
+    volumes:
+      - /path/to/model/output:/app/models
     ports:
       - "5000:5000"
-    volumes:
-      - ./models:/app/models
     networks:
       - mqtt_net_2
 
