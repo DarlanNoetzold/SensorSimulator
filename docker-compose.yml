@@ -1,5 +1,25 @@
 version: '3.8'
 services:
+  postgres-sensor:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: SensorDataProcessor
+    ports:
+      - "5432:5432"
+    networks:
+      - mqtt_net_2
+
+  postgres-center:
+    image: postgres
+    environment:
+      POSTGRES_DB: SensorCenter
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    networks:
+      - mqtt_net_2
+      
   mosquitto:
     image: eclipse-mosquitto
     volumes:
@@ -46,7 +66,7 @@ services:
       - KAFKA_URL=kafka:9092
     depends_on:
       - mosquitto
-      - postgres-sensor
+      - postgres-center
       - kafka
       - zookeeper
     ports:
@@ -57,44 +77,24 @@ services:
   extract_metrics:
     build: https://github.com/DarlanNoetzold/ExtractSensorMetrics.git
     volumes:
-      - /path/to/shared/folder:/app/data
+      - shared-data:/app/data
     networks:
       - mqtt_net_2
 
   model_training:
     build: https://github.com/DarlanNoetzold/SensorModelsTraining.git
     volumes:
-      - /path/to/shared/folder:/app/data
-      - /path/to/model/output:/app/models
+      - shared-data:/app/data
+      - trained-models:/app/models
     networks:
       - mqtt_net_2
 
   predict_api:
     build: https://github.com/DarlanNoetzold/SensorModelPredictionApi.git
     volumes:
-      - /path/to/model/output:/app/models
+      - trained-models:/app/models
     ports:
       - "5000:5000"
-    networks:
-      - mqtt_net_2
-
-  postgres-sensor:
-    image: postgres
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: SensorDataProcessor
-    ports:
-      - "5432:5432"
-    networks:
-      - mqtt_net_2
-
-  postgres-center:
-    image: postgres
-    environment:
-      POSTGRES_DB: SensorCenter
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
     networks:
       - mqtt_net_2
 
@@ -125,3 +125,7 @@ services:
 networks:
   mqtt_net_2:
     driver: bridge
+
+volumes:
+  shared-data:
+  trained-models:
