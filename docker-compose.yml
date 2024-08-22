@@ -94,7 +94,7 @@ services:
     volumes:
       - trained-models:/app/models
     ports:
-      - "5000:5000"
+      - "8000:8000"
     networks:
       - mqtt_net_2
 
