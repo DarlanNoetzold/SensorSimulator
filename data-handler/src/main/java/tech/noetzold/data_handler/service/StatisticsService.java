@@ -1,12 +1,12 @@
 package tech.noetzold.data_handler.service;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 import tech.noetzold.data_handler.model.PredictionStatistics;
 import tech.noetzold.data_handler.repository.PredictionStatisticsRepository;
 
 import java.util.List;
 
-@Service
+@Component
 public class StatisticsService {
 
     private final PredictionStatisticsRepository statisticsRepository;
