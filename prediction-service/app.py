@@ -57,6 +57,7 @@ def train_model():
                 value DOUBLE PRECISION
             )
         """)
+        conn.commit()  # Confirma a criação da tabela 'predictions'
 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS prediction_statistics (
@@ -66,11 +67,7 @@ def train_model():
                 variance DOUBLE PRECISION
             )
         """)
-
-        # Gerar predições
-        predictions = model_fit.forecast(steps=num_predictions)
-        current_date = datetime.now()
-        predicted_dates = [current_date + timedelta(seconds=interval * i) for i in range(1, num_predictions + 1)]
+        conn.commit()  # Confirma a criação da tabela 'prediction_statistics'
 
         # Log de depuração
         print(f"Predictions: {predictions}")
@@ -82,36 +79,31 @@ def train_model():
         if len(predictions) != len(predicted_dates):
             raise ValueError("Mismatch between number of predictions and predicted dates.")
 
-        # Ajustar os registros para inserção
-        prediction_records = [
-            (
-                str(sensor_name),
-                str(unit),
-                int(interval),
-                predicted_dates[i].strftime('%Y-%m-%d %H:%M:%S'),
-                float(predictions[i])
-            )
-            for i in range(len(predictions))
-        ]
+        # Inserir registros individualmente
+        for i in range(len(predictions)):
+            try:
+                record = (
+                    str(sensor_name),
+                    str(unit),
+                    int(interval),
+                    predicted_dates[i].strftime('%Y-%m-%d %H:%M:%S'),
+                    float(predictions.iloc[i])  # Converter explicitamente para float nativo do Python
+                )
+                print(f"Inserting Record: {record}")  # Log do registro atual
+                cursor.execute(
+                    "INSERT INTO predictions (sensor_name, unit, interval, predicted_date, value) VALUES (%s, %s, %s, %s, %s)",
+                    record
+                )
+            except Exception as e:
+                print(f"Error inserting record {i}: {e}")  # Log do erro detalhado
+                raise
 
-        # Log dos registros
-        print(f"Prediction Records: {prediction_records}")
-
-        # Inserir no banco de dados
-        try:
-            cursor.executemany(
-                "INSERT INTO predictions (sensor_name, unit, interval, predicted_date, value) VALUES (%s, %s, %s, %s, %s)",
-                prediction_records
-            )
-            conn.commit()
-        except Exception as e:
-            print(f"Error inserting predictions: {e}")
-            raise
+        conn.commit()
 
         # Calcular estatísticas e salvar no banco
-        mean = predictions.mean()
-        std_dev = predictions.std()
-        variance = predictions.var()
+        mean = float(predictions.mean())  # Converter para float
+        std_dev = float(predictions.std())  # Converter para float
+        variance = float(predictions.var())  # Converter para float
 
         cursor.execute("""
             INSERT INTO prediction_statistics (mean, standard_deviation, variance)
@@ -125,7 +117,7 @@ def train_model():
         return jsonify({
             "status": "success",
             "predictions": [
-                {"date": str(predicted_dates[i]), "value": predictions[i]}
+                {"date": str(predicted_dates[i]), "value": predictions.iloc[i]}
                 for i in range(num_predictions)
             ],
             "statistics": {
