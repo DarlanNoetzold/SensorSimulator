@@ -39,14 +39,14 @@ public class ConfigController {
             @RequestParam("q") Integer q,
             @RequestParam("numPredictions") Integer numPredictions,
             @RequestParam("interval") Integer interval,
-            @RequestParam("file") MultipartFile file
+            @RequestParam(value = "file") MultipartFile file
     ) {
         try {
-            // Save configuration locally if needed
+            // Save configuration localmente, se necessário
             SensorConfig config = new SensorConfig(sensorName, unit, p, d, q, numPredictions, interval);
             configService.saveConfiguration(config);
 
-            // Forward the configuration and file to the Prediction-Service
+            // Encaminhar a configuração e o arquivo para o Prediction-Service
             MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
             body.add("sensor_name", sensorName);
             body.add("unit", unit);
@@ -55,7 +55,12 @@ public class ConfigController {
             body.add("q", q);
             body.add("num_predictions", numPredictions);
             body.add("interval", interval);
-            body.add("file", file.getResource());
+            body.add("file", new org.springframework.core.io.ByteArrayResource(file.getBytes()) {
+                @Override
+                public String getFilename() {
+                    return file.getOriginalFilename();
+                }
+            });
 
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.MULTIPART_FORM_DATA);
