@@ -1,88 +1,88 @@
-package tech.noetzold.data_handler.model;
+    package tech.noetzold.data_handler.model;
 
-import jakarta.persistence.*;
-import java.time.LocalDateTime;
+    import jakarta.persistence.*;
+    import java.time.LocalDateTime;
 
-@Entity
-@Table(name = "predictions")
-public class Prediction {
+    @Entity
+    @Table(name = "predictions")
+    public class Prediction {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        private Long id;
 
-    @Column(name = "sensor_name")
-    private String sensorName;
+        @Column(name = "sensor_name")
+        private String sensorName;
 
-    private String unit;
+        private String unit;
 
-    private Integer interval;
+        private Integer interval;
 
-    @Column(name = "predicted_date")
-    private LocalDateTime predictedDate;
+        @Column(name = "predicted_date")
+        private LocalDateTime predictedDate;
 
-    private Double value;
+        private Double value;
 
-    public Prediction() {
+        public Prediction() {
+        }
+
+        public Prediction(Long id, String sensorName, String unit, Integer interval, LocalDateTime predictedDate, Double value) {
+            this.id = id;
+            this.sensorName = sensorName;
+            this.unit = unit;
+            this.interval = interval;
+            this.predictedDate = predictedDate;
+            this.value = value;
+        }
+
+        public Long getId() {
+            return id;
+        }
+
+        public void setId(Long id) {
+            this.id = id;
+        }
+
+        public String getSensorName() {
+            return sensorName;
+        }
+
+        public void setSensorName(String sensorName) {
+            this.sensorName = sensorName;
+        }
+
+        public String getUnit() {
+            return unit;
+        }
+
+        public void setUnit(String unit) {
+            this.unit = unit;
+        }
+
+        public Integer getInterval() {
+            return interval;
+        }
+
+        public void setInterval(Integer interval) {
+            this.interval = interval;
+        }
+
+        public LocalDateTime getPredictedDate() {
+            return predictedDate;
+        }
+
+        public void setPredictedDate(LocalDateTime predictedDate) {
+            this.predictedDate = predictedDate;
+        }
+
+        public Double getValue() {
+            return value;
+        }
+
+        public void setValue(Double value) {
+            this.value = value;
+        }
+
+
+
     }
-
-    public Prediction(Long id, String sensorName, String unit, Integer interval, LocalDateTime predictedDate, Double value) {
-        this.id = id;
-        this.sensorName = sensorName;
-        this.unit = unit;
-        this.interval = interval;
-        this.predictedDate = predictedDate;
-        this.value = value;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getSensorName() {
-        return sensorName;
-    }
-
-    public void setSensorName(String sensorName) {
-        this.sensorName = sensorName;
-    }
-
-    public String getUnit() {
-        return unit;
-    }
-
-    public void setUnit(String unit) {
-        this.unit = unit;
-    }
-
-    public Integer getInterval() {
-        return interval;
-    }
-
-    public void setInterval(Integer interval) {
-        this.interval = interval;
-    }
-
-    public LocalDateTime getPredictedDate() {
-        return predictedDate;
-    }
-
-    public void setPredictedDate(LocalDateTime predictedDate) {
-        this.predictedDate = predictedDate;
-    }
-
-    public Double getValue() {
-        return value;
-    }
-
-    public void setValue(Double value) {
-        this.value = value;
-    }
-
-
-
-}
