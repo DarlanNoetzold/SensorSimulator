@@ -8,5 +8,6 @@ import java.util.List;
 
 @Repository
 public interface PredictionRepository extends JpaRepository<Prediction, Long> {
+
     List<Prediction> findBySensorName(String sensorName);
 }
