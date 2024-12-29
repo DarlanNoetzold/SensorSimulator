@@ -41,7 +41,7 @@ const ConfigForm = () => {
     data.append("file", file);
 
     try {
-      const response = await axios.post("http://localhost:8080/config-service/upload", data, {
+      const response = await axios.post("http://localhost:8060/config-service/upload", data, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
