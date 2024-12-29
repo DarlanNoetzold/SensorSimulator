@@ -1,8 +1,9 @@
 package tech.noetzold.data_handler.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import tech.noetzold.data_handler.model.Prediction;
-import tech.noetzold.data_handler.service.DataService;
+import tech.noetzold.data_handler.service.PredictionService;
 
 import java.util.List;
 
@@ -10,19 +11,16 @@ import java.util.List;
 @RequestMapping("/data-handler")
 public class DataController {
 
-    private final DataService dataService;
+    @Autowired
+    private PredictionService predictionService;
 
-    public DataController(DataService dataService) {
-        this.dataService = dataService;
+    @GetMapping("/predictions")
+    public List<Prediction> getAllPredictions() {
+        return predictionService.getAllPredictions();
     }
 
-    @GetMapping("/historical-data")
-    public List<Prediction> getHistoricalData() {
-        return dataService.getAllPredictions();
-    }
-
-    @GetMapping("/sensor-data/{sensorName}")
-    public List<Prediction> getSensorData(@PathVariable String sensorName) {
-        return dataService.getPredictionsBySensorName(sensorName);
+    @GetMapping("/predictions/{sensorName}")
+    public List<Prediction> getPredictionsBySensorName(@PathVariable String sensorName) {
+        return predictionService.getPredictionsBySensorName(sensorName);
     }
 }
