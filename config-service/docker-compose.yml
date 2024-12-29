@@ -14,5 +14,13 @@ services:
       - postgres_data:/var/lib/postgresql/data
     restart: always
 
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"   # Porta para o RabbitMQ
+      - "15672:15672" # Porta para a interface de administração do RabbitMQ
+    restart: always
+
 volumes:
   postgres_data:
