@@ -15,6 +15,7 @@ public class Prediction {
     private String sensorName;
 
     private String unit;
+
     private Integer interval;
 
     @Column(name = "predicted_date")
@@ -25,7 +26,8 @@ public class Prediction {
     public Prediction() {
     }
 
-    public Prediction(String sensorName, String unit, Integer interval, LocalDateTime predictedDate, Double value) {
+    public Prediction(Long id, String sensorName, String unit, Integer interval, LocalDateTime predictedDate, Double value) {
+        this.id = id;
         this.sensorName = sensorName;
         this.unit = unit;
         this.interval = interval;
@@ -80,4 +82,7 @@ public class Prediction {
     public void setValue(Double value) {
         this.value = value;
     }
+
+
+
 }
