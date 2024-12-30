@@ -4,6 +4,8 @@ import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.api.command.CreateContainerResponse;
 import com.github.dockerjava.api.model.ExposedPort;
 import com.github.dockerjava.core.DockerClientBuilder;
+import com.github.dockerjava.netty.NettyDockerCmdExecFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -13,7 +15,10 @@ public class DockerService {
 
     public DockerService() {
         // Conectando-se ao Docker daemon (assumindo que o Docker está rodando localmente)
-        this.dockerClient = DockerClientBuilder.getInstance().build();
+        this.dockerClient = DockerClientBuilder
+                .getInstance("tcp://localhost:2375")
+                .withDockerCmdExecFactory(new NettyDockerCmdExecFactory())
+                .build();
     }
 
     /**
