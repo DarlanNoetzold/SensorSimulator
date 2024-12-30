@@ -1,7 +1,17 @@
 version: '3.8'
 
 services:
-  postgres:
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    container_name: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "5672:5672"   # Porta para o RabbitMQ
+      - "15672:15672" # Porta para a interface de administração do RabbitMQ
+
+  config_service_db:
     image: postgres:15
     container_name: config_service_db
     environment:
@@ -9,18 +19,5 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: config_service
     ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    restart: always
+      - "5432:5432"   # Porta para o PostgreSQL
 
-  rabbitmq:
-    image: "rabbitmq:3-management"
-    container_name: rabbitmq
-    ports:
-      - "5672:5672"   # Porta para o RabbitMQ
-      - "15672:15672" # Porta para a interface de administração do RabbitMQ
-    restart: always
-
-volumes:
-  postgres_data:
