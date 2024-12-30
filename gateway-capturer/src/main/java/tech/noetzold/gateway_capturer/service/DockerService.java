@@ -3,8 +3,9 @@ package tech.noetzold.gateway_capturer.service;
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.api.command.CreateContainerResponse;
 import com.github.dockerjava.api.model.ExposedPort;
+import com.github.dockerjava.api.model.Ports;
 import com.github.dockerjava.core.DockerClientBuilder;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.github.dockerjava.netty.NettyDockerCmdExecFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -17,17 +18,21 @@ public class DockerService {
     private final Map<String, Long> nodeLastUsedTime = new HashMap<>();
     private static final long TIMEOUT = 5 * 60 * 1000; // 5 minutos em milissegundos
 
-    @Autowired
     public DockerService() {
-        this.dockerClient = DockerClientBuilder.getInstance().build();
+        // Conectando-se ao Docker daemon (assumindo que o Docker está rodando localmente)
+        this.dockerClient = DockerClientBuilder
+                .getInstance("tcp://localhost:2375")
+                .withDockerCmdExecFactory(new NettyDockerCmdExecFactory())
+                .build();
     }
 
     /**
      * Cria um novo contêiner do Capture-Service se o nome ainda não estiver em uso.
      * @param nodeName Nome do nó Capture-Service.
+     * @param nodePort Porta a ser exposta para o contêiner.
      * @return O ID do container criado ou null se o nome já estiver em uso.
      */
-    public String createCaptureServiceNode(String nodeName) {
+    public String createCaptureServiceNode(String nodeName, int nodePort) {
         try {
             // Verifica se o contêiner já existe
             boolean containerExists = dockerClient.listContainersCmd()
@@ -40,10 +45,16 @@ public class DockerService {
                 return null;
             }
 
-            // Criar um novo contêiner
+            Ports portBindings = new Ports();
+
+            // Criar o contêiner Capture-Service e expor a porta dinâmica
+            ExposedPort exposedPort = new ExposedPort(9000);
+            portBindings.bind(exposedPort, Ports.Binding.bindPort(nodePort));
+
             CreateContainerResponse container = dockerClient.createContainerCmd("tech/noetzold/capture-service:latest")
                     .withName(nodeName)
-                    .withExposedPorts(new ExposedPort(8081))  // Expor a porta 8081 (ajuste conforme sua aplicação)
+                    .withExposedPorts(exposedPort)  // Expondo as portas do RabbitMQ
+                    .withPortBindings(portBindings)  // Mapeia as portas do contêiner para o host
                     .exec();
 
             // Subir o contêiner
