@@ -2,8 +2,8 @@
 #include <jni.h>
 /* Header for class com_example_sensordataprocessor_service_DataService */
 
-#ifndef _Included_com_example_sensordataprocessor_service_DataService
-#define _Included_com_example_sensordataprocessor_service_DataService
+#ifndef _Included_tech_noetzold_processor_service_service_DataService
+#define _Included_tech_noetzold_processor_service_service_DataService
 #ifdef __cplusplus
 extern "C" {
 #endif
