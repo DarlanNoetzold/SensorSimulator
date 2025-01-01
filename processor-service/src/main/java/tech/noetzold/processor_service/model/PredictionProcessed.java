@@ -1,9 +1,15 @@
 package tech.noetzold.processor_service.model;
 
+import jakarta.persistence.*;
+
 import java.time.LocalDateTime;
 
+@Entity
+@Table(name = "prediction_processed")
 public class PredictionProcessed {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String sensorName;
