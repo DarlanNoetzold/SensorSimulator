@@ -27,13 +27,14 @@ public class PredictionProcessed {
     public PredictionProcessed() {
     }
 
-    public PredictionProcessed(Long id, String sensorName, String unit, Integer interval, LocalDateTime predictedDate, Double value) {
+    public PredictionProcessed(Long id, String sensorName, String unit, Integer interval, LocalDateTime predictedDate, Double value, String processorId) {
         this.id = id;
         this.sensorName = sensorName;
         this.unit = unit;
         this.interval = interval;
         this.predictedDate = predictedDate;
         this.value = value;
+        this.processorId = processorId;
     }
 
     public Long getId() {
