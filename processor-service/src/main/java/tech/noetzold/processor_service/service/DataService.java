@@ -60,9 +60,9 @@ public class DataService {
 
     static {
         try {
-            System.loadLibrary("libdata_filter");
-            System.loadLibrary("libdata_compression");
-            System.loadLibrary("libdata_aggregation");
+            System.loadLibrary("data_filter");
+            System.loadLibrary("data_compression");
+            System.loadLibrary("data_aggregation");
             logger.info("Libraries loaded successfully.");
         } catch (UnsatisfiedLinkError e) {
             logger.error("Failed to load libraries.", e);
@@ -251,7 +251,6 @@ public class DataService {
         processed.setPredictedDate(prediction.getPredictedDate());
         processed.setInterval(prediction.getInterval());
         processed.setUnit(prediction.getUnit());
-        processed.setId(prediction.getId());
         processed.setProcessorId(sensorProcessorId);
         predictionProcessedRepository.save(processed);
     }
@@ -263,9 +262,9 @@ public class DataService {
         processed.setPredictedDate(prediction.getPredictedDate());
         processed.setInterval(prediction.getInterval());
         processed.setUnit(prediction.getUnit());
-        processed.setId(prediction.getId());
         processed.setProcessorId(sensorProcessorId);
 
+        // Use the Jackson2JsonMessageConverter to serialize the PredictionProcessed object
         rabbitTemplate.convertAndSend(queueProcessedData, processed);
         logger.info("Message sent to RabbitMQ: {}", processed);
     }
