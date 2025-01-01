@@ -60,9 +60,9 @@ public class DataService {
 
     static {
         try {
-            System.loadLibrary("data_filter");
-            System.loadLibrary("data_compression");
-            System.loadLibrary("data_aggregation");
+            System.loadLibrary("libdata_filter");
+            System.loadLibrary("libdata_compression");
+            System.loadLibrary("libdata_aggregation");
             logger.info("Libraries loaded successfully.");
         } catch (UnsatisfiedLinkError e) {
             logger.error("Failed to load libraries.", e);
@@ -278,6 +278,7 @@ public class DataService {
         return predictionList.stream()
                 .collect(Collectors.groupingBy(Prediction::getSensorName,
                         Collectors.mapping(Prediction::getValue, Collectors.toList())))
+
                 .entrySet().stream()
                 .collect(Collectors.toMap(Map.Entry::getKey, entry -> {
                     List<Double> values = entry.getValue();
