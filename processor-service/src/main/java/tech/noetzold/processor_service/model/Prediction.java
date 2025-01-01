@@ -1,18 +1,26 @@
 package tech.noetzold.processor_service.model;
 
 
+import jakarta.persistence.*;
+
 import java.time.LocalDateTime;
 
+@Entity
+@Table(name = "prediction")
 public class Prediction {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "sensor_name")
     private String sensorName;
 
     private String unit;
 
     private Integer interval;
 
+    @Column(name = "predicted_date")
     private LocalDateTime predictedDate;
 
     private Double value;
