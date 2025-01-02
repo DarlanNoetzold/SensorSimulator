@@ -8,7 +8,12 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitMQConfig {
 
     @Bean
-    public Queue sensorDataCapturedQueue() {
-        return new Queue("sensorDataProcessed", false);
+    public Queue sensorDataProcessedQueue() {
+        return new Queue("sensorDataProcessed", true, false, false);
+    }
+
+    @Bean
+    public Queue metricsQueue() {
+        return new Queue("metrics", true, false, false);
     }
 }
