@@ -43,12 +43,6 @@ public class DataService {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    @Value("${rabbitmq.queue.processed-data}")
-    private String queueProcessedData;
-
-    @Value("${rabbitmq.queue.metrics}")
-    private String queueMetrics;
-
     @Value("${sensor.processor.id}")
     private String sensorProcessorId;
 
@@ -271,9 +265,9 @@ public class DataService {
         try {
             // Serializar o objeto PredictionProcessed para JSON
             String jsonProcessedPrediction = objectMapper.writeValueAsString(processed);
-
+            System.out.println(jsonProcessedPrediction);
             // Enviar a mensagem JSON para a fila RabbitMQ
-            rabbitTemplate.convertAndSend(queueProcessedData, jsonProcessedPrediction);
+            rabbitTemplate.convertAndSend("sensorDataProcessed", jsonProcessedPrediction);
             logger.info("Sent processed prediction to RabbitMQ: {}", processed.getSensorName());
         } catch (Exception e) {
             System.err.println("Error serializing and sending processed prediction: " + e.getMessage());
@@ -352,7 +346,7 @@ public class DataService {
                 now.getNano() / 1000000
         ));
 
-        rabbitTemplate.convertAndSend(queueMetrics, data);
+        rabbitTemplate.convertAndSend("metrics", data);
         logger.info("Metrics sent to RabbitMQ");
     }
 
