@@ -264,28 +264,31 @@ public class DataService {
         processed.setUnit(prediction.getUnit());
         processed.setProcessorId(sensorProcessorId);
 
-        // Use the Jackson2JsonMessageConverter to serialize the PredictionProcessed object
-        rabbitTemplate.convertAndSend(queueProcessedData, processed);
-        logger.info("Message sent to RabbitMQ: {}", processed);
+        // Converte o PredictionProcessed para string, para envio ao RabbitMQ
+        String message = "Processed Prediction: Sensor = " + processed.getSensorName() +
+                ", Value = " + processed.getValue() +
+                ", Date = " + processed.getPredictedDate() +
+                ", Interval = " + processed.getInterval() +
+                ", Unit = " + processed.getUnit() +
+                ", ProcessorId = " + processed.getProcessorId();
+
+        rabbitTemplate.convertAndSend(queueProcessedData, message);
+        logger.info("Sent processed prediction to RabbitMQ: {}", processed.getSensorName());
     }
 
     private Map<String, Double> calculateVarianceMap() {
-        // Coleta todos os dados dos sensores no repositório
         List<Prediction> predictionList = predictionRepository.findAll();
-
-        // Agrupa os dados pelos tipos de sensor e calcula a variância para cada grupo
         return predictionList.stream()
                 .collect(Collectors.groupingBy(Prediction::getSensorName,
                         Collectors.mapping(Prediction::getValue, Collectors.toList())))
-
                 .entrySet().stream()
                 .collect(Collectors.toMap(Map.Entry::getKey, entry -> {
                     List<Double> values = entry.getValue();
                     double mean = values.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
                     return values.stream()
-                            .mapToDouble(v -> Math.pow(v - mean, 2))  // Calculando a soma dos quadrados das diferenças
-                            .average()  // Calculando a média desses quadrados
-                            .orElse(0.0);  // Retorna 0 se não houver dados
+                            .mapToDouble(v -> Math.pow(v - mean, 2))
+                            .average()
+                            .orElse(0.0);
                 }));
     }
 
