@@ -27,12 +27,12 @@ public class DockerService {
     }
 
     /**
-     * Cria um novo contêiner do Capture-Service se o nome ainda não estiver em uso.
-     * @param nodeName Nome do nó Capture-Service.
+     * Cria um novo contêiner do Processor-Service se o nome ainda não estiver em uso.
+     * @param nodeName Nome do nó Processor-Service.
      * @param nodePort Porta a ser exposta para o contêiner.
      * @return O ID do container criado ou null se o nome já estiver em uso.
      */
-    public String createCaptureServiceNode(String nodeName, int nodePort) {
+    public String createProcessorServiceNode(String nodeName, int nodePort) {
         try {
             // Verifica se o contêiner já existe
             boolean containerExists = dockerClient.listContainersCmd()
@@ -47,13 +47,14 @@ public class DockerService {
 
             Ports portBindings = new Ports();
 
-            // Criar o contêiner Capture-Service e expor a porta dinâmica
-            ExposedPort exposedPort = new ExposedPort(10000);
+            // Criar o contêiner Processor-Service e expor a porta dinâmica
+            ExposedPort exposedPort = new ExposedPort(10000); // Usando a porta 10000 por padrão
             portBindings.bind(exposedPort, Ports.Binding.bindPort(nodePort));
 
-            CreateContainerResponse container = dockerClient.createContainerCmd("tech/noetzold/capture-service:latest")
+            // Usando a imagem que foi compilada com base no Dockerfile do processor-service
+            CreateContainerResponse container = dockerClient.createContainerCmd("tech/noetzold/processor-service:latest")
                     .withName(nodeName)
-                    .withExposedPorts(exposedPort)  // Expondo as portas do RabbitMQ
+                    .withExposedPorts(exposedPort)  // Expondo as portas do processor-service
                     .withPortBindings(portBindings)  // Mapeia as portas do contêiner para o host
                     .exec();
 
@@ -69,10 +70,10 @@ public class DockerService {
     }
 
     /**
-     * Remove um contêiner do Capture-Service.
+     * Remove um contêiner do Processor-Service.
      * @param containerId O ID do contêiner a ser removido.
      */
-    public void removeCaptureServiceNode(String containerId) {
+    public void removeProcessorServiceNode(String containerId) {
         try {
             dockerClient.stopContainerCmd(containerId).exec();
             dockerClient.removeContainerCmd(containerId).exec();
@@ -92,7 +93,7 @@ public class DockerService {
                 String nodeName = entry.getKey();
                 System.out.println("Removing inactive node: " + nodeName);
                 // Remove o nó
-                removeCaptureServiceNode(nodeName);
+                removeProcessorServiceNode(nodeName);
                 nodeLastUsedTime.remove(nodeName);
             }
         }
