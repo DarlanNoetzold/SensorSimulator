@@ -1,5 +1,6 @@
 package tech.noetzold.Capture_service.service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,11 +12,14 @@ public class CaptureService {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
+    @Autowired
+    private ObjectMapper objectMapper;
+
     public void processPrediction(Prediction prediction) {
 
         String networkStatus = calculateNetworkStatus(prediction);
 
-        sendToQueue(prediction, networkStatus);
+        sendToQueue(prediction);
     }
 
     private Double calculateEnergyUsage(Prediction prediction) {
@@ -30,10 +34,13 @@ public class CaptureService {
         }
     }
 
-    private void sendToQueue(Prediction prediction, String networkStatus) {
+    private void sendToQueue(Prediction prediction) {
         try {
-            String message = "Prediction: " + prediction.getSensorName() + ", Value: " + prediction.getValue() + ", Network Status: " + networkStatus;
-            rabbitTemplate.convertAndSend("sensorDataCaptured", message);
+            // Serializar o objeto Prediction para JSON
+            String jsonPrediction = objectMapper.writeValueAsString(prediction);
+
+            // Enviar a mensagem JSON para a fila RabbitMQ
+            rabbitTemplate.convertAndSend("sensorDataCaptured", jsonPrediction);
             System.out.println("Sent processed prediction to sensorDataCaptured: " + prediction.getSensorName());
         } catch (Exception e) {
             System.err.println("Error sending message to sensorDataCaptured queue: " + e.getMessage());
