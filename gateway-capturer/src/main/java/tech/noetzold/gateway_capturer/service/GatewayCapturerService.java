@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import tech.noetzold.gateway_capturer.model.Prediction;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -33,6 +32,9 @@ public class GatewayCapturerService {
     private static final int MIN_NODES = 3;
     private static final int MAX_NODES = 10; // Limite máximo para evitar criação excessiva
     private static final long NODE_INACTIVITY_TIMEOUT = 5 * 60 * 1000; // 5 minutos em milissegundos
+
+    private static final int MAX_RETRIES = 3; // Número máximo de tentativas
+    private static final long RETRY_DELAY_MS = 3000; // Intervalo de 3 segundos entre tentativas
 
     @RabbitListener(queues = "productionQueue")
     public void handleMessage(String message) {
@@ -102,30 +104,47 @@ public class GatewayCapturerService {
         dockerService.removeCaptureServiceNode(nodeName);
     }
 
-    // Método para enviar a mensagem ao nó Capture-Service via HTTP
+    // Método para enviar a mensagem ao nó Capture-Service via HTTP com retentativas
     private void sendMessageToNode(String nodeName, int nodePort, String message) {
-        try {
-            // Construir a URL para o serviço Capture-Service
-            String url = "http://127.0.0.1:" + nodePort + "/capture/process"; // Usando a porta do nó
+        int retries = 0;
 
-            // Configurar o cabeçalho Content-Type para JSON
-            HttpHeaders headers = new HttpHeaders();
-            headers.setContentType(MediaType.APPLICATION_JSON);
+        while (retries < MAX_RETRIES) {
+            try {
+                // Construir a URL para o serviço Capture-Service
+                String url = "http://127.0.0.1:" + nodePort + "/capture/process"; // Usando a porta do nó
 
-            // Criar a entidade com a mensagem e o cabeçalho
-            HttpEntity<String> request = new HttpEntity<>(message, headers);
+                // Configurar o cabeçalho Content-Type para JSON
+                HttpHeaders headers = new HttpHeaders();
+                headers.setContentType(MediaType.APPLICATION_JSON);
 
-            // Enviar a mensagem para o endpoint /process
-            ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.POST, request, String.class);
+                // Criar a entidade com a mensagem e o cabeçalho
+                HttpEntity<String> request = new HttpEntity<>(message, headers);
 
-            // Verificar a resposta
-            if (response.getStatusCode().is2xxSuccessful()) {
-                System.out.println("Message successfully sent to node " + nodeName);
-            } else {
-                System.out.println("Failed to send message to node " + nodeName + ": " + response.getStatusCode());
+                // Enviar a mensagem para o endpoint /process
+                ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.POST, request, String.class);
+
+                // Verificar a resposta
+                if (response.getStatusCode().is2xxSuccessful()) {
+                    System.out.println("Message successfully sent to node " + nodeName);
+                    return; // Mensagem enviada com sucesso, sai do loop de retentativas
+                } else {
+                    System.out.println("Failed to send message to node " + nodeName + ": " + response.getStatusCode());
+                }
+            } catch (Exception e) {
+                System.out.println("Failed to send message to node " + nodeName + ": " + e.getMessage());
             }
-        } catch (Exception e) {
-            System.out.println("Failed to send message to node " + nodeName + ": " + e.getMessage());
+
+            retries++;
+            if (retries < MAX_RETRIES) {
+                System.out.println("Retrying... Attempt " + (retries + 1) + " of " + MAX_RETRIES);
+                try {
+                    Thread.sleep(RETRY_DELAY_MS); // Espera entre tentativas
+                } catch (InterruptedException ie) {
+                    System.err.println("Retry sleep interrupted: " + ie.getMessage());
+                }
+            } else {
+                System.err.println("Max retries reached. Giving up on sending message to node " + nodeName);
+            }
         }
     }
 
