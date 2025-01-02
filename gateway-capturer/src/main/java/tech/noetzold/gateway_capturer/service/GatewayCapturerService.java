@@ -9,9 +9,10 @@ import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 @Service
 public class GatewayCapturerService {
@@ -32,9 +33,11 @@ public class GatewayCapturerService {
     private static final int MIN_NODES = 3;
     private static final int MAX_NODES = 10; // Limite máximo para evitar criação excessiva
     private static final long NODE_INACTIVITY_TIMEOUT = 5 * 60 * 1000; // 5 minutos em milissegundos
+    private Map<String, Long> nodeLastUsedTime = new ConcurrentHashMap<>();
+
 
     private static final int MAX_RETRIES = 3; // Número máximo de tentativas
-    private static final long RETRY_DELAY_MS = 3000; // Intervalo de 3 segundos entre tentativas
+    private static final long RETRY_DELAY_MS = 10000; // Intervalo de 3 segundos entre tentativas
 
     @RabbitListener(queues = "productionQueue")
     public void handleMessage(String message) {
@@ -72,6 +75,7 @@ public class GatewayCapturerService {
         if (containerId != null) {
             captureServiceNodes.add(nodeName); // Adicionar o nó à lista de nós
             captureServicePorts.add(nodePort); // Adicionar a porta ao nó
+            nodeLastUsedTime.put(nodeName, System.currentTimeMillis());
             System.out.println("New Capture-Service node created: " + nodeName);
         } else {
             System.out.println("Container with name " + nodeName + " already exists. Sending message to this node.");
@@ -102,6 +106,8 @@ public class GatewayCapturerService {
     public void removeCaptureNode(String nodeName) {
         captureServiceNodes.remove(nodeName);
         dockerService.removeCaptureServiceNode(nodeName);
+        nodeLastUsedTime.remove(nodeName);
+
     }
 
     // Método para enviar a mensagem ao nó Capture-Service via HTTP com retentativas
@@ -126,6 +132,7 @@ public class GatewayCapturerService {
                 // Verificar a resposta
                 if (response.getStatusCode().is2xxSuccessful()) {
                     System.out.println("Message successfully sent to node " + nodeName);
+                    nodeLastUsedTime.put(nodeName, System.currentTimeMillis());
                     return; // Mensagem enviada com sucesso, sai do loop de retentativas
                 } else {
                     System.out.println("Failed to send message to node " + nodeName + ": " + response.getStatusCode());
@@ -169,8 +176,7 @@ public class GatewayCapturerService {
 
     // Método para verificar se o nó está inativo
     private boolean isNodeInactive(String nodeName, long currentTime) {
-        // Lógica de inatividade, você pode armazenar o tempo de última atividade em um mapa ou banco de dados
-        // Aqui vamos simplesmente simular o tempo de inatividade
-        return (currentTime - 0) > NODE_INACTIVITY_TIMEOUT;
+        Long lastUsedTime = nodeLastUsedTime.get(nodeName);
+        return lastUsedTime != null && (currentTime - lastUsedTime) > NODE_INACTIVITY_TIMEOUT;
     }
 }
