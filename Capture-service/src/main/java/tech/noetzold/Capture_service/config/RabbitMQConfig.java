@@ -9,6 +9,6 @@ public class RabbitMQConfig {
 
     @Bean
     public Queue sensorDataCapturedQueue() {
-        return new Queue("sensorDataCaptured", false);
+        return new Queue("sensorDataCaptured", true, false, false);
     }
 }
