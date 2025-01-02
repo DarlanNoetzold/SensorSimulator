@@ -1,12 +1,14 @@
 package tech.noetzold.gateway_processor.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import tech.noetzold.gateway_processor.model.Prediction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +37,9 @@ public class GatewayProcessorService {
 
     private Map<String, Long> nodeLastUsedTime = new ConcurrentHashMap<>();
 
+    private static final int MAX_RETRIES = 3; // Número máximo de tentativas
+    private static final long RETRY_DELAY_MS = 10000; // Intervalo de 3 segundos entre tentativas
+
     @RabbitListener(queues = "sensorDataCaptured")
     public void handleMessage(String message) {
         if (processorServiceNodes.size() < MIN_NODES) {
@@ -45,7 +50,7 @@ public class GatewayProcessorService {
         int selectedPort = processorServicePorts.get(currentNodeIndex);
         currentNodeIndex = (currentNodeIndex + 1) % processorServiceNodes.size();
 
-        sendMessageToNode(selectedNode, selectedPort, message);
+        sendMessageToNodeWithRetry(selectedNode, selectedPort, message);
 
         if (processorServiceNodes.size() < MAX_NODES && shouldScaleUp()) {
             createNewNode();
@@ -55,8 +60,8 @@ public class GatewayProcessorService {
     private void createNewNode() {
         String nodeName = generateUniqueNodeName();
 
-        // Gerar a porta externa para cada nó (9000 para o primeiro, 9001 para o segundo, etc.)
-        int nodePort = 9000 + processorServiceNodes.size();
+        // Gerar a porta externa para cada nó (10000 para o primeiro, 10001 para o segundo, etc.)
+        int nodePort = 10000 + processorServiceNodes.size();
         String containerId = dockerService.createProcessorServiceNode(nodeName, nodePort);
 
         if (containerId != null) {
@@ -83,28 +88,66 @@ public class GatewayProcessorService {
     }
 
     public void removeProcessorNode(String nodeName) {
-        processorServiceNodes.remove(nodeName);
-        processorServicePorts.remove(processorServiceNodes.indexOf(nodeName));
-        dockerService.removeProcessorServiceNode(nodeName);
-        nodeLastUsedTime.remove(nodeName);
+        int index = processorServiceNodes.indexOf(nodeName);
+        if (index != -1) {
+            // Remove o nó e a porta associada
+            processorServiceNodes.remove(index);
+            processorServicePorts.remove(index);
+            dockerService.removeProcessorServiceNode(nodeName);
+            nodeLastUsedTime.remove(nodeName);
+            System.out.println("Removed node: " + nodeName);
+        } else {
+            System.out.println("Node not found: " + nodeName);
+        }
+
+        // Ajustar o currentNodeIndex para evitar um índice inválido
+        if (currentNodeIndex >= processorServiceNodes.size()) {
+            currentNodeIndex = 0;  // Reseta o índice para o começo
+        }
     }
 
-    private void sendMessageToNode(String nodeName, int nodePort, String message) {
-        try {
-            String url = "http://127.0.0.1:" + nodePort + "/processor/process";  // Alterado para /processor/process
-            HttpHeaders headers = new HttpHeaders();
-            headers.setContentType(MediaType.APPLICATION_JSON);
-            HttpEntity<String> request = new HttpEntity<>(message, headers);
-            ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.POST, request, String.class);
+    // Método para enviar a mensagem ao nó Processor-Service via HTTP com retentativas
+    private void sendMessageToNodeWithRetry(String nodeName, int nodePort, String message) {
+        int retries = 0;
 
-            if (response.getStatusCode().is2xxSuccessful()) {
-                System.out.println("Message successfully sent to node " + nodeName);
-                nodeLastUsedTime.put(nodeName, System.currentTimeMillis());
-            } else {
-                System.out.println("Failed to send message to node " + nodeName + ": " + response.getStatusCode());
+        while (retries < MAX_RETRIES) {
+            try {
+                // Remover o campo id do JSON (evitar enviar o id)
+                Prediction prediction = objectMapper.readValue(message, Prediction.class);
+                prediction.setId(null); // Remover o id antes de enviar
+
+                // Serializar o Prediction modificado para JSON
+                String jsonPrediction = objectMapper.writeValueAsString(prediction);
+
+                String url = "http://127.0.0.1:" + nodePort + "/prediction/process";
+                HttpHeaders headers = new HttpHeaders();
+                headers.setContentType(MediaType.APPLICATION_JSON);
+                HttpEntity<String> request = new HttpEntity<>(jsonPrediction, headers);
+
+                ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.POST, request, String.class);
+
+                if (response.getStatusCode().is2xxSuccessful()) {
+                    System.out.println("Message successfully sent to node " + nodeName);
+                    nodeLastUsedTime.put(nodeName, System.currentTimeMillis());
+                    return;
+                } else {
+                    System.out.println("Failed to send message to node " + nodeName + ": " + response.getStatusCode());
+                }
+            } catch (Exception e) {
+                System.out.println("Failed to send message to node " + nodeName + ": " + e.getMessage());
             }
-        } catch (Exception e) {
-            System.out.println("Failed to send message to node " + nodeName + ": " + e.getMessage());
+
+            retries++;
+            if (retries < MAX_RETRIES) {
+                System.out.println("Retrying... Attempt " + (retries + 1) + " of " + MAX_RETRIES);
+                try {
+                    Thread.sleep(RETRY_DELAY_MS); // Espera entre tentativas
+                } catch (InterruptedException ie) {
+                    System.err.println("Retry sleep interrupted: " + ie.getMessage());
+                }
+            } else {
+                System.err.println("Max retries reached. Giving up on sending message to node " + nodeName);
+            }
         }
     }
 
