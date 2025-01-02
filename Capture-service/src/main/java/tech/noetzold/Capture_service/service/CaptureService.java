@@ -38,7 +38,7 @@ public class CaptureService {
         try {
             // Serializar o objeto Prediction para JSON
             String jsonPrediction = objectMapper.writeValueAsString(prediction);
-
+            System.out.println("Serialized Prediction to JSON: " + jsonPrediction);
             // Enviar a mensagem JSON para a fila RabbitMQ
             rabbitTemplate.convertAndSend("sensorDataCaptured", jsonPrediction);
             System.out.println("Sent processed prediction to sensorDataCaptured: " + prediction.getSensorName());
