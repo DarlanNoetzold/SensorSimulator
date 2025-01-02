@@ -36,6 +36,7 @@ public class GatewayCapturerService {
 
     @RabbitListener(queues = "productionQueue")
     public void handleMessage(String message) {
+        // Verifica se há nós suficientes
         if (captureServiceNodes.size() < MIN_NODES) {
             createNewNode();
         }
@@ -63,6 +64,7 @@ public class GatewayCapturerService {
         // Gerar a porta externa para cada nó (9000 para o primeiro, 9001 para o segundo, etc.)
         int nodePort = 9000 + captureServiceNodes.size(); // Exemplo: 9001, 9002, 9003...
 
+        // Verifica se o contêiner com esse nome já existe
         String containerId = dockerService.createCaptureServiceNode(nodeName, nodePort);
 
         if (containerId != null) {
@@ -70,7 +72,9 @@ public class GatewayCapturerService {
             captureServicePorts.add(nodePort); // Adicionar a porta ao nó
             System.out.println("New Capture-Service node created: " + nodeName);
         } else {
-            System.out.println("Failed to create Capture-Service node: " + nodeName);
+            System.out.println("Container with name " + nodeName + " already exists. Sending message to this node.");
+            // Caso o nó já exista, apenas envie a mensagem para ele
+            sendMessageToNode(nodeName, nodePort, "Message for existing node: " + nodeName);
         }
     }
 
