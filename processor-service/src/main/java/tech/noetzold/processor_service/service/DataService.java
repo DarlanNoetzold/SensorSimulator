@@ -1,5 +1,6 @@
 package tech.noetzold.processor_service.service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,9 @@ import java.util.stream.Collectors;
 public class DataService {
 
     private static final Logger logger = LoggerFactory.getLogger(DataService.class);
+
+    @Autowired
+    private ObjectMapper objectMapper;
 
     @Autowired
     private PredictionRepository predictionRepository;
@@ -264,16 +268,16 @@ public class DataService {
         processed.setUnit(prediction.getUnit());
         processed.setProcessorId(sensorProcessorId);
 
-        // Converte o PredictionProcessed para string, para envio ao RabbitMQ
-        String message = "Processed Prediction: Sensor = " + processed.getSensorName() +
-                ", Value = " + processed.getValue() +
-                ", Date = " + processed.getPredictedDate() +
-                ", Interval = " + processed.getInterval() +
-                ", Unit = " + processed.getUnit() +
-                ", ProcessorId = " + processed.getProcessorId();
+        try {
+            // Serializar o objeto PredictionProcessed para JSON
+            String jsonProcessedPrediction = objectMapper.writeValueAsString(processed);
 
-        rabbitTemplate.convertAndSend(queueProcessedData, message);
-        logger.info("Sent processed prediction to RabbitMQ: {}", processed.getSensorName());
+            // Enviar a mensagem JSON para a fila RabbitMQ
+            rabbitTemplate.convertAndSend(queueProcessedData, jsonProcessedPrediction);
+            logger.info("Sent processed prediction to RabbitMQ: {}", processed.getSensorName());
+        } catch (Exception e) {
+            System.err.println("Error serializing and sending processed prediction: " + e.getMessage());
+        }
     }
 
     private Map<String, Double> calculateVarianceMap() {
