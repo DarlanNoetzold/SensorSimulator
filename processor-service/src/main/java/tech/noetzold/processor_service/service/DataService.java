@@ -208,6 +208,8 @@ public class DataService {
 
         saveProcessedData(prediction, aggregatedData);
         sendToRabbitMQ(prediction, aggregatedData);
+
+        saveMetrics();
     }
 
     private void saveRawDataToRepository(Prediction prediction) {
@@ -252,7 +254,7 @@ public class DataService {
         processed.setProcessorId(sensorProcessorId);
         predictionProcessedRepository.save(processed);
 
-        saveMetrics();
+
     }
 
     private void sendToRabbitMQ(Prediction prediction, double[] aggregatedData) {
@@ -324,32 +326,14 @@ public class DataService {
     }
 
     private void sendMetricsToRabbitMQ(Metrics metrics) {
-        Map<String, Object> data = new HashMap<>();
-        data.put("cpuUsage", metrics.getCpuUsage());
-        data.put("memoryUsage", metrics.getMemoryUsage());
-        data.put("threadCount", metrics.getThreadCount());
-        data.put("totalDataReceived", metrics.getTotalDataReceived());
-        data.put("totalDataFiltered", metrics.getTotalDataFiltered());
-        data.put("totalDataCompressed", metrics.getTotalDataCompressed());
-        data.put("totalDataAggregated", metrics.getTotalDataAggregated());
-        data.put("totalDataAfterHeuristics", metrics.getTotalDataAfterHeuristics());
-        data.put("errorCount", metrics.getErrorCount());
-        data.put("processorId", metrics.getProcessorId());
-        data.put("varianceMap", metrics.getVarianceMap());
-
-        LocalDateTime now = LocalDateTime.now();
-        data.put("timestamp", List.of(
-                now.getYear(),
-                now.getMonthValue(),
-                now.getDayOfMonth(),
-                now.getHour(),
-                now.getMinute(),
-                now.getSecond(),
-                now.getNano() / 1000000
-        ));
-
-        rabbitTemplate.convertAndSend("metrics", data);
-        logger.info("Metrics sent to RabbitMQ");
+        try {
+            // Serializar o objeto Metrics para JSON
+            String jsonMetrics = objectMapper.writeValueAsString(metrics);
+            rabbitTemplate.convertAndSend("metrics", jsonMetrics);
+            logger.info("Metrics sent to RabbitMQ");
+        } catch (Exception e) {
+            logger.error("Error serializing and sending metrics: ", e);
+        }
     }
 
     private long generateRandomValue(long baseValue) {
