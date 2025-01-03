@@ -19,7 +19,7 @@ public class CoreService {
     @RabbitListener(queues = "sensorDataProcessed")
     public void handleMessage(String message) {
         try {
-            // Desserializar a mensagem para Prediction
+            // Desserializar a mensagem para SensorRecord
             SensorRecord sensorRecord = objectMapper.readValue(message, SensorRecord.class);
 
             // Salvar no banco de dados
