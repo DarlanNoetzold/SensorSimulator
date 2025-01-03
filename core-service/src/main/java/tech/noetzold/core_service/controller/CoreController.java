@@ -1,6 +1,7 @@
 package tech.noetzold.core_service.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
@@ -24,8 +25,10 @@ public class CoreController {
             @RequestParam(value = "limit", defaultValue = "10") int limit) {
 
         Pageable pageable = PageRequest.of(0, limit); // Criação do Pageable com o limite
-        List<SensorRecord> sensorRecords = sensorRecordRepository.findTopBySensorNameOrderByPredictedDateDesc(sensorName, pageable);
-        return ResponseEntity.ok(sensorRecords);
+        Page<SensorRecord> sensorRecords = sensorRecordRepository.findBySensorNameOrderByPredictedDateDesc(sensorName, pageable);
+
+        // Aqui, é importante usar o conteúdo da página
+        return ResponseEntity.ok(sensorRecords.getContent());
     }
 
     // Endpoint para buscar dados de todos os sensores
@@ -34,7 +37,10 @@ public class CoreController {
             @RequestParam(value = "limit", defaultValue = "10") int limit) {
 
         Pageable pageable = PageRequest.of(0, limit); // Criação do Pageable com o limite
-        List<SensorRecord> sensorRecords = sensorRecordRepository.findTopByOrderByPredictedDateDesc(pageable);
-        return ResponseEntity.ok(sensorRecords);
+        Page<SensorRecord> sensorRecords = sensorRecordRepository.findAllByOrderByPredictedDateDesc(pageable);
+
+        // Aqui, é importante usar o conteúdo da página
+        return ResponseEntity.ok(sensorRecords.getContent());
     }
 }
+
