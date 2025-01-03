@@ -251,6 +251,8 @@ public class DataService {
         processed.setUnit(prediction.getUnit());
         processed.setProcessorId(sensorProcessorId);
         predictionProcessedRepository.save(processed);
+
+        saveMetrics();
     }
 
     private void sendToRabbitMQ(Prediction prediction, double[] aggregatedData) {
