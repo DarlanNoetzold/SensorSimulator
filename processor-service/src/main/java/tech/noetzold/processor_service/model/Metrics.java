@@ -2,10 +2,11 @@ package tech.noetzold.processor_service.model;
 
 import jakarta.persistence.*;
 
+import java.io.Serializable;
 import java.util.Map;
 
 @Entity
-public class Metrics {
+public class Metrics implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,6 +20,7 @@ public class Metrics {
     @MapKeyColumn(name = "sensor_type")
     @Column(name = "variance")
     private Map<String, Double> varianceMap;
+
     private long totalDataReceived;
     private long totalDataFiltered;
     private long totalDataCompressed;
