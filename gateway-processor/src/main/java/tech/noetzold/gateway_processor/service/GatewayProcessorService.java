@@ -33,7 +33,7 @@ public class GatewayProcessorService {
 
     private static final int MIN_NODES = 3;
     private static final int MAX_NODES = 10;
-    private static final long NODE_INACTIVITY_TIMEOUT = 5 * 60 * 1000;
+    private static final long NODE_INACTIVITY_TIMEOUT = 30 * 60 * 1000;
 
     private Map<String, Long> nodeLastUsedTime = new ConcurrentHashMap<>();
 
