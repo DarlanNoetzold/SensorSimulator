@@ -11,4 +11,9 @@ public class RabbitMQConfig {
     public Queue sensorDataCapturedQueue() {
         return new Queue("sensorDataCaptured", true, false, false);
     }
+
+    @Bean
+    public Queue metricsQueue() {
+        return new Queue("metrics", true, false, false);
+    }
 }
