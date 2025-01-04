@@ -56,6 +56,7 @@ public class DockerService {
                     .withName(nodeName)
                     .withExposedPorts(exposedPort)  // Expondo as portas do processor-service
                     .withPortBindings(portBindings)  // Mapeia as portas do contêiner para o host
+                    .withEnv("sensor.processor.id=" + nodeName)  // Define a variável sensor.processor.id
                     .exec();
 
             // Subir o contêiner
