@@ -4,6 +4,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { Line } from "react-chartjs-2";
 import axios from "axios";
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from "chart.js";
+import ProcessorMetrics from "./components/ProcessorMetrics"
 
 import "bootstrap/dist/css/bootstrap.min.css";  // Importando o CSS do Bootstrap
 
@@ -70,15 +71,6 @@ const Dashboard = () => {
   );
 };
 
-const Processors = () => {
-  return (
-    <div>
-      <h1>Métricas dos Processors</h1>
-      <p>Aqui você poderá visualizar as métricas detalhadas para cada Processor ID.</p>
-    </div>
-  );
-};
-
 const App = () => {
   return (
     <Router>
@@ -89,7 +81,7 @@ const App = () => {
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link as={Link} to="/">Dashboard</Nav.Link>
-              <Nav.Link as={Link} to="/processors">Processors</Nav.Link>
+              <Nav.Link as={Link} to="/metrics">Metrics</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -98,7 +90,7 @@ const App = () => {
       <Container className="mt-4">
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/processors" element={<Processors />} />
+          <Route path="/metrics" element={<ProcessorMetrics />} />
         </Routes>
       </Container>
     </Router>
