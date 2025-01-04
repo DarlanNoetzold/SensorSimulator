@@ -18,7 +18,6 @@ import tech.noetzold.processor_service.model.Metrics;
 import java.lang.management.ManagementFactory;
 import java.lang.management.OperatingSystemMXBean;
 import java.lang.management.ThreadMXBean;
-import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
@@ -253,7 +252,6 @@ public class DataService {
         processed.setUnit(prediction.getUnit());
         processed.setProcessorId(sensorProcessorId);
         predictionProcessedRepository.save(processed);
-
 
     }
 
