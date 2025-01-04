@@ -29,13 +29,25 @@ const ProcessorMetrics = () => {
       .catch((error) => {
         console.error("Error fetching processor metrics", error);
       });
-  }, [limit]); // Re-fetch data whenever the limit changes
+  }, [limit]);
 
   // Function to generate chart data for any given metric
   const getChartData = (processorId, metricName) => {
-    const processorData = processorMetrics[processorId] || [];
-    const labels = processorData.map((metric) => metric.predictedDate);
+    const processorData = processorMetrics[processorId] || []; // Verifica se os dados do processador existem
+    
+    // Converter predictedDate para string
+    const labels = processorData.map((metric) => metric.predictedDate ? metric.predictedDate : ""); // Convert LocalDateTime to string
     const values = processorData.map((metric) => metric[metricName]);
+
+    // Logar os dados para verificar se a estrutura está correta
+    console.log(`Data for ${metricName}:`, values);
+
+    // Se os valores não estiverem definidos, não renderiza o gráfico
+    if (values.some(value => value === undefined)) {
+      console.error(`Erro: algum valor de ${metricName} está undefined.`);
+      return {}; // Retorna um objeto vazio se algum valor for undefined
+    }
+
     return {
       labels,
       datasets: [
