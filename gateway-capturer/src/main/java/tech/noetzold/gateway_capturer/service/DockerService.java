@@ -55,7 +55,7 @@ public class DockerService {
                     .withName(nodeName)
                     .withExposedPorts(exposedPort)  // Expondo as portas do RabbitMQ
                     .withPortBindings(portBindings)  // Mapeia as portas do contêiner para o host
-                    .withEnv("sensor.processor.id=" + nodeName)  // Define a variável sensor.processor.id
+                    .withEnv("SENSOR_PROCESSOR_ENV=" + nodeName)  // Define a variável sensor.processor.id
                     .exec();
 
             // Subir o contêiner
