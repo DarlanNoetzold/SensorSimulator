@@ -9,7 +9,8 @@ Este é o front-end onde o usuário pode inserir os parâmetros necessários par
 
 **Tecnologia Usada:** React.js
 
-![Figura 1 - Formulário do Front-end](file-FT1jEPksAsipEeG4i6rNDF.png)
+![image](https://github.com/user-attachments/assets/87fd86a9-250e-46a7-959d-a12a13902e4e)
+
 
 ### 1.2 `config-service`
 Este serviço é responsável pela comunicação entre o front-end e os serviços de predição. Ele recebe os parâmetros do usuário e os envia para o serviço de predição adequado.
@@ -71,7 +72,10 @@ O `metrics-dashboard` fornece uma interface visual para o acompanhamento das mé
 
 **Tecnologia Usada:** React.js, Chart.js
 
-![Figura 2 - Dashboard de Métricas dos Sensores](file-HcLg5rWWVKk16KKkAYEgFC.png)
+![image](https://github.com/user-attachments/assets/4c8bfd0f-6958-4bb2-b6ae-42b1835d0edc)
+
+![image](https://github.com/user-attachments/assets/3f4b575e-fe9f-4f30-adec-def779b87cfb)
+
 
 ---
 
@@ -110,4 +114,3 @@ A seguir estão as imagens representando a arquitetura do sistema. A **Figura 3*
 
 ---
 
-Isso fornece uma explicação clara e detalhada sobre a arquitetura do sistema, como cada módulo funciona e quais tecnologias são utilizadas. A marcação das imagens foi realizada para que você possa facilmente adicioná-las ao seu arquivo Markdown.
