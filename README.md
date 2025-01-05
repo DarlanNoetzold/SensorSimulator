@@ -121,23 +121,23 @@ Below are the images representing the system architecture. **Figure 3** shows th
 
 ---
 
-# Documentação da API SensorSimulator
+# SensorSimulator API Documentation
 
-## Informações Gerais
+## General Information
 
-- **Nome da Coleção:** SensorSimulator
-- **ID Postman:** 0de2ef10-7054-403b-a65e-afd7c9934608
+- **Collection Name:** SensorSimulator
+- **Postman ID:** 0de2ef10-7054-403b-a65e-afd7c9934608
 - **Schema:** [Postman v2.1.0](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
 
 ---
 
-## Endpoints Disponíveis
+## Available Endpoints
 
 ### 1. Prediction Service
 
-- **Método:** `POST`
+- **Method:** `POST`
 - **URL:** `http://localhost:8000/train`
-- **Cabeçalhos:**
+- **Headers:**
   - `accept: application/json`
 - **Body (form-data):**
   - `sensor_name` (text): "Test Sensor"
@@ -147,15 +147,15 @@ Below are the images representing the system architecture. **Figure 3** shows th
   - `q` (text): "1"
   - `num_predictions` (text): "10"
   - `interval` (text): "3600"
-  - `file` (file): Exemplo: `/C:/Users/Usuário/Downloads/example_data.csv`
+  - `file` (file): Example: `/C:/Users/User/Downloads/example_data.csv`
 
 ---
 
 ### 2. Config Service
 
-- **Método:** `POST`
+- **Method:** `POST`
 - **URL:** `http://localhost:8080/config-service/upload`
-- **Cabeçalhos:**
+- **Headers:**
   - `accept: application/json`
 - **Body (form-data):**
   - `sensorName` (text): "Test Sensor"
@@ -165,20 +165,20 @@ Below are the images representing the system architecture. **Figure 3** shows th
   - `q` (text): "1"
   - `numPredictions` (text): "10"
   - `interval` (text): "3600"
-  - `file` (file): Exemplo: `/path/to/example_data.csv`
+  - `file` (file): Example: `/path/to/example_data.csv`
 
 ---
 
 ### 3. Processor Service
 
-- **Método:** `POST`
+- **Method:** `POST`
 - **URL:** `http://localhost:10000/prediction/process`
-- **Cabeçalhos:**
+- **Headers:**
   - `Content-Type: application/json`
 - **Body (raw):**
   ```json
   {
-      "sensorName": "teste2",
+      "sensorName": "test2",
       "unit": "unit",
       "interval": 60,
       "predictedDate": "2024-12-30T17:02:59",
@@ -188,48 +188,48 @@ Below are the images representing the system architecture. **Figure 3** shows th
 
 ---
 
-### 4. Core Service - Sensor com Limite
+### 4. Core Service - Sensor with Limit
 
-- **Método:** `GET`
-- **URL:** `http://localhost:8780/api/sensors/teste6?limit=100`
+- **Method:** `GET`
+- **URL:** `http://localhost:8780/api/sensors/test6?limit=100`
 
 ---
 
-### 5. Core Service - Todos os Sensores com Limite
+### 5. Core Service - All Sensors with Limit
 
-- **Método:** `GET`
+- **Method:** `GET`
 - **URL:** `http://localhost:8780/api/sensors?limit=10`
 
 ---
 
-### 6. Métricas
+### 6. Metrics
 
-#### 6.1. Todas as Métricas
+#### 6.1. All Metrics
 
-- **Método:** `GET`
+- **Method:** `GET`
 - **URL:** `http://localhost:8780/api/metrics`
-- **Cabeçalhos:**
+- **Headers:**
   - `Accept: application/json`
 
-#### 6.2. Últimas X Métricas
+#### 6.2. Last X Metrics
 
-- **Método:** `GET`
+- **Method:** `GET`
 - **URL:** `http://localhost:8780/api/metrics/latest?limit=10`
-- **Cabeçalhos:**
+- **Headers:**
   - `Accept: application/json`
 
 ---
 
 ### 7. Production Service
 
-- **Método:** `POST`
+- **Method:** `POST`
 - **URL:** `http://localhost:8070/production/send`
 
 ---
 
 ### 8. Capture Service
 
-- **Método:** `GET`
+- **Method:** `GET`
 
 ---
 
@@ -237,9 +237,10 @@ Below are the images representing the system architecture. **Figure 3** shows th
 
 #### 9.1. Data Handler
 
-- **Método:** `GET`
+- **Method:** `GET`
 
 #### 9.2. Data Handler 2
 
-- **Método:** `GET`
+- **Method:** `GET`
+
 
