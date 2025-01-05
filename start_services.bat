@@ -27,5 +27,49 @@ timeout /t 10 /nobreak
 echo Verificando contêineres em execução...
 docker ps
 
+:: Iniciar serviços React (prediction-frontend, metrics-dashboard)
+echo Iniciando o serviço React - prediction-frontend...
+cd prediction-frontend
+start npm start
+cd ..
+
+echo Iniciando o serviço React - metrics-dashboard...
+cd metrics-dashboard
+start npm start
+cd ..
+
+:: Iniciar o serviço Python (prediction-service)
+echo Iniciando o serviço Python - prediction-service...
+cd prediction-service
+start python app.py
+cd ..
+
+:: Iniciar os serviços Spring (data-handler, core-service, gateway-capturer, gateway-processor, production-service)
+echo Iniciando o serviço Spring - data-handler...
+cd data-handler
+start mvn spring-boot:run -DskipTests
+cd ..
+
+echo Iniciando o serviço Spring - core-service...
+cd core-service
+start mvn spring-boot:run -DskipTests
+cd ..
+
+echo Iniciando o serviço Spring - gateway-capturer...
+cd gateway-capturer
+start mvn spring-boot:run -DskipTests
+cd ..
+
+echo Iniciando o serviço Spring - gateway-processor...
+cd gateway-processor
+start mvn spring-boot:run -DskipTests
+cd ..
+
+echo Iniciando o serviço Spring - production-service...
+cd production-service
+start mvn spring-boot:run -DskipTests
+cd ..
+
+:: Verificar se todos os serviços estão funcionando
 echo Todos os serviços estão em funcionamento.
 pause
