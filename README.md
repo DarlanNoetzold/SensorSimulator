@@ -107,6 +107,7 @@ The `metrics-dashboard` provides a visual interface for monitoring the performan
 Below are the images representing the system architecture. **Figure 3** shows the architecture using the SAP TAM pattern, while **Figure 4** depicts the detailed architecture for sensor data capture and processing.
 
 **Figure 3 - System Architecture (SAP TAM Pattern)**
+<br>
 ![Sensor Simulator tam](https://github.com/user-attachments/assets/313be411-5d3d-4827-9d6a-e7cfc5c36d19)
 
 ![Sensor Simulator tam 2](https://github.com/user-attachments/assets/738595be-9c2f-49c8-b21d-a30e5c2df963)
@@ -114,6 +115,7 @@ Below are the images representing the system architecture. **Figure 3** shows th
 <br>
 
 **Figure 4 - Sensor Data Processing Architecture**
+<br>
 ![Sensor simulator](https://github.com/user-attachments/assets/ea75a061-6c19-4125-a7b9-e467c2e8601f)
 
 ![Environment Simulator](https://github.com/user-attachments/assets/493d1911-1aee-4e31-b3ff-e6ac59bb4a57)
