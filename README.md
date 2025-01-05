@@ -111,6 +111,7 @@ Below are the images representing the system architecture. **Figure 3** shows th
 
 ![Sensor Simulator tam 2](https://github.com/user-attachments/assets/738595be-9c2f-49c8-b21d-a30e5c2df963)
 
+<br>
 
 **Figure 4 - Sensor Data Processing Architecture**
 ![Sensor simulator](https://github.com/user-attachments/assets/ea75a061-6c19-4125-a7b9-e467c2e8601f)
