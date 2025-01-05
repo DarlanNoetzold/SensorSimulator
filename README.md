@@ -245,4 +245,117 @@ Below are the images representing the system architecture. **Figure 3** shows th
 
 - **Method:** `GET`
 
+---
+
+# Tutorial: Starting the System Using the `.bat` File
+
+This guide explains how to start the system using the provided `.bat` file step-by-step.
+
+---
+
+## **Pre-requisites**
+1. **Docker Installed**: Ensure Docker is installed and running on your system.
+2. **Java and Maven Installed**: Required for Spring Boot services.
+3. **Python Installed**: Required for the `prediction-service`.
+4. **Node.js Installed**: Needed for the React.js frontends.
+5. **Network Configuration**: Verify Docker network is configured to allow container communication.
+
+---
+
+## **Steps to Start the System**
+
+### 1. Set Up RabbitMQ and PostgreSQL Containers
+- The `.bat` file initializes RabbitMQ and PostgreSQL containers.
+- It removes old containers (`rabbitmq` and `config_service_db`) and builds custom Docker images:
+  ```bat
+  docker build -t custom-rabbitmq .\rabbitmq
+  docker build -t custom-postgres .\postgres
+  ```
+- Then, it runs the containers with the appropriate ports:
+  ```bat
+  docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 custom-rabbitmq
+  docker run -d --name config_service_db -p 5432:5432 custom-postgres
+  ```
+
+### 2. Initialize PostgreSQL Databases
+- Wait for PostgreSQL to initialize using a delay (`timeout`).
+- Create the required databases:
+  ```bat
+  docker exec -it config_service_db psql -U postgres -c "CREATE DATABASE config_service;"
+  docker exec -it config_service_db psql -U postgres -c "CREATE DATABASE predictions;"
+  docker exec -it config_service_db psql -U postgres -c "CREATE DATABASE predictions_processor;"
+  docker exec -it config_service_db psql -U postgres -c "CREATE DATABASE sensorFinalData;"
+  ```
+
+### 3. Verify Running Containers and Databases
+- Confirm containers are running:
+  ```bat
+  docker ps
+  ```
+- Check PostgreSQL database creation:
+  ```bat
+  docker exec -it config_service_db psql -U postgres -c "\l"
+  ```
+
+### 4. Start React.js Frontend Services
+- Navigate to `prediction-frontend` and `metrics-dashboard` directories and start the services:
+  ```bat
+  cd prediction-frontend
+  npm start
+  cd ../metrics-dashboard
+  npm start
+  ```
+
+### 5. Start the Python Service
+- Navigate to `prediction-service`, install dependencies, and run the service:
+  ```bat
+  cd prediction-service
+  pip install -r requirements.txt
+  python app.py
+  ```
+
+### 6. Start Spring Boot Services
+- Navigate to each service directory and run them using Maven:
+  ```bat
+  cd config-service
+  mvn spring-boot:run -DskipTests
+  cd ../data-handler
+  mvn spring-boot:run -DskipTests -Dspring.datasource.url=jdbc:postgresql://%POSTGRES_IP%:5432/config_service
+  cd ../core-service
+  mvn spring-boot:run -DskipTests -Dspring.datasource.url=jdbc:postgresql://%POSTGRES_IP%:5432/core_service
+  cd ../gateway-capturer
+  mvn spring-boot:run -DskipTests -Dspring.datasource.url=jdbc:postgresql://%POSTGRES_IP%:5432/gateway_capturer
+  cd ../gateway-processor
+  mvn spring-boot:run
+  cd ../production-service
+  mvn spring-boot:run -DskipTests -Dspring.datasource.url=jdbc:postgresql://%POSTGRES_IP%:5432/production_service
+  ```
+
+### 7. Build Docker Images for Specialized Services
+- Build Docker images for `Capture-service` and `processor-service`:
+  ```bat
+  cd Capture-service
+  docker build -t tech/noetzold/capture-service:latest .
+  cd ../processor-service
+  docker build -t tech/noetzold/processor-service:latest .
+  ```
+
+### 8. Verify System is Running
+- Ensure all services are operational:
+  ```bat
+  docker ps
+  ```
+- Check logs for errors and confirm services respond correctly to requests.
+
+---
+
+## **Tips**
+- Adjust IP addresses or ports in the `.bat` file if conflicts arise.
+- Use Docker logs to debug container issues:
+  ```bat
+  docker logs <container_name>
+  ```
+- For local debugging, ensure all dependencies (Java, Python, Node.js) are installed and properly configured.
+
+This tutorial provides a step-by-step approach to initializing the system using the `.bat` file. Let me know if further assistance is required!
 
