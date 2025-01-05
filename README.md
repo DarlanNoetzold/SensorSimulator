@@ -9,7 +9,8 @@ This is the front-end where the user can input the necessary parameters for the 
 
 **Technology Used:** React.js
 
-![Figure 1 - Front-end Form](file-FT1jEPksAsipEeG4i6rNDF.png)
+![image](https://github.com/user-attachments/assets/03904c73-9dfa-4230-a67f-f1471e246d18)
+
 
 ### 1.2 `config-service`
 This service is responsible for communication between the front-end and the prediction services. It receives the user parameters and sends them to the appropriate prediction service.
@@ -71,9 +72,10 @@ The `metrics-dashboard` provides a visual interface for monitoring the performan
 
 **Technology Used:** React.js, Chart.js
 
-![Figure 2 - Sensor Metrics Dashboard](file-HcLg5rWWVKk16KKkAYEgFC.png)
+![image](https://github.com/user-attachments/assets/d2f0d3c2-9590-4eb4-ae08-781feee121b9)
 
-![Figure 3 - Metrics Visualization](file-3f4b575e-fe9f-4f30-adec-def779b87cfb.png)
+
+![image](https://github.com/user-attachments/assets/a9ec6ec7-31bf-4120-ba9c-9a29ca9b6e1f)
 
 ---
 
@@ -105,9 +107,15 @@ The `metrics-dashboard` provides a visual interface for monitoring the performan
 Below are the images representing the system architecture. **Figure 3** shows the architecture using the SAP TAM pattern, while **Figure 4** depicts the detailed architecture for sensor data capture and processing.
 
 **Figure 3 - System Architecture (SAP TAM Pattern)**
-![Figure 3 - System Architecture](file-TjnkY4re2GAy9RQ6DFzY3X.png)
+![Sensor Simulator tam](https://github.com/user-attachments/assets/313be411-5d3d-4827-9d6a-e7cfc5c36d19)
+
+![Sensor Simulator tam 2](https://github.com/user-attachments/assets/738595be-9c2f-49c8-b21d-a30e5c2df963)
+
 
 **Figure 4 - Sensor Data Processing Architecture**
-![Figure 4 - Sensor Data Processing Architecture](file-1xgrXUFZygUzfKp9qdm6fJ.png)
+![Sensor simulator](https://github.com/user-attachments/assets/ea75a061-6c19-4125-a7b9-e467c2e8601f)
+
+![Environment Simulator](https://github.com/user-attachments/assets/493d1911-1aee-4e31-b3ff-e6ac59bb4a57)
+
 
 ---
