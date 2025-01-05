@@ -120,3 +120,126 @@ Below are the images representing the system architecture. **Figure 3** shows th
 
 
 ---
+
+# Documentação da API SensorSimulator
+
+## Informações Gerais
+
+- **Nome da Coleção:** SensorSimulator
+- **ID Postman:** 0de2ef10-7054-403b-a65e-afd7c9934608
+- **Schema:** [Postman v2.1.0](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+
+---
+
+## Endpoints Disponíveis
+
+### 1. Prediction Service
+
+- **Método:** `POST`
+- **URL:** `http://localhost:8000/train`
+- **Cabeçalhos:**
+  - `accept: application/json`
+- **Body (form-data):**
+  - `sensor_name` (text): "Test Sensor"
+  - `unit` (text): "Units"
+  - `p` (text): "2"
+  - `d` (text): "1"
+  - `q` (text): "1"
+  - `num_predictions` (text): "10"
+  - `interval` (text): "3600"
+  - `file` (file): Exemplo: `/C:/Users/Usuário/Downloads/example_data.csv`
+
+---
+
+### 2. Config Service
+
+- **Método:** `POST`
+- **URL:** `http://localhost:8080/config-service/upload`
+- **Cabeçalhos:**
+  - `accept: application/json`
+- **Body (form-data):**
+  - `sensorName` (text): "Test Sensor"
+  - `unit` (text): "Units"
+  - `p` (text): "2"
+  - `d` (text): "1"
+  - `q` (text): "1"
+  - `numPredictions` (text): "10"
+  - `interval` (text): "3600"
+  - `file` (file): Exemplo: `/path/to/example_data.csv`
+
+---
+
+### 3. Processor Service
+
+- **Método:** `POST`
+- **URL:** `http://localhost:10000/prediction/process`
+- **Cabeçalhos:**
+  - `Content-Type: application/json`
+- **Body (raw):**
+  ```json
+  {
+      "sensorName": "teste2",
+      "unit": "unit",
+      "interval": 60,
+      "predictedDate": "2024-12-30T17:02:59",
+      "value": 60.0
+  }
+  ```
+
+---
+
+### 4. Core Service - Sensor com Limite
+
+- **Método:** `GET`
+- **URL:** `http://localhost:8780/api/sensors/teste6?limit=100`
+
+---
+
+### 5. Core Service - Todos os Sensores com Limite
+
+- **Método:** `GET`
+- **URL:** `http://localhost:8780/api/sensors?limit=10`
+
+---
+
+### 6. Métricas
+
+#### 6.1. Todas as Métricas
+
+- **Método:** `GET`
+- **URL:** `http://localhost:8780/api/metrics`
+- **Cabeçalhos:**
+  - `Accept: application/json`
+
+#### 6.2. Últimas X Métricas
+
+- **Método:** `GET`
+- **URL:** `http://localhost:8780/api/metrics/latest?limit=10`
+- **Cabeçalhos:**
+  - `Accept: application/json`
+
+---
+
+### 7. Production Service
+
+- **Método:** `POST`
+- **URL:** `http://localhost:8070/production/send`
+
+---
+
+### 8. Capture Service
+
+- **Método:** `GET`
+
+---
+
+### 9. Data Handler
+
+#### 9.1. Data Handler
+
+- **Método:** `GET`
+
+#### 9.2. Data Handler 2
+
+- **Método:** `GET`
+
