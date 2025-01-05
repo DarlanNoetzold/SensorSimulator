@@ -60,7 +60,13 @@ cd ..
 :: Iniciar o serviço Python (prediction-service)
 echo Iniciando o serviço Python - prediction-service...
 cd prediction-service
+pip install -r ./requirements.txt
 start python app.py
+cd ..
+
+echo Iniciando o serviço Spring - config-service...
+cd config-service
+start mvn spring-boot:run -DskipTests
 cd ..
 
 :: Iniciar os serviços Spring (data-handler, core-service, gateway-capturer, gateway-processor, production-service)
@@ -88,6 +94,17 @@ echo Iniciando o serviço Spring - production-service...
 cd production-service
 start mvn spring-boot:run -DskipTests -Dspring.datasource.url=jdbc:postgresql://%POSTGRES_IP%:5432/production_service
 cd ..
+
+echo Compilando Docker Image do Capture-service...
+cd Capture-service
+docker build -t tech/noetzold/capture-service:latest .
+cd ..
+
+echo Compilando Docker Image do processor-service...
+cd processor-service
+docker build -t tech/noetzold/processor-service:latest .
+cd ..
+
 
 :: Verificar se todos os serviços estão funcionando
 echo Todos os serviços estão em funcionamento.
