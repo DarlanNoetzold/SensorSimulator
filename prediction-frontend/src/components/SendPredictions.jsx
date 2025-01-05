@@ -9,7 +9,7 @@ const SendPredictionsButton = () => {
         setLoading(true);
         try {
             const response = await axios.post('http://localhost:8070/production/send');
-            setMessage(response.data);  // Espera o "Predictions sent to the queue!" da resposta
+            setMessage(response.data); 
         } catch (error) {
             setMessage('Error sending predictions');
         } finally {
