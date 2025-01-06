@@ -1,0 +1,407 @@
+{
+	"info": {
+		"_postman_id": "0de2ef10-7054-403b-a65e-afd7c9934608",
+		"name": "SensorSimulator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16000387"
+	},
+	"item": [
+		{
+			"name": "Prediction Service",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sensor_name",
+							"value": "Test Sensor",
+							"type": "text"
+						},
+						{
+							"key": "unit",
+							"value": "Units",
+							"type": "text"
+						},
+						{
+							"key": "p",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "d",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "q",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "num_predictions",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "interval",
+							"value": "3600",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Usuário/Downloads/example_data.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/train",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"train"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "config-service",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sensorName",
+							"value": "Test Sensor",
+							"type": "text"
+						},
+						{
+							"key": "unit",
+							"value": "Units",
+							"type": "text"
+						},
+						{
+							"key": "p",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "d",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "q",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "numPredictions",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "interval",
+							"value": "3600",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/path/to/example_data.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/config-service/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"config-service",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "config-service-2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sensorName",
+							"value": "Test Sensor",
+							"type": "text"
+						},
+						{
+							"key": "unit",
+							"value": "Units",
+							"type": "text"
+						},
+						{
+							"key": "p",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "d",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "q",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "numPredictions",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "interval",
+							"value": "3600",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/path/to/example_data.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/config-service/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"config-service",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "data-handler",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "data-handler 2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Productions Service",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8070/production/send",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"production",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Capture Service",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "processor-service",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sensorName\": \"teste2\",\n    \"unit\": \"unit\",\n    \"interval\": 60,\n    \"predictedDate\": \"2024-12-30T17:02:59\",\n    \"value\": 60.0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:10000/prediction/process",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10000",
+					"path": [
+						"prediction",
+						"process"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Core-service sensor with limit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8780/api/sensors/teste6?limit=100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8780",
+					"path": [
+						"api",
+						"sensors",
+						"teste6"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Core-service sensors with limit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8780/api/sensors?limit=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8780",
+					"path": [
+						"api",
+						"sensors"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Metrics",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8780/api/metrics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8780",
+					"path": [
+						"api",
+						"metrics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Last X Metrics",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8780/api/metrics/latest?limit=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8780",
+					"path": [
+						"api",
+						"metrics",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
