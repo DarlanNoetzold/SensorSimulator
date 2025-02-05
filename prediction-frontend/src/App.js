@@ -6,7 +6,7 @@ import SendPredictions from './components/SendPredictions';
 function App() {
   return (
     <div className="App">
-      <h1>Simulador de Predições</h1>
+      <h1>Prediction Simulator</h1>
       <ConfigForm />
       <h1>Sensor Predictions</h1>
       <SensorPredictionSearch />
