@@ -10,7 +10,7 @@ const FileUploader = ({ onFileSelect }) => {
 
   return (
     <div>
-      <label>Selecione o Arquivo:</label>
+      <label>Select File:</label>
       <input type="file" onChange={handleFileChange} accept=".csv" required />
     </div>
   );
