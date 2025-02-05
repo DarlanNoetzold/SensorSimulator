@@ -26,7 +26,7 @@ const ConfigForm = () => {
     e.preventDefault();
 
     if (!file) {
-      alert("Por favor, selecione um arquivo!");
+      alert("Please select a file!");
       return;
     }
 
@@ -46,19 +46,19 @@ const ConfigForm = () => {
           "Content-Type": "multipart/form-data",
         },
       });
-      alert("Configuração enviada com sucesso!");
+      alert("Configuration successfully sent!");
       console.log(response.data);
     } catch (error) {
       console.error(error);
-      alert("Erro ao enviar a configuração!");
+      alert("Error sending configuration!");
     }
   };
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2>Configuração de Predições</h2>
+      <h2>Prediction Configuration</h2>
       <div>
-        <label>Nome do Sensor:</label>
+        <label>Sensor Name:</label>
         <input
           type="text"
           name="sensorName"
@@ -68,7 +68,7 @@ const ConfigForm = () => {
         />
       </div>
       <div>
-        <label>Unidade:</label>
+        <label>Unit:</label>
         <input
           type="text"
           name="unit"
@@ -78,7 +78,7 @@ const ConfigForm = () => {
         />
       </div>
       <div>
-        <label>Parâmetro P:</label>
+        <label>Parameter P:</label>
         <input
           type="number"
           name="p"
@@ -88,7 +88,7 @@ const ConfigForm = () => {
         />
       </div>
       <div>
-        <label>Parâmetro D:</label>
+        <label>Parameter D:</label>
         <input
           type="number"
           name="d"
@@ -98,7 +98,7 @@ const ConfigForm = () => {
         />
       </div>
       <div>
-        <label>Parâmetro Q:</label>
+        <label>Parameter Q:</label>
         <input
           type="number"
           name="q"
@@ -108,7 +108,7 @@ const ConfigForm = () => {
         />
       </div>
       <div>
-        <label>Número de Predições:</label>
+        <label>Number of Predictions:</label>
         <input
           type="number"
           name="numPredictions"
@@ -118,7 +118,7 @@ const ConfigForm = () => {
         />
       </div>
       <div>
-        <label>Intervalo (em segundos):</label>
+        <label>Interval (in seconds):</label>
         <input
           type="number"
           name="interval"
@@ -128,7 +128,7 @@ const ConfigForm = () => {
         />
       </div>
       <FileUploader onFileSelect={(selectedFile) => setFile(selectedFile)} />
-      <button type="submit">Enviar Configuração</button>
+      <button type="submit">Submit Configuration</button>
     </form>
   );
 };
