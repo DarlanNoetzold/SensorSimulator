@@ -33,6 +33,7 @@ docker exec -it config_service_db psql -U postgres -c "CREATE DATABASE config_se
 docker exec -it config_service_db psql -U postgres -c "CREATE DATABASE predictions;"
 docker exec -it config_service_db psql -U postgres -c "CREATE DATABASE predictions_processor;"
 docker exec -it config_service_db psql -U postgres -c "CREATE DATABASE sensorFinalData;"
+docker exec -it config_service_db psql -U postgres -c "CREATE DATABASE metrics_db;"
 
 :: Verificar se os bancos foram criados
 echo Verificando os bancos criados...
