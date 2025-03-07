@@ -2,7 +2,7 @@
 SETLOCAL ENABLEDELAYEDEXPANSION
 
 :: Definindo os IPs fixos para RabbitMQ e PostgreSQL
-set RABBITMQ_IP=172.17.0.4
+set RABBITMQ_IP=172.17.0.2
 set POSTGRES_IP=172.17.0.3
 
 :: Parar e remover contêineres antigos
