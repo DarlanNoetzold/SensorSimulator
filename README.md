@@ -359,3 +359,4 @@ This guide explains how to start the system using the provided `.bat` file step-
 
 This tutorial provides a step-by-step approach to initializing the system using the `.bat` file. Let me know if further assistance is required!
 
+⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
