@@ -78,7 +78,6 @@ The `metrics-dashboard` provides a visual interface for monitoring the performan
 ![image](https://github.com/user-attachments/assets/a9ec6ec7-31bf-4120-ba9c-9a29ca9b6e1f)
 
 ---
-
 ## Data Flow
 
 ### General Flow
