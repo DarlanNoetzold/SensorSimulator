@@ -9,6 +9,5 @@ import java.util.List;
 @Repository
 public interface MetricsRepository extends JpaRepository<Metrics, Long> {
 
-    // Método para buscar as últimas métricas limitadas pela quantidade especificada
     List<Metrics> findTopByOrderByIdDesc();
 }
