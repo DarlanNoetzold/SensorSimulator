@@ -37,7 +37,7 @@ public class GatewayCapturerService {
 
 
     private static final int MAX_RETRIES = 3;
-    private static final long RETRY_DELAY_MS = 10000; 
+    private static final long RETRY_DELAY_MS = 10000;
 
     @RabbitListener(queues = "productionQueue")
     public void handleMessage(String message) {

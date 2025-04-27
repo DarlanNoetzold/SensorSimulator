@@ -10,7 +10,6 @@ app = Flask(__name__)
 @app.route('/train', methods=['POST'])
 def train_model():
     try:
-        # Obter parâmetros do formulário
         sensor_name = request.form['sensor_name']
         unit = request.form['unit']
         p = int(request.form['p'])
@@ -20,7 +19,6 @@ def train_model():
         interval = int(request.form['interval'])
         file = request.files['file']
 
-        # Validar formato do arquivo
         if not file.filename.endswith('.csv'):
             return jsonify({"error": "Only CSV files are currently supported."}), 400
 
@@ -33,11 +31,9 @@ def train_model():
 
         series = data['value']
 
-        # Treinar o modelo ARIMA
         model = ARIMA(series, order=(p, d, q))
         model_fit = model.fit()
 
-        # Prever valores
         predictions = model_fit.forecast(steps=num_predictions)
         current_date = datetime.now()
         predicted_dates = [current_date + timedelta(seconds=interval * i) for i in range(1, num_predictions + 1)]
@@ -57,7 +53,7 @@ def train_model():
                 value DOUBLE PRECISION
             )
         """)
-        conn.commit()  # Confirma a criação da tabela 'predictions'
+        conn.commit()
 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS prediction_statistics (
@@ -67,19 +63,16 @@ def train_model():
                 variance DOUBLE PRECISION
             )
         """)
-        conn.commit()  # Confirma a criação da tabela 'prediction_statistics'
+        conn.commit()
 
-        # Log de depuração
         print(f"Predictions: {predictions}")
         print(f"Predicted Dates: {predicted_dates}")
         print(f"Number of predictions: {len(predictions)}")
         print(f"Number of predicted dates: {len(predicted_dates)}")
 
-        # Verificar tamanhos consistentes
         if len(predictions) != len(predicted_dates):
             raise ValueError("Mismatch between number of predictions and predicted dates.")
 
-        # Inserir registros individualmente
         for i in range(len(predictions)):
             try:
                 record = (
@@ -100,10 +93,9 @@ def train_model():
 
         conn.commit()
 
-        # Calcular estatísticas e salvar no banco
-        mean = float(predictions.mean())  # Converter para float
-        std_dev = float(predictions.std())  # Converter para float
-        variance = float(predictions.var())  # Converter para float
+        mean = float(predictions.mean())
+        std_dev = float(predictions.std())
+        variance = float(predictions.var())
 
         cursor.execute("""
             INSERT INTO prediction_statistics (mean, standard_deviation, variance)
@@ -113,7 +105,6 @@ def train_model():
         conn.commit()
         conn.close()
 
-        # Retornar resultado
         return jsonify({
             "status": "success",
             "predictions": [

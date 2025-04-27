@@ -37,8 +37,8 @@ public class GatewayProcessorService {
 
     private Map<String, Long> nodeLastUsedTime = new ConcurrentHashMap<>();
 
-    private static final int MAX_RETRIES = 3; // Número máximo de tentativas
-    private static final long RETRY_DELAY_MS = 10000; // Intervalo de 3 segundos entre tentativas
+    private static final int MAX_RETRIES = 3;
+    private static final long RETRY_DELAY_MS = 10000;
 
     @RabbitListener(queues = "sensorDataCaptured")
     public void handleMessage(String message) {
@@ -60,7 +60,6 @@ public class GatewayProcessorService {
     private void createNewNode() {
         String nodeName = generateUniqueNodeName();
 
-        // Gerar a porta externa para cada nó (10000 para o primeiro, 10001 para o segundo, etc.)
         int nodePort = 10000 + processorServiceNodes.size();
         String containerId = dockerService.createProcessorServiceNode(nodeName, nodePort);
 
@@ -90,7 +89,6 @@ public class GatewayProcessorService {
     public void removeProcessorNode(String nodeName) {
         int index = processorServiceNodes.indexOf(nodeName);
         if (index != -1) {
-            // Remove o nó e a porta associada
             processorServiceNodes.remove(index);
             processorServicePorts.remove(index);
             dockerService.removeProcessorServiceNode(nodeName);
@@ -100,9 +98,8 @@ public class GatewayProcessorService {
             System.out.println("Node not found: " + nodeName);
         }
 
-        // Ajustar o currentNodeIndex para evitar um índice inválido
         if (currentNodeIndex >= processorServiceNodes.size()) {
-            currentNodeIndex = 0;  // Reseta o índice para o começo
+            currentNodeIndex = 0;
         }
     }
 
@@ -112,11 +109,9 @@ public class GatewayProcessorService {
 
         while (retries < MAX_RETRIES) {
             try {
-                // Remover o campo id do JSON (evitar enviar o id)
                 Prediction prediction = objectMapper.readValue(message, Prediction.class);
-                prediction.setId(null); // Remover o id antes de enviar
+                prediction.setId(null);
 
-                // Serializar o Prediction modificado para JSON
                 String jsonPrediction = objectMapper.writeValueAsString(prediction);
 
                 String url = "http://127.0.0.1:" + nodePort + "/prediction/process";
@@ -141,7 +136,7 @@ public class GatewayProcessorService {
             if (retries < MAX_RETRIES) {
                 System.out.println("Retrying... Attempt " + (retries + 1) + " of " + MAX_RETRIES);
                 try {
-                    Thread.sleep(RETRY_DELAY_MS); // Espera entre tentativas
+                    Thread.sleep(RETRY_DELAY_MS);
                 } catch (InterruptedException ie) {
                     System.err.println("Retry sleep interrupted: " + ie.getMessage());
                 }
