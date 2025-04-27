@@ -42,11 +42,9 @@ public class ConfigController {
             @RequestParam(value = "file") MultipartFile file
     ) {
         try {
-            // Save configuration localmente, se necessário
             SensorConfig config = new SensorConfig(sensorName, unit, p, d, q, numPredictions, interval);
             configService.saveConfiguration(config);
 
-            // Encaminhar a configuração e o arquivo para o Prediction-Service
             MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
             body.add("sensor_name", sensorName);
             body.add("unit", unit);
