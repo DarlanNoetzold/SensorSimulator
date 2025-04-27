@@ -20,7 +20,7 @@ public class ProductionService {
     @Autowired
     private ObjectMapper objectMapper;
 
-    @Scheduled(fixedRate = 300000) // 5 minutos em milissegundos
+    @Scheduled(fixedRate = 300000)
     public void sendPredictionsToQueue() {
         Iterable<Prediction> predictions = predictionRepository.findAll();
 
