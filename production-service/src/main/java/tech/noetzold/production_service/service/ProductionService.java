@@ -18,23 +18,19 @@ public class ProductionService {
     private PredictionRepository predictionRepository;
 
     @Autowired
-    private ObjectMapper objectMapper; // Usado para serializar o objeto Prediction em JSON
+    private ObjectMapper objectMapper;
 
-    // Enviar predições a cada 5 minutos
     @Scheduled(fixedRate = 300000) // 5 minutos em milissegundos
     public void sendPredictionsToQueue() {
         Iterable<Prediction> predictions = predictionRepository.findAll();
 
         for (Prediction prediction : predictions) {
             try {
-                // Serializar o objeto Prediction para JSON
                 String jsonPrediction = objectMapper.writeValueAsString(prediction);
 
-                // Enviar a mensagem JSON para a fila RabbitMQ
                 rabbitTemplate.convertAndSend("productionQueue", jsonPrediction);
                 System.out.println("Sent prediction: " + prediction.getSensorName());
 
-                // Remover a previsão do banco de dados após enviá-la para a fila
                 predictionRepository.delete(prediction);
                 System.out.println("Deleted prediction: " + prediction.getSensorName());
 

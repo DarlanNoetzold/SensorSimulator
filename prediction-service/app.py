@@ -22,7 +22,6 @@ def train_model():
         if not file.filename.endswith('.csv'):
             return jsonify({"error": "Only CSV files are currently supported."}), 400
 
-        # Ler o conteúdo do arquivo
         content = file.read().decode('utf-8')
         data = pd.read_csv(io.StringIO(content))
 
@@ -38,11 +37,9 @@ def train_model():
         current_date = datetime.now()
         predicted_dates = [current_date + timedelta(seconds=interval * i) for i in range(1, num_predictions + 1)]
 
-        # Conectar ao PostgreSQL
         conn = psycopg2.connect("dbname='predictions' user='postgres' password='postgres' host='localhost'")
         cursor = conn.cursor()
 
-        # Criar tabelas, se não existirem
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS predictions (
                 id SERIAL PRIMARY KEY,
@@ -80,15 +77,15 @@ def train_model():
                     str(unit),
                     int(interval),
                     predicted_dates[i].strftime('%Y-%m-%d %H:%M:%S'),
-                    float(predictions.iloc[i])  # Converter explicitamente para float nativo do Python
+                    float(predictions.iloc[i])
                 )
-                print(f"Inserting Record: {record}")  # Log do registro atual
+                print(f"Inserting Record: {record}")
                 cursor.execute(
                     "INSERT INTO predictions (sensor_name, unit, interval, predicted_date, value) VALUES (%s, %s, %s, %s, %s)",
                     record
                 )
             except Exception as e:
-                print(f"Error inserting record {i}: {e}")  # Log do erro detalhado
+                print(f"Error inserting record {i}: {e}")
                 raise
 
         conn.commit()

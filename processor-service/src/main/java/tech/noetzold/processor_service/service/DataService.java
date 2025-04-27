@@ -265,10 +265,8 @@ public class DataService {
         processed.setProcessorId(sensorProcessorId);
 
         try {
-            // Serializar o objeto PredictionProcessed para JSON
             String jsonProcessedPrediction = objectMapper.writeValueAsString(processed);
             System.out.println(jsonProcessedPrediction);
-            // Enviar a mensagem JSON para a fila RabbitMQ
             rabbitTemplate.convertAndSend("sensorDataProcessed", jsonProcessedPrediction);
             logger.info("Sent processed prediction to RabbitMQ: {}", processed.getSensorName());
         } catch (Exception e) {

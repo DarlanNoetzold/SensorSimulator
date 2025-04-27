@@ -14,16 +14,10 @@ public class PredictionController {
     @Autowired
     private DataService dataService;
 
-    /**
-     * Recebe uma previsão, processa e envia para a fila RabbitMQ.
-     * @param prediction O objeto Prediction que será processado.
-     * @return ResponseEntity com o status do processamento.
-     */
     @PostMapping("/process")
     public ResponseEntity<String> processPrediction(@RequestBody Prediction prediction) {
         try {
-            // Processa a previsão
-            dataService.saveRawData(prediction);  // Isso faz a filtragem, compressão e agregação
+            dataService.saveRawData(prediction);
 
             return new ResponseEntity<>("Prediction processed and sent to RabbitMQ!", HttpStatus.OK);
         } catch (Exception e) {
