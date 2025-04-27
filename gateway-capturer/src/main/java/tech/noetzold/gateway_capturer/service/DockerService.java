@@ -9,7 +9,6 @@ import com.github.dockerjava.netty.NettyDockerCmdExecFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 @Service
 public class DockerService {
@@ -19,7 +18,6 @@ public class DockerService {
     private static final long TIMEOUT = 5 * 60 * 1000; // 5 minutos em milissegundos
 
     public DockerService() {
-        // Conectando-se ao Docker daemon (assumindo que o Docker está rodando localmente)
         this.dockerClient = DockerClientBuilder
                 .getInstance("tcp://localhost:2375")
                 .withDockerCmdExecFactory(new NettyDockerCmdExecFactory())
@@ -47,20 +45,19 @@ public class DockerService {
 
             Ports portBindings = new Ports();
 
-            // Criar o contêiner Capture-Service e expor a porta dinâmica
             ExposedPort exposedPort = new ExposedPort(9000);
             portBindings.bind(exposedPort, Ports.Binding.bindPort(nodePort));
 
             CreateContainerResponse container = dockerClient.createContainerCmd("tech/noetzold/capture-service:latest")
                     .withName(nodeName)
-                    .withExposedPorts(exposedPort)  // Expondo as portas do RabbitMQ
-                    .withPortBindings(portBindings)  // Mapeia as portas do contêiner para o host
-                    .withEnv("SENSOR_PROCESSOR_ENV=" + nodeName)  // Define a variável sensor.processor.id
+                    .withExposedPorts(exposedPort)
+                    .withPortBindings(portBindings)
+                    .withEnv("SENSOR_PROCESSOR_ENV=" + nodeName)
                     .exec();
 
             // Subir o contêiner
             dockerClient.startContainerCmd(container.getId()).exec();
-            nodeLastUsedTime.put(nodeName, System.currentTimeMillis()); // Marca a última vez que o nó foi usado
+            nodeLastUsedTime.put(nodeName, System.currentTimeMillis());
 
             return container.getId(); // Retorna o ID do container criado
         } catch (Exception e) {
