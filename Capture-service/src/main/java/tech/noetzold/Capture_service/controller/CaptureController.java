@@ -14,7 +14,6 @@ public class CaptureController {
 
     @PostMapping("/process")
     public String processMessage(@RequestBody Prediction prediction) {
-        // Processa a previsão e adiciona as informações de energia, rede, etc.
         captureService.processPrediction(prediction);
 
         return "Prediction processed and sent to sensorDataCaptured queue successfully!";
