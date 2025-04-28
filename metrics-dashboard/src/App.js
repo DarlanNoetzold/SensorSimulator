@@ -6,13 +6,13 @@ import axios from "axios";
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from "chart.js";
 import ProcessorMetrics from "./components/ProcessorMetrics"
 
-import "bootstrap/dist/css/bootstrap.min.css";  // Importando o CSS do Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 const Dashboard = () => {
   const [sensorData, setSensorData] = useState([]);
-  const [limit, setLimit] = useState(50);  // Default limit set to 50
+  const [limit, setLimit] = useState(50);
 
   useEffect(() => {
     axios.get(`http://localhost:8780/api/sensors?limit=${limit}`)
