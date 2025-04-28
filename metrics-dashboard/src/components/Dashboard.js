@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import { Line } from "react-chartjs-2";
 import axios from "axios";
+import { Line } from "react-chartjs-2";
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from "chart.js";
-
-import "bootstrap/dist/css/bootstrap.min.css";  // Importando o CSS do Bootstrap
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
@@ -14,13 +10,15 @@ const Dashboard = () => {
   const [limit, setLimit] = useState(50);  // Default limit set to 50
 
   useEffect(() => {
+    // Fetching data with dynamic limit
     axios.get(`http://localhost:8780/api/sensors?limit=${limit}`)
       .then(response => {
         setSensorData(response.data);
       })
       .catch(error => console.log(error));
-  }, [limit]);
-
+  }, [limit]);  // Re-fetch data when the limit changes
+  
+  // Agrupar os dados por sensorName
   const groupedData = sensorData.reduce((acc, item) => {
     if (!acc[item.sensorName]) {
       acc[item.sensorName] = [];
@@ -29,6 +27,7 @@ const Dashboard = () => {
     return acc;
   }, {});
 
+  // Função para criar o gráfico para cada sensorName
   const renderChartData = (sensorName, data) => {
     return {
       labels: data.map((item) => item.predictedDate),
@@ -44,10 +43,10 @@ const Dashboard = () => {
   };
 
   return (
-    <Container>
+    <div>
       <h1>Dashboard de Métricas dos Sensores</h1>
-      
-      {/* Input para ajustar o limite */}
+
+      {/* Adicionando input para ajustar o limite */}
       <div>
         <label htmlFor="limit">Número de registros a exibir: </label>
         <input
@@ -59,50 +58,15 @@ const Dashboard = () => {
         />
       </div>
 
-      {/* Renderizando gráficos para cada sensorName */}
+      {/* Renderizando um gráfico para cada sensorName */}
       {Object.keys(groupedData).map((sensorName) => (
         <div key={sensorName}>
           <h3>{`Sensor: ${sensorName}`}</h3>
           <Line data={renderChartData(sensorName, groupedData[sensorName])} />
         </div>
       ))}
-    </Container>
-  );
-};
-
-const Processors = () => {
-  return (
-    <div>
-      <h1>Métricas dos Processors</h1>
-      <p>Aqui você poderá visualizar as métricas detalhadas para cada Processor ID.</p>
     </div>
   );
 };
 
-const App = () => {
-  return (
-    <Router>
-      <Navbar bg="dark" variant="dark" expand="lg">
-        <Container>
-          <Navbar.Brand as={Link} to="/">Dashboard</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbar-nav" />
-          <Navbar.Collapse id="navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link as={Link} to="/">Dashboard</Nav.Link>
-              <Nav.Link as={Link} to="/processors">Processors</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
-      <Container className="mt-4">
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/processors" element={<Processors />} />
-        </Routes>
-      </Container>
-    </Router>
-  );
-};
-
-export default App;
+export default Dashboard;
